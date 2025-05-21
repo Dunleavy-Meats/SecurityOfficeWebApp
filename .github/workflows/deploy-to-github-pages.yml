@@ -34,11 +34,64 @@ jobs:
       # Ensure firebase.js exists in the output
       - name: Ensure firebase.js exists
         run: |
-          if [ ! -f "release/wwwroot/js/firebase.js" ]; then
-            echo "firebase.js is missing, copying it manually..."
-            mkdir -p release/wwwroot/js/
+          echo "Checking for firebase.js file..."
+          find BlazorApp -name "firebase.js" -type f
+          
+          # Create js directory if it doesn't exist
+          mkdir -p release/wwwroot/js/
+          
+          # Try to find and copy the file, with fallback options
+          if [ -f "BlazorApp/wwwroot/js/firebase.js" ]; then
+            echo "Found at BlazorApp/wwwroot/js/firebase.js"
             cp BlazorApp/wwwroot/js/firebase.js release/wwwroot/js/
+          elif [ -f "BlazorApp/wwwroot/JS/firebase.js" ]; then
+            echo "Found at BlazorApp/wwwroot/JS/firebase.js (case difference)"
+            cp BlazorApp/wwwroot/JS/firebase.js release/wwwroot/js/
+          elif [ -f "BlazorApp/wwwroot/firebase.js" ]; then
+            echo "Found at BlazorApp/wwwroot/firebase.js"
+            cp BlazorApp/wwwroot/firebase.js release/wwwroot/js/
+          else
+            echo "Could not find firebase.js file. Creating a minimal version."
+            cat > release/wwwroot/js/firebase.js << 'EOL'
+            // Initialize Firebase
+            firebase.initializeApp(window.firebaseConfig);
+
+            window.firebaseSignInWithEmailAndPassword = async (email, password) => {
+                try {
+                    const userCredential = await firebase.auth().signInWithEmailAndPassword(email, password);
+                    return userCredential.user.uid;
+                } catch (error) {
+                    console.error("Sign in error:", error);
+                    throw error;
+                }
+            };
+
+            window.firebaseSignOut = async () => {
+                await firebase.auth().signOut();
+            };
+
+            window.firebaseGetCurrentUser = async () => {
+                return new Promise((resolve) => {
+                    firebase.auth().onAuthStateChanged(user => {
+                        if (user) {
+                            resolve({
+                                uid: user.uid,
+                                email: user.email,
+                                displayName: user.displayName,
+                                token: user.auth.currentUser.accessToken
+                            });
+                        } else {
+                            resolve(null);
+                        }
+                    });
+                });
+            };
+            EOL
           fi
+          
+          # Verify the file was created
+          ls -la release/wwwroot/js/firebase.js
+
 
       # Add .nojekyll file
       - name: Add .nojekyll file
