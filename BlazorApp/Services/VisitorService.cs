@@ -96,6 +96,7 @@ namespace BlazorApp.Services
                 throw new Exception("Error approving visitor", ex);
             }
         }
+        
         public async Task<byte[]> GetPDFForVisitor(string visitorId)
         {
             await AddAuthHeader();
