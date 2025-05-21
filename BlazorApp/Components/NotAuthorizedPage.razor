@@ -1,0 +1,17 @@
+﻿@inject NavigationManager Navigation
+
+<MudContainer>
+    <MudAlert Severity="Severity.Warning" Class="mt-4">
+        You need to be logged in to access this page
+    </MudAlert>
+    <MudButton Variant="Variant.Filled"
+               Color="Color.Primary"
+               OnClick="GoToLogin"
+               Class="mt-4">
+        Go to Login
+    </MudButton>
+</MudContainer>
+
+@code {
+    private void GoToLogin() => Navigation.NavigateTo("/login");
+}

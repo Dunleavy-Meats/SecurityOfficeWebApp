@@ -1,0 +1,45 @@
+# Ignore Visual Studio temporary files, caches, and user-specific files
+.vs/
+**/.vs/
+
+# Ignore build output directories for any project
+**/bin/
+**/obj/
+
+# Ignore Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio Code settings directory
+.vscode/
+
+# Ignore node modules for any Node.js projects (if any)
+node_modules/
+
+# Ignore .NET local tools folder
+.dotnet/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.*~
+project.lock.json
+*.pyc
+
+# Ignore build results (covering common directories and logs)
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn

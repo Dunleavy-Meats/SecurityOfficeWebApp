@@ -1,0 +1,93 @@
+﻿@inherits LayoutComponentBase
+@inject AuthenticationStateProvider AuthStateProvider
+@inject NavigationManager Navigation
+@inject FirebaseService AuthService
+
+<MudThemeProvider />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+@if (isInitialized)
+{
+    @if (isAuthenticated)
+    {
+        <MudLayout>
+            <MudAppBar Color="Color.Dark">
+                <MudIconButton Icon="@Icons.Material.Filled.Menu"
+                               Color="Color.Inherit"
+                               Edge="Edge.Start"
+                               OnClick="@((e) => DrawerToggle())" />
+                <MudImage ObjectFit="ObjectFit.ScaleDown" Src="images/dun_logo_white.png" Alt="Factory logo" Elevation="1" Width="35" Style="margin : 15px"/>
+                <MudSpacer />
+                <MudText Typo="Typo.h6">@StaticResources.AppName</MudText>
+                <MudSpacer />
+                <MudIconButton Icon="@Icons.Material.Filled.Logout" OnClick="Logout" Color="Color.Error"/>
+            </MudAppBar>
+
+            <MudDrawer @bind-Open="@drawerOpen" ClipMode="DrawerClipMode.Always">
+                <MudDrawerHeader>
+                    <MudText Typo="Typo.h6">Menu</MudText>
+                </MudDrawerHeader>
+                <MudDrawerContainer Style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <MudNavMenu Bordered="true" Rounded="true" >
+                            <MudNavLink Href="/" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.ListAlt">Attendance Records</MudNavLink>
+                            <MudNavLink Href="/visitors" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.People">Visitors List</MudNavLink>
+                            <MudNavLink Href="/visitors-questioners" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.FormatListBulleted">Questioner List</MudNavLink>
+                        </MudNavMenu>
+                    </div>
+                    <MudImage Src="Images/dun_logo.png"
+                              ObjectFit="ObjectFit.ScaleDown"
+                              Fluid="true"
+                              Elevation="25"
+                              Style="margin-top: auto; padding: 16px;" />
+                </MudDrawerContainer>
+            </MudDrawer>
+
+            <MudMainContent>
+                <MudContainer MaxWidth="MaxWidth.False" Class="pa-0">
+                    @Body
+                </MudContainer>
+            </MudMainContent>
+        </MudLayout>
+    }
+    else
+    {
+        <Login />
+    }
+}
+else
+{
+    <MudProgressLinear Color="Color.Primary" Indeterminate="true" />
+}
+
+@code {
+    private bool isAuthenticated;
+    private bool isInitialized;
+    private bool drawerOpen = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        isAuthenticated = authState.User.Identity?.IsAuthenticated ?? false;
+
+        if (!isAuthenticated && Navigation.Uri != "/login")
+        {
+            Navigation.NavigateTo("/login");
+        }
+
+        isInitialized = true;
+    }
+
+    private async Task Logout()
+    {
+        await AuthService.SignOutAsync();
+        Navigation.NavigateTo("/login", forceLoad: true);
+    }
+
+    private void DrawerToggle()
+    {
+        drawerOpen = !drawerOpen;
+    }
+}

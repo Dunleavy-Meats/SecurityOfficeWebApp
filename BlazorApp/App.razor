@@ -1,0 +1,15 @@
+﻿@using BlazorApp.Components
+<CascadingAuthenticationState>
+    <Router AppAssembly="@typeof(App).Assembly">
+        <Found Context="routeData">
+            <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
+                <NotAuthorized>
+                    <NotAuthorizedPage />
+                </NotAuthorized>
+            </AuthorizeRouteView>
+        </Found>
+        <NotFound>
+            <NotFoundPage />
+        </NotFound>
+    </Router>
+</CascadingAuthenticationState>

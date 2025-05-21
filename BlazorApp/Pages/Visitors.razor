@@ -1,0 +1,202 @@
+﻿@page "/visitors"
+
+@inject VisitorService VisitorService
+@inject NavigationManager Navigation
+@inject ISnackbar Snackbar
+@inject IJSRuntime JSRuntime
+@inject IDialogService DialogService
+
+<MudCard>
+    <MudCardContent>
+        <MudText Typo="Typo.h4" Class="mb-4">Visitor Management</MudText>
+
+        <MudButton Variant="Variant.Filled"
+                   Color="Color.Primary"
+                   StartIcon="@Icons.Material.Filled.Add"
+                   OnClick="ShowAddDialog"
+                   Class="mb-4">
+            Add New Visitor
+        </MudButton>
+    </MudCardContent>
+    <MudDataGrid Elevation="5" T="VisitorWithQuestionerData" Items="AllVisitors" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter" FixedHeader="true">
+        <ToolBarContent>
+            <MudText Typo="Typo.h6">All known visitors</MudText>
+            <MudSpacer />
+            <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
+                          AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+        </ToolBarContent>
+        <Columns>
+            <PropertyColumn Property="x => x.Visitor.Details.VisitorName" Title="Visitor Name"/>
+            <PropertyColumn Property="x => x.Visitor.Details.CompanyName" Title="Company"/>
+            <PropertyColumn Property="x => x.Visitor.Details.MobileNumber"  />
+            <PropertyColumn Property="x => x.Visitor.Details.Type" Title="Type" />
+            <PropertyColumn Property="@(x => x.Visitor.Details.Approved.HasValue ?  x.Visitor.Details.Approved.ToString() :  NA_Yes_No.NA.ToString())"  Title="Approved" Editable="true" />
+            <PropertyColumn Property="x => x.Visitor.GetLastVisit()" Title="LastVisit"  />
+            <PropertyColumn Property="@(x=> x.QuestionerData != null &&  x.QuestionerData.CreatedOn.HasValue ? x.QuestionerData.CreatedOn.Value.ToShortDateString() : "N/A" )" Title="Answerd Questioner On" />
+            <TemplateColumn CellClass="d-flex justify-end">
+                <CellTemplate>
+                    <MudStack AlignItems="AlignItems.Center" Row="true">
+                        <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Check" Color="Color.Success"
+                                   OnClick="@(() => ApproveVisitor(context.Item.Visitor))" Disabled="@(!CanApproveVisitor(context.Item.Visitor))">
+                                Approve
+                        </MudButton> 
+                        <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.ListAlt" Color="Color.Tertiary" Size="Size.Small"
+                                   OnClick="@(() => ShowQuestionerData(context.Item))" Disabled="@(context.Item.QuestionerData == null)">
+                            <MudText Inline="true" Typo="Typo.caption">Show Questioner </MudText>
+                        </MudButton>
+                    </MudStack>
+                </CellTemplate>
+            </TemplateColumn>
+		</Columns>
+    </MudDataGrid>
+</MudCard>
+
+@code {
+
+    private List<VisitorWithQuestionerData> AllVisitors = new();
+    private string _searchString;
+
+
+    private Func<VisitorWithQuestionerData, bool> _quickFilter => x =>
+    {
+        if (string.IsNullOrWhiteSpace(_searchString))
+            return true;
+
+        if (x.Visitor.Details.VisitorName.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        if (x.Visitor.Details.CompanyName.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        return false;
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
+    }
+
+    private async Task ApproveVisitor(Visitor visitor)
+    {
+        // Show dialog to choose between download and print
+        var options = new DialogOptions { CloseButton = false, MaxWidth = MaxWidth.Small , BackdropClick = false};
+        var parameters = new DialogParameters
+            {
+                ["ContentText"] = "Did the Contractor do their contractor training ?",
+                ["SubmitButtonText"] = "Yes",
+                ["CancelButtonText"] = "No",
+                ["Color"] = Color.Primary
+            };
+
+
+        var dialog = DialogService.Show<ConfirmationDialog>("Contractor Training", parameters, options);
+        var result = await dialog.Result;
+        if (result.Canceled)
+        {
+            return;
+        }
+        visitor.Details.Approved = NA_Yes_No.Yes;
+        await VisitorService.ApproveVisitor(visitor.Id);
+        AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
+        Snackbar.Add("Visitor approved", Severity.Success);
+    }
+
+    private async Task ShowQuestionerData(VisitorWithQuestionerData visitorWithQuestionerData)
+    {
+        try
+        {
+            var pdfBytes = await VisitorService.GetPDFForVisitor(visitorWithQuestionerData.Visitor.Id);
+            var base64 = Convert.ToBase64String(pdfBytes);
+
+            // Show dialog to choose between download and print
+            var options = new DialogOptions { CloseButton = true, MaxWidth = MaxWidth.ExtraSmall };
+            var parameters = new DialogParameters
+            {
+                ["ContentText"] = "Would you like to download or print the questionnaire?",
+                ["SubmitButtonText"] = "Download",
+                ["CancelButtonText"] = "Print",
+                ["Color"] = Color.Primary
+            };
+
+            var dialog = DialogService.Show<ConfirmationDialog>("PDF Options", parameters, options);
+            var result = await dialog.Result;
+
+            if (!result.Canceled)
+            {
+                // If confirmed, download the PDF
+                var fileName = $"visitor_questionnaire_{visitorWithQuestionerData.Visitor.Id}.pdf";
+                await JSRuntime.InvokeVoidAsync("downloadPDF", fileName, base64);
+                Snackbar.Add("Questionnaire PDF downloaded successfully", Severity.Success);
+            }
+            else
+            {
+                // If canceled, show print dialog
+                await JSRuntime.InvokeVoidAsync("showPdfPrintDialog", base64);
+                Snackbar.Add("Opening print dialog...", Severity.Info);
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Error handling PDF: {ex.Message}", Severity.Error);
+            Console.WriteLine($"PDF Error: {ex}");
+        }
+    }
+
+    private bool CanApproveVisitor(Visitor visitor)
+    {
+        if(visitor == null)
+            return false;
+
+        if(visitor.Details.Type == VisitorType.Haulage)
+            return false;
+
+        return visitor.Details.Approved.HasValue && visitor.Details.Approved.Value == NA_Yes_No.No;
+    }
+
+    private string GetIsApprovedText(Visitor visitor)
+    {
+
+        if(visitor.Details.Type == VisitorType.Haulage)
+            return ("N/A");
+
+        return visitor.Details.Approved.HasValue ? visitor.Details.Approved.ToString() : "N/A";
+    }
+
+    private async Task ShowAddDialog()
+    {
+        var parameters = new DialogParameters();
+        parameters.Add("VisitorService", VisitorService);
+
+        var options = new DialogOptions()
+            {
+                MaxWidth = MaxWidth.Small,
+                FullWidth = true,
+                CloseButton = true
+            };
+
+        var dialog = DialogService.Show<AddVisitorDialog>("Add New Visitor", parameters, options);
+        var result = await dialog.Result;
+
+        if (!result.Canceled)
+        {
+            AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
+            StateHasChanged();
+        }
+    }
+
+
+    void StartedEditingItem(Visitor visitor)
+    {
+        Snackbar.Add("Editing started", Severity.Info);
+    }
+
+    void CanceledEditingItem(Visitor visitor)
+    {
+       Snackbar.Add("Editing canceled", Severity.Warning);
+    }
+
+    void CommittedItemChanges(Visitor visitor)
+    {
+        Snackbar.Add("Editing Committed", Severity.Success);
+    }
+}

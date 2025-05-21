@@ -1,0 +1,103 @@
+﻿@using Models
+@inject ISnackbar Snackbar
+
+<MudDialog>
+    <DialogContent>
+        <MudTextField @bind-Value="newVisitor.Details.VisitorName"
+                      Label="Full Name"
+                      Required="true"
+                      Validation="@(new Func<string, IEnumerable<string>>(ValidateName))" />
+
+        <MudTextField @bind-Value="newVisitor.Details.CompanyName"
+                      Label="Company"
+                      Class="mt-4" />
+
+        <MudTextField @bind-Value="newVisitor.Details.MobileNumber"
+                      Label="Mobile Number"
+                      Class="mt-4"
+                      Required="true"
+                      Validation="@(new Func<string, IEnumerable<string>>(ValidatePhone))" />
+
+        <MudSelect @bind-Value="newVisitor.Details.Type"
+                   Label="Visitor Type"
+                   Class="mt-4">
+            @foreach (var type in Enum.GetValues<VisitorType>())
+            {
+                <MudSelectItem Value="@type">@type</MudSelectItem>
+            }
+        </MudSelect>
+
+        <MudSwitch Label="High Vis Issued" @bind-Value="newVisitor.Details.HighVisIssued" Color="Color.Primary" UncheckedColor="Color.Secondary" />
+
+        <MudSelect @bind-Value="newVisitor.Details.HighVisReturned"
+                   Label="High Vis Returned"
+                   Disabled="!newVisitor.Details.HighVisIssued"
+                   Class="mt-4">
+            @foreach (var type2 in Enum.GetValues<NA_Yes_No>())
+            {
+                <MudSelectItem Value="@type2">@type2</MudSelectItem>
+            }
+        </MudSelect>
+    </DialogContent>
+    <DialogActions>
+        <MudButton Variant="Variant.Text"
+                   OnClick="Cancel">Cancel</MudButton>
+        <MudButton Variant="Variant.Filled"
+                   Color="Color.Primary"
+                   OnClick="Submit"
+                   Disabled="@(!IsValidVisitor())">
+            Add Visitor
+        </MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter]
+    MudDialogInstance MudDialog { get; set; }
+
+    [Parameter]
+    public VisitorService VisitorService { get; set; }
+
+    private Visitor newVisitor = new()
+        {
+            Details = new VisitorDetails() { HighVisIssued = false, HighVisReturned = NA_Yes_No.NA},
+            CreatedAt = DateTime.UtcNow
+        };
+
+    private IEnumerable<string> ValidateName(string name)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+            yield return "Name is required";
+    }
+
+    private IEnumerable<string> ValidatePhone(string phone)
+    {
+        if (string.IsNullOrWhiteSpace(phone))
+            yield return "Phone number is required";
+    }
+
+    private bool IsValidVisitor()
+    {
+        return !string.IsNullOrWhiteSpace(newVisitor.Details.VisitorName) &&
+               !string.IsNullOrWhiteSpace(newVisitor.Details.MobileNumber);
+    }
+
+    private void Cancel() => MudDialog.Cancel();
+
+    private async Task Submit()
+    {
+        try
+        {
+            var result = await VisitorService.AddVisitorAsync(newVisitor);
+            if (result != null)
+            {
+                Snackbar.Add("Visitor added successfully", Severity.Success);
+                MudDialog.Close(DialogResult.Ok(true));
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Error adding visitor: {ex.Message}", Severity.Error);
+        }
+    }
+}

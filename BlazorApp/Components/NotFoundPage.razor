@@ -1,0 +1,17 @@
+﻿@inject NavigationManager Navigation
+
+<MudContainer>
+    <MudAlert Severity="Severity.Error" Class="mt-4">
+        Page not found
+    </MudAlert>
+    <MudButton Variant="Variant.Filled"
+               Color="Color.Primary"
+               OnClick="ReturnHome"
+               Class="mt-4">
+        Return Home
+    </MudButton>
+</MudContainer>
+
+@code {
+    private void ReturnHome() => Navigation.NavigateTo("/");
+}

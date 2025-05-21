@@ -1,0 +1,93 @@
+﻿@page "/login"
+@inject FirebaseService AuthService
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthStateProvider
+
+
+<MudGrid Justify="Justify.Center">
+    <MudItem xs="10">
+        <div class="d-flex justify-center">
+            <MudImage ObjectPosition="ObjectPosition.Center" Src="images/dun_logo.png" Alt="Factory logo" Elevation="0" />
+        </div>
+
+    </MudItem>
+    <MudItem xs="6">
+        <MudText Align="Align.Center" Typo="Typo.h3">@StaticResources.AppName</MudText>
+    </MudItem>
+    <MudItem xs="8">
+        <MudCard Elevation="6">
+            <MudCardContent>
+        <MudText Align="Align.Center" Typo="Typo.h4"> Please login </MudText>
+                <MudTextField @bind-Value="Email" Label="Email" Variant="Variant.Outlined" FullWidth="true" />
+                <MudTextField @bind-Value="Password" Label="Password" Variant="Variant.Outlined" FullWidth="true"
+                              InputType="InputType.Password" Class="mt-4" />
+
+                <MudButton Variant="Variant.Filled"
+                           Color="Color.Primary"
+                           FullWidth="true"
+                           Class="mt-4"
+                           OnClick="HandleLogin"
+                           Disabled="@isLoading">
+                    @if (isLoading)
+                    {
+                        <MudProgressCircular Size="Size.Small" Color="Color.Inherit" />
+                    }
+                    else
+                    {
+                        <span>Login</span>
+                    }
+                </MudButton>
+
+                @if (!string.IsNullOrEmpty(ErrorMessage))
+                {
+                    <MudAlert Severity="Severity.Error" Class="mt-4">@ErrorMessage</MudAlert>
+                }
+            </MudCardContent>
+        </MudCard>
+    </MudItem>
+</MudGrid>
+
+@code {
+    private string Email { get; set; } = string.Empty;
+    private string Password { get; set; } = string.Empty;
+    private string ErrorMessage { get; set; } = string.Empty;
+    private bool isLoading = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        if (authState.User.Identity?.IsAuthenticated ?? false)
+        {
+            Navigation.NavigateTo("/");
+        }
+    }
+
+    private async Task HandleLogin()
+    {
+        isLoading = true;
+        ErrorMessage = string.Empty;
+
+        try
+        {
+            var userId = await AuthService.SignInWithEmailAndPasswordAsync(Email, Password);
+
+            if (userId != null)
+            {
+                Navigation.NavigateTo("/", true);
+            }
+            else
+            {
+                ErrorMessage = "Invalid email or password";
+            }
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = "Login failed. Please try again.";
+            Console.WriteLine($"Login error: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}
