@@ -36,9 +36,7 @@ jobs:
         sed -i "s/%FIREBASE_MEASUREMENT_ID%/${{ secrets.FIREBASE_MEASUREMENT_ID }}/g" release/wwwroot/index.html
       
     - name: Commit wwwroot to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: release/wwwroot
-        CLEAN: true
+        folder: release/wwwroot
+        clean: true
