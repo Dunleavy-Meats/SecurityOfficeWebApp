@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages cody
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -30,6 +30,15 @@ jobs:
 
       - name: Publish .NET Project
         run: dotnet publish BlazorApp/BlazorApp.csproj -c Release -o release --nologo
+
+      # Ensure firebase.js exists in the output
+      - name: Ensure firebase.js exists
+        run: |
+          if [ ! -f "release/wwwroot/js/firebase.js" ]; then
+            echo "firebase.js is missing, copying it manually..."
+            mkdir -p release/wwwroot/js/
+            cp BlazorApp/wwwroot/js/firebase.js release/wwwroot/js/
+          fi
 
       # Add .nojekyll file
       - name: Add .nojekyll file
