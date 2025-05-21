@@ -25,6 +25,10 @@
       "url": "index.html"
     },
     {
+      "hash": "sha256-bd\/TZA87k4Gchm1M6I9hMevbpVqtt\/j3OpdGsSyKVmI=",
+      "url": "js\/firebase.js"
+    },
+    {
       "hash": "sha256-g0ez4gwzPie0eCUUldZjBSqNiKauN9eIBEtbF61Z1ME=",
       "url": "manifest.json"
     },
@@ -485,5 +489,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "GhrddFbY"
+  "version": "syGOGx9V"
 };
