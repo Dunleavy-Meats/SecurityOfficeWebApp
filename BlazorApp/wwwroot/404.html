@@ -2,18 +2,18 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Security Office Web App</title>
+    <title>Dunleavy Security App</title>
     <script type="text/javascript">
-        var pathSegmentsToKeep = 1;
-
-        var l = window.location;
-        l.replace(
-            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-            l.hash
-        );
+        var segmentCount = 1;
+        var location = window.location;
+        var baseUrl = location.pathname.slice(0, location.pathname.indexOf('/', 1)) || '';
+        var redirectUrl = baseUrl + '/?route=' +
+            location.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~');
+        if (location.search) {
+            redirectUrl += (redirectUrl.indexOf('?') === -1 ? '?' : '&') + 
+                location.search.slice(1).replace(/&/g, '~and~');
+        }
+        location.replace(redirectUrl + location.hash);
     </script>
 </head>
 <body>

@@ -82,6 +82,13 @@ jobs:
                   }(window.location))\
               </script>' release/wwwroot/index.html
 
+      # Update service worker assets manifest
+      - name: Update service worker assets manifest
+        run: |
+          cd release/wwwroot
+          # Remove 404.html from the service worker assets manifest
+          sed -i '/"404.html"/d' service-worker-assets.js
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:

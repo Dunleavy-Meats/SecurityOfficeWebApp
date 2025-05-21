@@ -14,12 +14,15 @@ const offlineAssetsExclude = [ /^service-worker\.js$/ ];
 async function onInstall(event) {
     console.info('Service worker: Install');
 
-    // Fetch and cache all matching items from the assets manifest
+    // Remove the 404.html from the precache list since it's dynamically generated
     const assetsRequests = self.assetsManifest.assets
-        .filter(asset => offlineAssetsInclude.some(pattern => pattern.test(asset.url)))
-        .filter(asset => !offlineAssetsExclude.some(pattern => pattern.test(asset.url)))
+        .filter(asset => asset.url !== '404.html')
         .map(asset => new Request(asset.url, { integrity: asset.hash, cache: 'no-cache' }));
-    await caches.open(cacheName).then(cache => cache.addAll(assetsRequests));
+
+    await Promise.all([
+        caches.open('offline-cache').then(cache => cache.addAll(assetsRequests)),
+        // Don't cache the 404.html
+    ]);
 }
 
 async function onActivate(event) {
