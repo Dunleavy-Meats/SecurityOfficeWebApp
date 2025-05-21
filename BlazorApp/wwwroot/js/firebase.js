@@ -1,15 +1,18 @@
-﻿const firebaseConfig = {
-    apiKey: "AIzaSyCg2RGzOWlGY55WcMktt7Vg1l5r30ece4Y",
-    authDomain: "security-system-c0b0e.firebaseapp.com",
-    projectId: "security-system-c0b0e",
-    storageBucket: "security-system-c0b0e.firebasestorage.app",
-    messagingSenderId: "565564609130",
-    appId: "1:565564609130:web:c8149e6e41863fcf3d7013",
-    measurementId: "G-LDTZEQZ3ZJ"
-};
+﻿let firebaseConfig = {};
+
+async function initializeFirebase() {
+    try {
+        const response = await fetch('appsettings.json');
+        const config = await response.json();
+        firebaseConfig = config.Firebase;
+        firebase.initializeApp(firebaseConfig);
+    } catch (error) {
+        console.error('Error loading Firebase configuration:', error);
+    }
+}
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+initializeFirebase();
 
 
 window.firebaseSignInWithEmailAndPassword = async (email, password) => {
