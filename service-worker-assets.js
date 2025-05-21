@@ -37,7 +37,7 @@
       "url": "logo\/dun_logo.png"
     },
     {
-      "hash": "sha256-76iv5eAPFUVj6PPZ7S4kNV4Z80NjtmUwHMnuoGFx+QY=",
+      "hash": "sha256-Y6NNW9r+HMi\/58sSCR+xtNXU5\/V+1b4+jE0ZbLJwx9Q=",
       "url": "manifest.json"
     },
     {
@@ -497,5 +497,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "fxEPT1Rw"
+  "version": "vO8uqB9l"
 };
