@@ -9,6 +9,10 @@
       "url": "css\/app.css"
     },
     {
+      "hash": "sha256-FLi46c4Y7WLAe9AzYXLTQ2MBXqGpPgDvGURCO8SDqsQ=",
+      "url": "favicon.ico"
+    },
+    {
       "hash": "sha256-5lf5ZMUYaIEjnneJ\/j82woVhiIG7z90KY043BqQfA6U=",
       "url": "firebase-config.js"
     },
@@ -17,7 +21,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-CxSElOKCWGYMWjFTcvwOOI+8gQloQIRnaEb67q4OEcE=",
+      "hash": "sha256-CCt\/xTwd4IsAS8HWaTivubrcVXWhQx2fG6pGW10Domo=",
       "url": "index.html"
     },
     {
@@ -493,5 +497,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "dkNgTQTX"
+  "version": "EbcbvJzT"
 };
