@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "BlazorApp.dll": "sha256-IeHwneb0ZC1B5Xg+CecC+dkdBzOSZsuLBype5P2D8\/Y=",
+      "BlazorApp.dll": "sha256-P10DxLaTWCOs+LXOaDFb125etgyY3Yo5JIXWNUxIyb4=",
       "Google.Api.CommonProtos.dll": "sha256-H+eSxkzq5oCMYmoiaUiMkP2\/bJ5\/A\/dnvhzPzj8XUp4=",
       "Google.Api.Gax.dll": "sha256-0qMwQ1M8p+sTRA+HgcfSBCnhm0PHKNTig0aRCSkiRxI=",
       "Google.Api.Gax.Grpc.dll": "sha256-vLDIptqZAnnSBQ0s+toGmkg4\/\/Da7KFnvFaTZxvUXEY=",
