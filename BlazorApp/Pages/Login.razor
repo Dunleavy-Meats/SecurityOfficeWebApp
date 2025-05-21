@@ -58,7 +58,7 @@
         var authState = await AuthStateProvider.GetAuthenticationStateAsync();
         if (authState.User.Identity?.IsAuthenticated ?? false)
         {
-            Navigation.NavigateTo("/");
+            Navigation.NavigateTo("", forceLoad: false);
         }
     }
 
@@ -73,7 +73,7 @@
 
             if (userId != null)
             {
-                Navigation.NavigateTo("/", true);
+                Navigation.NavigateTo("", forceLoad: true);
             }
             else
             {

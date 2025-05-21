@@ -72,9 +72,9 @@ else
         var authState = await AuthStateProvider.GetAuthenticationStateAsync();
         isAuthenticated = authState.User.Identity?.IsAuthenticated ?? false;
 
-        if (!isAuthenticated && Navigation.Uri != "/login")
+        if (!isAuthenticated && !Navigation.Uri.EndsWith("/login"))
         {
-            Navigation.NavigateTo("/login");
+            Navigation.NavigateTo("login", forceLoad: false);
         }
 
         isInitialized = true;
@@ -83,7 +83,7 @@ else
     private async Task Logout()
     {
         await AuthService.SignOutAsync();
-        Navigation.NavigateTo("/login", forceLoad: true);
+        Navigation.NavigateTo("login", forceLoad: true);
     }
 
     private void DrawerToggle()
