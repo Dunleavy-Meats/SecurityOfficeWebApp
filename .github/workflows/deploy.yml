@@ -8,6 +8,12 @@ on:
 jobs:
   deploy-to-github-pages:
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
     - uses: actions/checkout@v2
     
@@ -35,8 +41,14 @@ jobs:
         sed -i "s/%FIREBASE_APP_ID%/${{ secrets.FIREBASE_APP_ID }}/g" release/wwwroot/index.html
         sed -i "s/%FIREBASE_MEASUREMENT_ID%/${{ secrets.FIREBASE_MEASUREMENT_ID }}/g" release/wwwroot/index.html
       
-    - name: Commit wwwroot to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4
+    - name: Setup Pages
+      uses: actions/configure-pages@v2
+    
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
       with:
-        folder: release/wwwroot
-        clean: true
+        path: 'release/wwwroot'
+    
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v1
