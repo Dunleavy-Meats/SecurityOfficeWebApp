@@ -8,14 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\Images\dun_logo_white.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="wwwroot\Images\dun_logo.png" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="wwwroot\Images\dun_logo_white.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
