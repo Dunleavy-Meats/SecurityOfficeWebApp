@@ -34,7 +34,10 @@ jobs:
       
     - name: Change base-tag in index.html
       run: sed -i 's/<base href="\/"/<base href="\/SecurityOfficeWebApp\/"/' release/wwwroot/index.html
-      
+    
+    - name: Create 404.html for SPA routing
+      run: cp release/wwwroot/index.html release/wwwroot/404.html
+
     - name: Replace Firebase Config
       run: |
         sed -i "s/%FIREBASE_API_KEY%/${{ secrets.FIREBASE_API_KEY }}/g" release/wwwroot/index.html
