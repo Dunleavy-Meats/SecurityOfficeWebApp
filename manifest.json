@@ -1,0 +1,16 @@
+{
+  "name": "Dunleavy Security App",
+  "short_name": "Dunleavy Security App",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#03173d",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "Image/dun_logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
