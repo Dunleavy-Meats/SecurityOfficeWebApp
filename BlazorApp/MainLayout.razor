@@ -31,10 +31,10 @@
                 </MudDrawerHeader>
                 <MudDrawerContainer Style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
                     <div>
-                        <MudNavMenu Bordered="true" Rounded="true" >
-                            <MudNavLink Href="/" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.ListAlt">Attendance Records</MudNavLink>
-                            <MudNavLink Href="/visitors" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.People">Visitors List</MudNavLink>
-                            <MudNavLink Href="/visitors-questioners" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.FormatListBulleted">Questioner List</MudNavLink>
+                        <MudNavMenu Bordered="true" Rounded="true">
+                            <MudNavLink Href="@($"{BasePath}/")" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.ListAlt">Attendance Records</MudNavLink>
+                            <MudNavLink Href="@($"{BasePath}/visitors")" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.People">Visitors List</MudNavLink>
+                            <MudNavLink Href="@($"{BasePath}/visitors-questioners")" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.FormatListBulleted">Questioner List</MudNavLink>
                         </MudNavMenu>
                     </div>
                     <MudImage Src="Images/dun_logo.png"
@@ -63,6 +63,13 @@ else
 }
 
 @code {
+    private const string BasePath = 
+#if DEBUG
+        "";
+#else
+        "/SecurityOfficeWebApp";
+#endif
+
     private bool isAuthenticated;
     private bool isInitialized;
     private bool drawerOpen = true;
@@ -74,7 +81,7 @@ else
 
         if (!isAuthenticated && !Navigation.Uri.EndsWith("/login"))
         {
-            Navigation.NavigateTo("login", forceLoad: false);
+            Navigation.NavigateTo($"{BasePath}/login", forceLoad: false);
         }
 
         isInitialized = true;
@@ -83,7 +90,7 @@ else
     private async Task Logout()
     {
         await AuthService.SignOutAsync();
-        Navigation.NavigateTo("login", forceLoad: true);
+        Navigation.NavigateTo($"{BasePath}/login", forceLoad: true);
     }
 
     private void DrawerToggle()
