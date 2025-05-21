@@ -81,11 +81,6 @@ window.showPdfPrintDialog = function (base64Data) {
         printWindow.addEventListener('load', function () {
             try {
                 printWindow.print();
-                // Cleanup
-                /*                   setTimeout(() => {
-                                       printWindow.close();
-                                       URL.revokeObjectURL(url);
-                                   }, 10000000);*/
             } catch (e) {
                 console.error('Print failed:', e);
                 printWindow.close();
