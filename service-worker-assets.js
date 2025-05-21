@@ -33,7 +33,7 @@
       "url": "js\/firebase.js"
     },
     {
-      "hash": "sha256-g0ez4gwzPie0eCUUldZjBSqNiKauN9eIBEtbF61Z1ME=",
+      "hash": "sha256-76iv5eAPFUVj6PPZ7S4kNV4Z80NjtmUwHMnuoGFx+QY=",
       "url": "manifest.json"
     },
     {
@@ -69,11 +69,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-0XoQNuWQkatp4jN0ykzNZ1fYJBrxsWAjLroaiD6VEkQ=",
+      "hash": "sha256-0tw2RAZFjwyFGBiOsC9exlcykhr1s5FqwSH+Gvf9+vo=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-dPONojLgreJFVPGW4fpLQG3vBdbTbdtjBFE\/TP1cpYM=",
+      "hash": "sha256-3OJtdiuSq5gEhE4XAi93U6ij\/vu+gLD4O3OjIsZvW3Y=",
       "url": "_framework\/BlazorApp.dll"
     },
     {
@@ -493,5 +493,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "aI8CfTlY"
+  "version": "jzbccGYt"
 };
