@@ -17,6 +17,10 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-o0VrMycWCCTWHj7E5b06xius4cd4OAU+FJHfRRhiavU=",
+      "url": "Images\/dun_logo_white.png"
+    },
+    {
       "hash": "sha256-0toUJwhzVzSDXq\/iynqM1GI\/OqXLs07bosURNU7ExBM=",
       "url": "Images\/dun_logo.png"
     },
@@ -489,5 +493,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "KbLW3n6n"
+  "version": "aI8CfTlY"
 };
