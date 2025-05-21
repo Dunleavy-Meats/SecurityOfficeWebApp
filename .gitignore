@@ -47,6 +47,3 @@ msbuild.wrn
 # Firebase config
 **/appsettings.json
 **/appsettings.Development.json
-
-# Keep the firebase.js file locally but not in Git
-BlazorApp/wwwroot/js/firebase.js
