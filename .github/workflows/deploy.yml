@@ -45,11 +45,9 @@ jobs:
         sed -i "s/%FIREBASE_APP_ID%/${{ secrets.FIREBASE_APP_ID }}/g" release/wwwroot/index.html
         sed -i "s/%FIREBASE_MEASUREMENT_ID%/${{ secrets.FIREBASE_MEASUREMENT_ID }}/g" release/wwwroot/index.html
     
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v2
+    - name: Commit wwwroot to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        path: release/wwwroot
-    
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v2
+        folder: release/wwwroot
+        branch: gh-pages
+        clean: true
