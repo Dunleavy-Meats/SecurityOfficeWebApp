@@ -29,8 +29,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\images\**">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <Content Update="wwwroot\images\**">
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
   </ItemGroup>
 

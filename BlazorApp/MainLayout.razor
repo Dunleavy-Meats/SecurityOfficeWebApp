@@ -18,7 +18,13 @@
                                Color="Color.Inherit"
                                Edge="Edge.Start"
                                OnClick="@((e) => DrawerToggle())" />
-                <MudImage ObjectFit="ObjectFit.ScaleDown" Src="images/dun_logo_white.png" Alt="Factory logo" Elevation="1" Width="35" Style="margin : 15px"/>
+                <MudImage ObjectFit="ObjectFit.ScaleDown" 
+                          Src="/images/dun_logo_white.png" 
+                          Alt="Factory logo" 
+                          Elevation="1" 
+                          Width="35" 
+                          Style="margin : 15px"/>
+
                 <MudSpacer />
                 <MudText Typo="Typo.h6">@StaticResources.AppName</MudText>
                 <MudSpacer />
@@ -37,7 +43,7 @@
                             <MudNavLink Href="@($"{BasePath}/visitors-questioners")" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.FormatListBulleted">Questioner List</MudNavLink>
                         </MudNavMenu>
                     </div>
-                    <MudImage Src="images/dun_logo.png"
+                    <MudImage Src="/images/dun_logo.png"
                               ObjectFit="ObjectFit.ScaleDown"
                               Fluid="true"
                               Elevation="25"
