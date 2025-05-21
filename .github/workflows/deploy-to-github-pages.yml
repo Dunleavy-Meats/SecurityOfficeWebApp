@@ -89,8 +89,17 @@ jobs:
           # Remove 404.html from the service worker assets manifest
           sed -i '/"404.html"/d' service-worker-assets.js
 
+      # Update service worker configuration
+      - name: Update service worker configuration
+        run: |
+          cd release/wwwroot
+          # Update the service worker assets manifest
+          sed -i '/"undefined"/d' service-worker-assets.js
+          sed -i '/"404.html"/d' service-worker-assets.js
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: release/wwwroot
-          branch: gh-pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: release/wwwroot
