@@ -44,7 +44,7 @@ msbuild.log
 msbuild.err
 msbuild.wrn
 
-# Firebase configuration
+# Firebase config
 **/appsettings.json
 **/appsettings.Development.json
 
