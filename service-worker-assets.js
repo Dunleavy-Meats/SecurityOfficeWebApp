@@ -9,6 +9,10 @@
       "url": "css\/app.css"
     },
     {
+      "hash": "sha256-5lf5ZMUYaIEjnneJ\/j82woVhiIG7z90KY043BqQfA6U=",
+      "url": "firebase-config.js"
+    },
+    {
       "hash": "sha256-oEo6d+KqX5fjxTiZk\/w9NB3Mi0+ycS5yLwCKwr4IkbA=",
       "url": "icon-512.png"
     },
@@ -17,7 +21,7 @@
       "url": "Images\/dun_logo.png"
     },
     {
-      "hash": "sha256-8mg502G25mY4IlzvTFROMEZSPI29ZVMzNLM3OXGgXm4=",
+      "hash": "sha256-CxSElOKCWGYMWjFTcvwOOI+8gQloQIRnaEb67q4OEcE=",
       "url": "index.html"
     },
     {
@@ -53,11 +57,15 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Ao1Gq99MRVCi8Y5aoA3rgV0hDcse7mtFbyaQb2G82XA=",
+      "hash": "sha256-tO5O5YzMTVSaKBboxAqezOQL9ewmupzV2JrB5Rkc8a4=",
+      "url": "_framework\/icudt.dat"
+    },
+    {
+      "hash": "sha256-Joft6Uk6KJxRlhY3XMaPluihGRjmlXLQKMBMiHo9G+I=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-DQOTk8oPmXRjd+6PSe1BonuHSvPGuLJPfejxS3I3Zik=",
+      "hash": "sha256-IZ6oc4Jl6hsRQPMRoi6zWox8IFCm0NpHOgxMtaD9Ko0=",
       "url": "_framework\/BlazorApp.dll"
     },
     {
@@ -209,7 +217,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-jZpyqvcbVn\/bJxLylylYXxuudBxnAaK2ShfoQZNkFDs=",
+      "hash": "sha256-xHe\/h42Hqr2L41P8pmieAvncToaINdk3HNkVgIrDPSo=",
       "url": "_framework\/Models.dll"
     },
     {
@@ -477,5 +485,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "iW693z7P"
+  "version": "Ud8Poo\/F"
 };
