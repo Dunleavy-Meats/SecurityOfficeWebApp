@@ -29,12 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="wwwroot\images\**">
-        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Update="wwwroot\logo\**">
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
