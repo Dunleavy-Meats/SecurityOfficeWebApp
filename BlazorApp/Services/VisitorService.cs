@@ -1,59 +1,58 @@
 ﻿using System.Net.Http.Json;
-using System.Net.Http.Headers;
 using Models;
 
 namespace BlazorApp.Services
 {
-    public class VisitorService
+    public class VisitorService : BaseApiService
     {
-        private readonly HttpClient _httpClient;
-        private readonly FirebaseAuthStateProvider _authStateProvider;
+        private const string VISITORS_CACHE_KEY = "visitors_data";
+        private const string ENTITY_TYPE = "visitors";
 
         public VisitorService(
             HttpClient httpClient,
-            FirebaseAuthStateProvider authStateProvider)
+            FirebaseAuthStateProvider authStateProvider,
+            CacheService cacheService) 
+            : base(httpClient, authStateProvider, cacheService)
         {
-            _httpClient = httpClient;
-            _authStateProvider = authStateProvider;
         }
 
-        private async Task AddAuthHeader()
+        public async Task<List<VisitorWithQuestionerData>> GetVisitorWithQuestionerDataAsync(bool forceRefresh = false)
         {
-            var user = await _authStateProvider.GetFirebaseUser();
-            _httpClient.DefaultRequestHeaders.Clear();
-            if (user != null && !string.IsNullOrEmpty(user.token))
+            if (!forceRefresh && !await HasDataChanged(ENTITY_TYPE) && 
+                _cacheService.TryGetValue<List<VisitorWithQuestionerData>>(VISITORS_CACHE_KEY, out var cachedData))
             {
-                _httpClient.DefaultRequestHeaders.Authorization =
-                    new AuthenticationHeaderValue("Bearer", user.token);
+                return cachedData;
             }
-            _httpClient.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/json"));
-        }
 
-        public async Task<List<VisitorWithQuestionerData>> GetVisitorWithQuestionerDataAsync()
-        {
             await AddAuthHeader();
             try
             {
-                var vivitors = await _httpClient.GetFromJsonAsync<List<Visitor>>("api/Visitors/getvisitors") ?? new List<Visitor>();
-                var answers = await _httpClient.GetFromJsonAsync<List<QuestionerData>>("api/Visitors/GetAllAnswer") ?? new List<QuestionerData>();
-				answers.OrderByDescending(x => x.CreatedOn);
-				List<VisitorWithQuestionerData> result = new List<VisitorWithQuestionerData>();
-				foreach (var visitor in vivitors)
-				{
-                    var temp = new VisitorWithQuestionerData(visitor, answers.Where(x => x.VisitorID == visitor.Id).ToList());
-					result.Add(temp);
-				}
+                var visitors = await _httpClient.GetFromJsonAsync<List<Visitor>>("api/Visitors/getvisitors") ?? new();
+                var answers = await _httpClient.GetFromJsonAsync<List<QuestionerData>>("api/Visitors/GetAllAnswer") ?? new();
+                
+                var result = visitors.Select(visitor => new VisitorWithQuestionerData(
+                    visitor, 
+                    answers.Where(x => x.VisitorID == visitor.Id).OrderByDescending(x => x.CreatedOn).ToList()
+                )).ToList();
 
-				return result;
+                // Get the current timestamp from server for this entity type
+                var response = await _httpClient.GetAsync($"api/DataSync/lastmodified/{ENTITY_TYPE}");
+                if (response.IsSuccessStatusCode)
+                {
+                    var timestamp = await response.Content.ReadFromJsonAsync<DateTime>();
+                    _cacheService.SetLastModified(ENTITY_TYPE, timestamp);
+                }
+
+                _cacheService.Set(VISITORS_CACHE_KEY, result);
+                return result;
             }
             catch (HttpRequestException)
             {
-                // Handle error
-                return new List<VisitorWithQuestionerData>();
+                return new();
             }
         }
 
+        // Rest of your methods remain the same
         public async Task<List<Visitor>> GetVisitorsAsync()
         {
             await AddAuthHeader();
@@ -67,7 +66,6 @@ namespace BlazorApp.Services
                 return new List<Visitor>();
             }
         }
-
 
         public async Task<List<Questioner>> GetQuestionsAsync()
         {

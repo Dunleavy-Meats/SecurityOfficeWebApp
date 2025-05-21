@@ -6,53 +6,60 @@
 @inject IJSRuntime JSRuntime
 @inject IDialogService DialogService
 
-<MudCard>
-    <MudCardContent>
-        <MudText Typo="Typo.h4" Class="mb-4">Visitor Management</MudText>
+@if (isLoading)
+{
+    <MudProgressLinear Color="Color.Primary" Indeterminate="true" Class="my-7" />
+}
+else
+{
+    <MudCard>
+        <MudCardContent>
+            <MudText Typo="Typo.h4" Class="mb-4">Visitor Management</MudText>
 
-        <MudButton Variant="Variant.Filled"
-                   Color="Color.Primary"
-                   StartIcon="@Icons.Material.Filled.Add"
-                   OnClick="ShowAddDialog"
-                   Class="mb-4">
-            Add New Visitor
-        </MudButton>
-    </MudCardContent>
-    <MudDataGrid Elevation="5" T="VisitorWithQuestionerData" Items="AllVisitors" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter" FixedHeader="true">
-        <ToolBarContent>
-            <MudText Typo="Typo.h6">All known visitors</MudText>
-            <MudSpacer />
-            <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
-                          AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
-        </ToolBarContent>
-        <Columns>
-            <PropertyColumn Property="x => x.Visitor.Details.VisitorName" Title="Visitor Name"/>
-            <PropertyColumn Property="x => x.Visitor.Details.CompanyName" Title="Company"/>
-            <PropertyColumn Property="x => x.Visitor.Details.MobileNumber"  />
-            <PropertyColumn Property="x => x.Visitor.Details.Type" Title="Type" />
-            <PropertyColumn Property="@(x => x.Visitor.Details.Approved.HasValue ?  x.Visitor.Details.Approved.ToString() :  NA_Yes_No.NA.ToString())"  Title="Approved" Editable="true" />
-            <PropertyColumn Property="x => x.Visitor.GetLastVisit()" Title="LastVisit"  />
-            <PropertyColumn Property="@(x=> x.QuestionerData != null &&  x.QuestionerData.CreatedOn.HasValue ? x.QuestionerData.CreatedOn.Value.ToShortDateString() : "N/A" )" Title="Answerd Questioner On" />
-            <TemplateColumn CellClass="d-flex justify-end">
-                <CellTemplate>
-                    <MudStack AlignItems="AlignItems.Center" Row="true">
-                        <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Check" Color="Color.Success"
-                                   OnClick="@(() => ApproveVisitor(context.Item.Visitor))" Disabled="@(!CanApproveVisitor(context.Item.Visitor))">
-                                Approve
-                        </MudButton> 
-                        <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.ListAlt" Color="Color.Tertiary" Size="Size.Small"
-                                   OnClick="@(() => ShowQuestionerData(context.Item))" Disabled="@(context.Item.QuestionerData == null)">
-                            <MudText Inline="true" Typo="Typo.caption">Show Questioner </MudText>
-                        </MudButton>
-                    </MudStack>
-                </CellTemplate>
-            </TemplateColumn>
-		</Columns>
-    </MudDataGrid>
-</MudCard>
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       StartIcon="@Icons.Material.Filled.Add"
+                       OnClick="ShowAddDialog"
+                       Class="mb-4">
+                Add New Visitor
+            </MudButton>
+        </MudCardContent>
+        <MudDataGrid Elevation="5" T="VisitorWithQuestionerData" Items="AllVisitors" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter" FixedHeader="true">
+            <ToolBarContent>
+                <MudText Typo="Typo.h6">All known visitors</MudText>
+                <MudSpacer />
+                <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
+                              AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+            </ToolBarContent>
+            <Columns>
+                <PropertyColumn Property="x => x.Visitor.Details.VisitorName" Title="Visitor Name"/>
+                <PropertyColumn Property="x => x.Visitor.Details.CompanyName" Title="Company"/>
+                <PropertyColumn Property="x => x.Visitor.Details.MobileNumber"  />
+                <PropertyColumn Property="x => x.Visitor.Details.Type" Title="Type" />
+                <PropertyColumn Property="@(x => x.Visitor.Details.Approved.HasValue ?  x.Visitor.Details.Approved.ToString() :  NA_Yes_No.NA.ToString())"  Title="Approved" Editable="true" />
+                <PropertyColumn Property="x => x.Visitor.GetLastVisit()" Title="LastVisit"  />
+                <PropertyColumn Property="@(x=> x.QuestionerData != null &&  x.QuestionerData.CreatedOn.HasValue ? x.QuestionerData.CreatedOn.Value.ToShortDateString() : "N/A" )" Title="Answerd Questioner On" />
+                <TemplateColumn CellClass="d-flex justify-end">
+                    <CellTemplate>
+                        <MudStack AlignItems="AlignItems.Center" Row="true">
+                            <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Check" Color="Color.Success"
+                                       OnClick="@(() => ApproveVisitor(context.Item.Visitor))" Disabled="@(!CanApproveVisitor(context.Item.Visitor))">
+                                    Approve
+                            </MudButton> 
+                            <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.ListAlt" Color="Color.Tertiary" Size="Size.Small"
+                                       OnClick="@(() => ShowQuestionerData(context.Item))" Disabled="@(context.Item.QuestionerData == null)">
+                                <MudText Inline="true" Typo="Typo.caption">Show Questioner </MudText>
+                            </MudButton>
+                        </MudStack>
+                    </CellTemplate>
+                </TemplateColumn>
+            </Columns>
+        </MudDataGrid>
+    </MudCard>
+}
 
 @code {
-
+    private bool isLoading = true;
     private List<VisitorWithQuestionerData> AllVisitors = new();
     private string _searchString;
 
@@ -73,7 +80,15 @@
 
     protected override async Task OnInitializedAsync()
     {
-        AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
+        try
+        {
+            isLoading = true;
+            AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
+        }
+        finally
+        {
+            isLoading = false;
+        }
     }
 
     private async Task ApproveVisitor(Visitor visitor)
@@ -198,5 +213,19 @@
     void CommittedItemChanges(Visitor visitor)
     {
         Snackbar.Add("Editing Committed", Severity.Success);
+    }
+
+    private async Task RefreshData()
+    {
+        try
+        {
+            isLoading = true;
+            AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync(forceRefresh: true);
+            Snackbar.Add("Data refreshed", Severity.Success);
+        }
+        finally
+        {
+            isLoading = false;
+        }
     }
 }

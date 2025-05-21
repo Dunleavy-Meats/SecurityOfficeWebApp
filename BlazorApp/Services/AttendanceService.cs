@@ -4,31 +4,29 @@ using Models;
 
 namespace BlazorApp.Services
 {
-    public class AttendanceService
+    public class AttendanceService : BaseApiService
     {
-        private readonly HttpClient _httpClient;
-        private readonly FirebaseAuthStateProvider _authStateProvider;
+        private const string ENTITY_TYPE = "attendance";
+        private const string ATTENDANCE_CACHE_KEY_PREFIX = "attendance_";
 
         public AttendanceService(
             HttpClient httpClient,
-            FirebaseAuthStateProvider authStateProvider)
+            FirebaseAuthStateProvider authStateProvider,
+            CacheService cacheService)
+            : base(httpClient, authStateProvider, cacheService)
         {
-            _httpClient = httpClient;
-            _authStateProvider = authStateProvider;
-        }
-
-        private async Task AddAuthHeader()
-        {
-            var user = await _authStateProvider.GetFirebaseUser();
-            if (user != null && !string.IsNullOrEmpty(user.token))
-            {
-                _httpClient.DefaultRequestHeaders.Authorization =
-                    new AuthenticationHeaderValue("Bearer", user.token);
-            }
         }
 
         public async Task<List<AttendanceWithVisitor>> GetAttendanceAsync(DateTime date)
         {
+            string cacheKey = $"{ATTENDANCE_CACHE_KEY_PREFIX}{date.ToString("yyyy-MM-dd")}";
+            
+            if (!await HasDataChanged(ENTITY_TYPE) && 
+                _cacheService.TryGetValue<List<AttendanceWithVisitor>>(cacheKey, out var cachedData))
+            {
+                return cachedData;
+            }
+
             await AddAuthHeader();
 
             try
@@ -58,6 +56,15 @@ namespace BlazorApp.Services
                     });
                 }
 
+                // Get the current timestamp for this entity type
+                var timestampResponse = await _httpClient.GetAsync($"api/DataSync/lastmodified/{ENTITY_TYPE}");
+                if (timestampResponse.IsSuccessStatusCode)
+                {
+                    var timestamp = await timestampResponse.Content.ReadFromJsonAsync<DateTime>();
+                    _cacheService.SetLastModified(ENTITY_TYPE, timestamp);
+                }
+
+                _cacheService.Set(cacheKey, attendanceWithVisitors);
                 return attendanceWithVisitors;
             }
             catch (HttpRequestException ex)

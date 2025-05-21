@@ -19,6 +19,7 @@ builder.Services.AddAuthorizationCore();
 builder.Services.AddScoped<VisitorService>();
 builder.Services.AddScoped<AttendanceService>();
 builder.Services.AddMudServices();
+builder.Services.AddSingleton<CacheService>();
 
 builder.Services.AddScoped(sp =>
 {
