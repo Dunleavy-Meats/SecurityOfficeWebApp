@@ -1,0 +1,26 @@
+E:\attendance management\attendance_management\Models\bin\Debug\net7.0\Models.deps.json
+E:\attendance management\attendance_management\Models\bin\Debug\net7.0\Models.dll
+E:\attendance management\attendance_management\Models\bin\Debug\net7.0\Models.pdb
+E:\attendance management\attendance_management\Models\obj\Debug\net7.0\Models.csproj.AssemblyReference.cache
+E:\attendance management\attendance_management\Models\obj\Debug\net7.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\attendance management\attendance_management\Models\obj\Debug\net7.0\Models.AssemblyInfoInputs.cache
+E:\attendance management\attendance_management\Models\obj\Debug\net7.0\Models.AssemblyInfo.cs
+E:\attendance management\attendance_management\Models\obj\Debug\net7.0\Models.csproj.CoreCompileInputs.cache
+E:\attendance management\attendance_management\Models\obj\Debug\net7.0\Models.sourcelink.json
+E:\attendance management\attendance_management\Models\obj\Debug\net7.0\Models.dll
+E:\attendance management\attendance_management\Models\obj\Debug\net7.0\refint\Models.dll
+E:\attendance management\attendance_management\Models\obj\Debug\net7.0\Models.pdb
+E:\attendance management\attendance_management\Models\obj\Debug\net7.0\ref\Models.dll
+E:\DunGit\SecurityOfficeWebApp\Models\bin\Debug\net7.0\Models.deps.json
+E:\DunGit\SecurityOfficeWebApp\Models\bin\Debug\net7.0\Models.dll
+E:\DunGit\SecurityOfficeWebApp\Models\bin\Debug\net7.0\Models.pdb
+E:\DunGit\SecurityOfficeWebApp\Models\obj\Debug\net7.0\Models.csproj.AssemblyReference.cache
+E:\DunGit\SecurityOfficeWebApp\Models\obj\Debug\net7.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\DunGit\SecurityOfficeWebApp\Models\obj\Debug\net7.0\Models.AssemblyInfoInputs.cache
+E:\DunGit\SecurityOfficeWebApp\Models\obj\Debug\net7.0\Models.AssemblyInfo.cs
+E:\DunGit\SecurityOfficeWebApp\Models\obj\Debug\net7.0\Models.csproj.CoreCompileInputs.cache
+E:\DunGit\SecurityOfficeWebApp\Models\obj\Debug\net7.0\Models.sourcelink.json
+E:\DunGit\SecurityOfficeWebApp\Models\obj\Debug\net7.0\Models.dll
+E:\DunGit\SecurityOfficeWebApp\Models\obj\Debug\net7.0\refint\Models.dll
+E:\DunGit\SecurityOfficeWebApp\Models\obj\Debug\net7.0\Models.pdb
+E:\DunGit\SecurityOfficeWebApp\Models\obj\Debug\net7.0\ref\Models.dll

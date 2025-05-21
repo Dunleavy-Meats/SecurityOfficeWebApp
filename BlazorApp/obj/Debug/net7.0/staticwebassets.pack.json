@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\DunGit\\SecurityOfficeWebApp\\BlazorApp\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\DunGit\\SecurityOfficeWebApp\\BlazorApp\\obj\\Debug\\net7.0\\compressed\\sabb9e4wza.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\DunGit\\SecurityOfficeWebApp\\BlazorApp\\obj\\Debug\\net7.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "E:\\DunGit\\SecurityOfficeWebApp\\BlazorApp\\obj\\Debug\\net7.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "E:\\DunGit\\SecurityOfficeWebApp\\BlazorApp\\wwwroot\\Images\\dun_logo.png",
+      "PackagePath": "staticwebassets\\Images\\dun_logo.png"
+    },
+    {
+      "Id": "E:\\DunGit\\SecurityOfficeWebApp\\BlazorApp\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\DunGit\\SecurityOfficeWebApp\\BlazorApp\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "E:\\DunGit\\SecurityOfficeWebApp\\BlazorApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\DunGit\\SecurityOfficeWebApp\\BlazorApp\\wwwroot\\js\\firebase.js",
+      "PackagePath": "staticwebassets\\js\\firebase.js"
+    },
+    {
+      "Id": "E:\\DunGit\\SecurityOfficeWebApp\\BlazorApp\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BlazorApp.props",
+      "PackagePath": "build\\BlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\BlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlazorApp.props",
+      "PackagePath": "buildTransitive\\BlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

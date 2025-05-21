@@ -1,0 +1,1866 @@
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\BlazorApp.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\BlazorApp.pdb
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.20.74trkneaze.js
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.20.74trkneaze.js.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\BlazorApp.pdb.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\BlazorApp.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\service-worker.js
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\service-worker-assets.js
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\BlazorApp.staticwebassets.runtime.json
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\BlazorApp.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\BlazorApp.pdb
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.JSInterop.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\MudBlazor.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.Pipelines.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.CSharp.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.VisualBasic.Core.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.VisualBasic.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Win32.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Win32.Registry.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.AppContext.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Buffers.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Collections.Concurrent.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Collections.Immutable.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Collections.NonGeneric.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Collections.Specialized.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Collections.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.ComponentModel.Annotations.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.ComponentModel.DataAnnotations.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.ComponentModel.EventBasedAsync.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.ComponentModel.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.ComponentModel.TypeConverter.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.ComponentModel.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Configuration.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Console.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Core.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Data.Common.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Data.DataSetExtensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Data.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Diagnostics.Contracts.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Diagnostics.Debug.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Diagnostics.FileVersionInfo.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Diagnostics.Process.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Diagnostics.StackTrace.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Diagnostics.TextWriterTraceListener.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Diagnostics.Tools.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Diagnostics.TraceSource.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Diagnostics.Tracing.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Drawing.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Drawing.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Dynamic.Runtime.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Formats.Asn1.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Formats.Tar.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Globalization.Calendars.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Globalization.Extensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Globalization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.Compression.Brotli.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.Compression.FileSystem.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.Compression.ZipFile.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.Compression.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.FileSystem.AccessControl.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.FileSystem.DriveInfo.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.FileSystem.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.FileSystem.Watcher.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.FileSystem.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.IsolatedStorage.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.MemoryMappedFiles.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.Pipes.AccessControl.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.Pipes.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.UnmanagedMemoryStream.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.IO.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Linq.Expressions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Linq.Parallel.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Linq.Queryable.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Linq.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Memory.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.Http.Json.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.Http.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.HttpListener.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.Mail.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.NameResolution.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.NetworkInformation.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.Ping.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.Quic.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.Requests.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.Security.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.ServicePoint.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.Sockets.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.WebClient.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.WebHeaderCollection.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.WebProxy.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.WebSockets.Client.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.WebSockets.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Net.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Numerics.Vectors.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Numerics.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.ObjectModel.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Private.DataContractSerialization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Private.Uri.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Private.Xml.Linq.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Private.Xml.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Reflection.DispatchProxy.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Reflection.Emit.ILGeneration.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Reflection.Emit.Lightweight.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Reflection.Emit.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Reflection.Extensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Reflection.Metadata.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Reflection.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Reflection.TypeExtensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Reflection.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Resources.Reader.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Resources.ResourceManager.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Resources.Writer.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.CompilerServices.Unsafe.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.CompilerServices.VisualC.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.Extensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.Handles.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.InteropServices.JavaScript.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.InteropServices.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.Intrinsics.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.Loader.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.Numerics.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.Serialization.Formatters.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.Serialization.Json.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.Serialization.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.Serialization.Xml.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.Serialization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Runtime.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.AccessControl.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.Claims.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.Algorithms.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.Cng.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.Csp.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.Encoding.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.OpenSsl.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.Primitives.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.X509Certificates.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.Principal.Windows.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.Principal.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.SecureString.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Security.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.ServiceModel.Web.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.ServiceProcess.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Text.Encoding.Extensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Text.Encoding.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Text.Json.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Text.RegularExpressions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Threading.Channels.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Threading.Overlapped.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Threading.Tasks.Dataflow.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Threading.Tasks.Extensions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Threading.Tasks.Parallel.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Threading.Tasks.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Threading.Thread.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Threading.ThreadPool.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Threading.Timer.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Threading.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Transactions.Local.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Transactions.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.ValueTuple.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Web.HttpUtility.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Web.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Windows.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Xml.Linq.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Xml.ReaderWriter.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Xml.Serialization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Xml.XDocument.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Xml.XPath.XDocument.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Xml.XPath.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Xml.XmlDocument.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Xml.XmlSerializer.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Xml.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\WindowsBase.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\mscorlib.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\netstandard.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Private.CoreLib.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\dotnet.js
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\dotnet.timezones.blat
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\dotnet.wasm
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\icudt_CJK.dat
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\icudt_EFIGS.dat
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\icudt_no_CJK.dat
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.AssemblyReference.cache
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\BlazorApp.AssemblyInfoInputs.cache
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\BlazorApp.AssemblyInfo.cs
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.CoreCompileInputs.cache
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\BlazorApp.sourcelink.json
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\blazor.build.boot-extension.json
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\blazor.boot.json
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\staticwebassets.build.json
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\staticwebassets.development.json
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorApp.props
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp.props
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorApp.props
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\staticwebassets.pack.json
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\scopedcss\bundle\BlazorApp.styles.css
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\sabb9e4wza.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\26nlvt250c.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\eckqrtk3t2.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\wnexmk5e6s.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\yq6z9yehyh.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\loo6bmzudq.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\rbs9zlp1ur.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\fvn4jhjm8k.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\aagj8q5aje.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\bodgo89ktk.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\j70ko36fsa.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\yhm6mpd64u.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\d7a4iei0ve.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\7h0vg9ghlr.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\zapaoyfysf.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\jqd42ao5z4.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ce8ym9zur1.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\5cvpgbj4pa.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\m892axsu4m.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\3ikkq3sx4r.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\356p3xxppv.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\n0bc5kicnl.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\a9nwft8isc.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\101i3i07nq.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\d0ji6wmdt9.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\a174efljqv.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\1u1ti4lsw0.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\yiugtvie7z.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\kqxs2z3xol.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\qcazfo9x9l.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\gpj9y6jcbn.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\l4iz6ujd11.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\yzla2z1928.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\pmlk9wcb2c.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\u9cg6iczkg.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\7eku89o77n.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\mkmbmbosjz.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\2yzkx2t3os.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\eszp3y9ka5.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\57qdwjcabm.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\0dt0cbmcb5.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\q4ljypelnl.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\tzp783g072.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\zehbyg5sr9.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\azrjkflysz.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\qkfupghez0.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\7liyqu4p8h.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\tgt0nncphb.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\8jox70vmdc.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\cax578mn4a.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\hm79bwruxh.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\izkukxaaj7.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\377po53kt6.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\e7txizuxv8.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\hvre1lzh6f.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\510u2s8fsi.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\9y16cf1e8u.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\idueu05c40.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\zlut65bl4e.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\efxfefce6u.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\vm58e0lmd6.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\tp4qs6yp3u.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\2vvwocf06h.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\c1nvqjxb0w.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\fgp660agan.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\wht79dttsw.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\2piu63lc32.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\s8p9dkaf72.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\2ys89vua93.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\zpswxtukwk.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\fo44i1th7w.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\rt7cswymk7.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\1yptzlri76.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\focu1ddcdy.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\r6uhpzr3et.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\3qsx8tfa6i.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\129u37zs9p.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\rlettu5kap.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\vuvxohhylo.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\6kc3zjxqpt.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\gz1srw1d4k.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\nnmqx0961i.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\i5bpixu6se.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\z9zitr4h8b.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\10gz1b4bau.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\yavyoa5qfe.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\v1bmybxbu9.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\xyyqurla4d.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\58hhal57dp.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\7ewy5y3ftm.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\m2a6vpe2g6.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\o7cco4o8bd.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\auzp2oxalm.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\xu8iy6z775.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\t7d1nbll3j.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\vav22hiel4.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\6tywjv1gsn.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\bahwijmbcf.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\t9pb5fmerf.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\bm1j5tzufi.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\mb79i3kccm.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\nz61i8ug3g.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\tmpvvkrzd6.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\k3x710xdu0.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\xsrmhg1trq.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\bztssc0nuo.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\vslmhon7z4.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\5lp1uutvuw.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\waie84aynq.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\fondod1ihz.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\vbtn9lb9fg.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ra6pmpr7qk.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\vjqly255s1.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\8ixj74npsk.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\zzczfem2y9.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\30550rjb83.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\2qub1tnnbe.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\pabb3bp28v.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ne946cyghf.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\rzrndoqd26.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\cmx9diul9w.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\a01yf5hkfj.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ca2s3osbj5.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\vhdb2ncxq8.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\3b1rr7dhwg.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\3hm1qc52ni.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\i9jj8z907e.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\0ivy9mz2oa.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\96u64kw2v8.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\asp2w0q6mk.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\z4c2p467py.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\lhe7uffrhp.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\nuj8ypxkjy.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\k8f092lxi3.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\yt9s54tg05.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\2bg6mum0v8.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\91omdpv0h1.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\f6f5o730yi.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ni2p6prafw.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\zw6eo84la4.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\apl3uw6cng.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ime0ug55uh.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\21ur3nioij.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\6w5165bk09.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\qycfwrivpn.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ra3byv4hac.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\sj3u6iqh1i.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\cjv9oa1f00.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\60115niw6d.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\38mqp72ajn.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\jcqtur8hgz.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\vjbmtm78x7.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\et6321w8wg.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\d9l3zs1efy.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\10mhqhoqw3.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\xtijq7l39b.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\zdv0vsanul.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\srgcntbuyi.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\xftemd3apm.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\mi25ijtcq3.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\zm5f1ckfu2.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\tz737fnsjn.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\qmgqwfzqhv.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\csiivc54fk.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\pnpahcvrl2.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\d0bd8exy9e.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\bumehwdfiw.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ojnj0bdlw8.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\imw9etoeg6.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\03l8lsfcn1.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\vbpex91rne.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\iifjhwmd31.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ni1b1cwrvf.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\cafpqlf3tg.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\7f0bmaecs4.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ozl4rcx9ny.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\r83o7scnmm.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\efk6unwqte.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\mmhcra0m43.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\0al3ge5gig.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ls8ypo1n6h.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\obk0x9dulv.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\wf3vy1ozt0.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\4hvyfncz50.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\o6e1pnqywr.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\lchspy480x.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\my2606a0vu.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\480q9tj03v.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\swj25o2pqd.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\i1qsuuezq1.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\9hr2hc0s7y.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\3e2ljpqcyh.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\a4rsffz1mw.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\4o2oaaomfh.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\w5pfdtzk1q.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\74trkneaze.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\svq8qjs68j.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\cpm868w813.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\cbfakysfnq.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\02jwi0d9kw.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\65ejhqhu23.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\gqu1fy9gx3.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\a2l8136mjj.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\v5xmy37558.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\service-worker\service-worker.js
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\service-worker-assets.js.build
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.Up2Date
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\BlazorApp.dll
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\refint\BlazorApp.dll
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\BlazorApp.pdb
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\ref\BlazorApp.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.CommonProtos.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.Gax.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.Gax.Grpc.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.Auth.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.Core.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Firestore.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Firestore.V1.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Location.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.LongRunning.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Protobuf.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Auth.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Core.Api.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Net.Client.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Net.Common.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Bcl.AsyncInterfaces.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Models.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Models.pdb
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Newtonsoft.Json.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.CodeDom.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Async.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Management.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.CommonProtos.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.Gax.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.LongRunning.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Models.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Auth.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Management.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Protobuf.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Location.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Models.pdb.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.Auth.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Core.Api.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.Gax.Grpc.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.CodeDom.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Firestore.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Net.Common.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Net.Client.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.Core.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Bcl.AsyncInterfaces.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Firestore.V1.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Async.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Google.Api.CommonProtos.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Google.Api.Gax.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Google.Api.Gax.Grpc.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Google.Apis.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Google.Apis.Auth.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Google.Apis.Core.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Google.Cloud.Firestore.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Google.Cloud.Firestore.V1.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Google.Cloud.Location.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Google.LongRunning.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Google.Protobuf.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Grpc.Auth.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Grpc.Core.Api.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Grpc.Net.Client.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Grpc.Net.Common.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Authorization.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.CodeDom.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Linq.Async.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\System.Management.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Models.dll
+E:\attendance management\attendance_management\BlazorApp\bin\Debug\net7.0\Models.pdb
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\0u585msh63.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\3k3pggrdry.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\rdnns2rx06.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\rqhzi7xe23.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\q8ebj4yqdg.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\u8c5iculyd.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\s1yyymfq7w.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\xxrkwqbloc.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\h6tk2jy8bz.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\6nplvkckc2.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\d2bfeg3qm5.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\c3i9d8yi96.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\r9l6ef3gzq.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\tx5gdn6b08.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\swa89fjp3b.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\x821ka7v8k.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\wzl4jl0bs9.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\ysunex8vpv.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\rr2a25f1g2.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\y33923af8i.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\cdmbzyzqn7.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\8eprgcesbw.gz
+E:\attendance management\attendance_management\BlazorApp\obj\Debug\net7.0\compressed\olmcze39dc.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.20.74trkneaze.js
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.CommonProtos.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.Gax.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.Gax.Grpc.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.Auth.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.Core.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Firestore.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Firestore.V1.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Location.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.LongRunning.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Protobuf.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Auth.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Core.Api.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Net.Client.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Net.Common.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Bcl.AsyncInterfaces.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Newtonsoft.Json.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.CodeDom.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Async.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Management.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.CommonProtos.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.Gax.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.LongRunning.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.20.74trkneaze.js.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Auth.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Management.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Protobuf.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Location.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.Auth.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Core.Api.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Api.Gax.Grpc.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.CodeDom.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Firestore.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Net.Common.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Grpc.Net.Client.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Apis.Core.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Bcl.AsyncInterfaces.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Google.Cloud.Firestore.V1.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Async.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\BlazorApp.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\BlazorApp.pdb
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Models.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Models.pdb
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\BlazorApp.pdb.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Models.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\Models.pdb.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\BlazorApp.dll.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\service-worker.js
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\wwwroot\service-worker-assets.js
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\BlazorApp.staticwebassets.runtime.json
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\BlazorApp.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\BlazorApp.pdb
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Google.Api.CommonProtos.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Google.Api.Gax.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Google.Api.Gax.Grpc.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Google.Apis.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Google.Apis.Auth.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Google.Apis.Core.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Google.Cloud.Firestore.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Google.Cloud.Firestore.V1.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Google.Cloud.Location.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Google.LongRunning.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Google.Protobuf.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Grpc.Auth.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Grpc.Core.Api.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Grpc.Net.Client.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Grpc.Net.Common.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Authorization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.JSInterop.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\MudBlazor.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.CodeDom.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.Pipelines.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Linq.Async.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Management.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.CSharp.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.VisualBasic.Core.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.VisualBasic.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Win32.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Microsoft.Win32.Registry.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.AppContext.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Buffers.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Collections.Concurrent.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Collections.Immutable.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Collections.NonGeneric.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Collections.Specialized.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Collections.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.ComponentModel.Annotations.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.ComponentModel.DataAnnotations.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.ComponentModel.EventBasedAsync.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.ComponentModel.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.ComponentModel.TypeConverter.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.ComponentModel.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Configuration.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Console.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Core.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Data.Common.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Data.DataSetExtensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Data.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Diagnostics.Contracts.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Diagnostics.Debug.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Diagnostics.FileVersionInfo.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Diagnostics.Process.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Diagnostics.StackTrace.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Diagnostics.TextWriterTraceListener.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Diagnostics.Tools.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Diagnostics.TraceSource.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Diagnostics.Tracing.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Drawing.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Drawing.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Dynamic.Runtime.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Formats.Asn1.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Formats.Tar.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Globalization.Calendars.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Globalization.Extensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Globalization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.Compression.Brotli.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.Compression.FileSystem.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.Compression.ZipFile.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.Compression.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.FileSystem.AccessControl.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.FileSystem.DriveInfo.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.FileSystem.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.FileSystem.Watcher.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.FileSystem.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.IsolatedStorage.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.MemoryMappedFiles.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.Pipes.AccessControl.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.Pipes.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.UnmanagedMemoryStream.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.IO.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Linq.Expressions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Linq.Parallel.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Linq.Queryable.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Linq.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Memory.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.Http.Json.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.Http.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.HttpListener.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.Mail.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.NameResolution.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.NetworkInformation.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.Ping.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.Quic.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.Requests.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.Security.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.ServicePoint.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.Sockets.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.WebClient.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.WebHeaderCollection.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.WebProxy.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.WebSockets.Client.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.WebSockets.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Net.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Numerics.Vectors.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Numerics.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.ObjectModel.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Private.DataContractSerialization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Private.Uri.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Private.Xml.Linq.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Private.Xml.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Reflection.DispatchProxy.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Reflection.Emit.ILGeneration.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Reflection.Emit.Lightweight.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Reflection.Emit.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Reflection.Extensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Reflection.Metadata.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Reflection.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Reflection.TypeExtensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Reflection.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Resources.Reader.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Resources.ResourceManager.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Resources.Writer.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.CompilerServices.Unsafe.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.CompilerServices.VisualC.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.Extensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.Handles.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.InteropServices.JavaScript.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.InteropServices.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.Intrinsics.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.Loader.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.Numerics.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.Serialization.Formatters.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.Serialization.Json.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.Serialization.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.Serialization.Xml.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.Serialization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Runtime.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.AccessControl.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.Claims.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.Algorithms.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.Cng.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.Csp.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.Encoding.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.OpenSsl.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.Primitives.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.X509Certificates.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.Cryptography.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.Principal.Windows.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.Principal.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.SecureString.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Security.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.ServiceModel.Web.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.ServiceProcess.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Text.Encoding.Extensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Text.Encoding.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Text.Json.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Text.RegularExpressions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Threading.Channels.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Threading.Overlapped.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Threading.Tasks.Dataflow.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Threading.Tasks.Extensions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Threading.Tasks.Parallel.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Threading.Tasks.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Threading.Thread.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Threading.ThreadPool.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Threading.Timer.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Threading.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Transactions.Local.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Transactions.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.ValueTuple.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Web.HttpUtility.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Web.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Windows.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Xml.Linq.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Xml.ReaderWriter.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Xml.Serialization.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Xml.XDocument.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Xml.XPath.XDocument.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Xml.XPath.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Xml.XmlDocument.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Xml.XmlSerializer.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Xml.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\WindowsBase.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\mscorlib.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\netstandard.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\System.Private.CoreLib.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\dotnet.js
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\dotnet.timezones.blat
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\dotnet.wasm
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\icudt_CJK.dat
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\icudt_EFIGS.dat
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\icudt_no_CJK.dat
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Models.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\bin\Debug\net7.0\Models.pdb
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.AssemblyReference.cache
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\BlazorApp.AssemblyInfoInputs.cache
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\BlazorApp.AssemblyInfo.cs
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.CoreCompileInputs.cache
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\BlazorApp.sourcelink.json
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\blazor.build.boot-extension.json
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\blazor.boot.json
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\staticwebassets.build.json
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\staticwebassets.development.json
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorApp.props
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp.props
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorApp.props
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\staticwebassets.pack.json
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\scopedcss\bundle\BlazorApp.styles.css
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\sabb9e4wza.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\0u585msh63.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\3k3pggrdry.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\rdnns2rx06.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\rqhzi7xe23.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\q8ebj4yqdg.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\u8c5iculyd.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\s1yyymfq7w.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\xxrkwqbloc.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\h6tk2jy8bz.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\6nplvkckc2.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\d2bfeg3qm5.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\c3i9d8yi96.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\r9l6ef3gzq.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\tx5gdn6b08.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\swa89fjp3b.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\26nlvt250c.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\eckqrtk3t2.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\x821ka7v8k.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\wnexmk5e6s.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\yq6z9yehyh.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\loo6bmzudq.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\rbs9zlp1ur.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\wzl4jl0bs9.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\fvn4jhjm8k.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\aagj8q5aje.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\bodgo89ktk.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\j70ko36fsa.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\yhm6mpd64u.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\d7a4iei0ve.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\7h0vg9ghlr.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\zapaoyfysf.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\jqd42ao5z4.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ce8ym9zur1.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\5cvpgbj4pa.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\m892axsu4m.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\3ikkq3sx4r.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\356p3xxppv.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\n0bc5kicnl.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\a9nwft8isc.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\101i3i07nq.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\d0ji6wmdt9.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\a174efljqv.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ysunex8vpv.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\rr2a25f1g2.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\1u1ti4lsw0.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\y33923af8i.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\cdmbzyzqn7.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\yiugtvie7z.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\kqxs2z3xol.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\qcazfo9x9l.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\gpj9y6jcbn.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\l4iz6ujd11.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\yzla2z1928.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\pmlk9wcb2c.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\u9cg6iczkg.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\7eku89o77n.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\mkmbmbosjz.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\2yzkx2t3os.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\eszp3y9ka5.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\57qdwjcabm.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\0dt0cbmcb5.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\q4ljypelnl.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\tzp783g072.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\zehbyg5sr9.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\azrjkflysz.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\qkfupghez0.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\7liyqu4p8h.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\tgt0nncphb.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\8jox70vmdc.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\cax578mn4a.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\hm79bwruxh.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\izkukxaaj7.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\377po53kt6.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\e7txizuxv8.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\hvre1lzh6f.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\510u2s8fsi.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\9y16cf1e8u.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\idueu05c40.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\zlut65bl4e.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\efxfefce6u.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\vm58e0lmd6.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\tp4qs6yp3u.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\2vvwocf06h.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\c1nvqjxb0w.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\fgp660agan.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\wht79dttsw.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\2piu63lc32.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\s8p9dkaf72.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\2ys89vua93.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\zpswxtukwk.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\fo44i1th7w.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\rt7cswymk7.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\1yptzlri76.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\focu1ddcdy.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\r6uhpzr3et.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\3qsx8tfa6i.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\129u37zs9p.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\rlettu5kap.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\vuvxohhylo.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\6kc3zjxqpt.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\gz1srw1d4k.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\nnmqx0961i.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\i5bpixu6se.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\z9zitr4h8b.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\10gz1b4bau.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\yavyoa5qfe.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\v1bmybxbu9.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\xyyqurla4d.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\58hhal57dp.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\7ewy5y3ftm.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\m2a6vpe2g6.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\o7cco4o8bd.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\auzp2oxalm.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\xu8iy6z775.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\t7d1nbll3j.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\vav22hiel4.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\6tywjv1gsn.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\bahwijmbcf.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\t9pb5fmerf.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\bm1j5tzufi.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\mb79i3kccm.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\nz61i8ug3g.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\tmpvvkrzd6.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\k3x710xdu0.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\xsrmhg1trq.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\bztssc0nuo.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\vslmhon7z4.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\5lp1uutvuw.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\waie84aynq.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\fondod1ihz.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\vbtn9lb9fg.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ra6pmpr7qk.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\vjqly255s1.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\8ixj74npsk.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\zzczfem2y9.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\30550rjb83.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\2qub1tnnbe.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\pabb3bp28v.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ne946cyghf.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\rzrndoqd26.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\cmx9diul9w.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\a01yf5hkfj.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ca2s3osbj5.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\vhdb2ncxq8.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\3b1rr7dhwg.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\3hm1qc52ni.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\i9jj8z907e.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\0ivy9mz2oa.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\96u64kw2v8.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\asp2w0q6mk.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\z4c2p467py.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\lhe7uffrhp.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\nuj8ypxkjy.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\k8f092lxi3.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\yt9s54tg05.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\2bg6mum0v8.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\91omdpv0h1.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\f6f5o730yi.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ni2p6prafw.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\zw6eo84la4.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\apl3uw6cng.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ime0ug55uh.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\21ur3nioij.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\6w5165bk09.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\qycfwrivpn.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ra3byv4hac.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\sj3u6iqh1i.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\cjv9oa1f00.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\60115niw6d.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\38mqp72ajn.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\jcqtur8hgz.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\vjbmtm78x7.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\et6321w8wg.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\d9l3zs1efy.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\10mhqhoqw3.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\xtijq7l39b.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\zdv0vsanul.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\srgcntbuyi.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\xftemd3apm.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\mi25ijtcq3.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\zm5f1ckfu2.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\tz737fnsjn.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\qmgqwfzqhv.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\csiivc54fk.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\pnpahcvrl2.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\d0bd8exy9e.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\bumehwdfiw.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ojnj0bdlw8.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\imw9etoeg6.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\03l8lsfcn1.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\vbpex91rne.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\iifjhwmd31.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ni1b1cwrvf.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\cafpqlf3tg.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\7f0bmaecs4.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ozl4rcx9ny.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\r83o7scnmm.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\efk6unwqte.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\mmhcra0m43.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\0al3ge5gig.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\ls8ypo1n6h.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\obk0x9dulv.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\wf3vy1ozt0.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\4hvyfncz50.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\o6e1pnqywr.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\lchspy480x.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\my2606a0vu.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\480q9tj03v.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\swj25o2pqd.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\i1qsuuezq1.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\9hr2hc0s7y.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\3e2ljpqcyh.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\a4rsffz1mw.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\4o2oaaomfh.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\w5pfdtzk1q.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\74trkneaze.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\svq8qjs68j.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\cpm868w813.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\cbfakysfnq.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\02jwi0d9kw.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\65ejhqhu23.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\cdxsn0v2l6.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\fepjuvn6a8.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\gqu1fy9gx3.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\a2l8136mjj.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\compressed\v5xmy37558.gz
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\service-worker\service-worker.js
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\service-worker-assets.js.build
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\BlazorApp.csproj.Up2Date
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\BlazorApp.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\refint\BlazorApp.dll
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\BlazorApp.pdb
+E:\DunGit\SecurityOfficeWebApp\BlazorApp\obj\Debug\net7.0\ref\BlazorApp.dll
