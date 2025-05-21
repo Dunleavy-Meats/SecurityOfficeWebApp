@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "..\BlazorApp\BlazorApp.csproj", "{87B82941-F212-4B33-9A50-2607EE072570}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", ".\BlazorApp\BlazorApp.csproj", "{87B82941-F212-4B33-9A50-2607EE072570}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "..\Models\Models.csproj", "{B14F0734-8301-4DA7-9685-006E6505929A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", ".\Models\Models.csproj", "{B14F0734-8301-4DA7-9685-006E6505929A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
