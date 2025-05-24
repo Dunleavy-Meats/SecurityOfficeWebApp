@@ -252,8 +252,8 @@ namespace Models
 
         public bool Expired()
         {
-            return AllQuestionerData != null && AllQuestionerData.Count > 0 &&
-				   QuestionerData.CreatedOn.Value.AddDays(StaticResources.ExpiryDaysAmount) < DateTime.UtcNow;
+            var result = Visitor.Details.QuestionerExpiryDate < DateTime.UtcNow;
+			return result;
         }
     }
 

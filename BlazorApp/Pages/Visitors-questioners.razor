@@ -53,7 +53,7 @@
 									<HeaderContent>
 										<MudTh>Created On</MudTh>
 										<MudTh>View</MudTh>
-										<MudTh>Expired</MudTh>
+										<MudTh>Is Valid?</MudTh>
 									</HeaderContent>
 									<RowTemplate>
 										<MudTd DataLabel="Created on">@questionerData.CreatedOn.Value.ToShortDateString()</MudTd>
@@ -61,7 +61,7 @@
 											<MudIconButton OnClick="@(() => ShowQuestionerData(context.Visitor, questionerData))" Icon="@Icons.Material.Rounded.Print">Print/View</MudIconButton>
 										</MudTd>
 										<MudTd DataLabel="Expired">
-											<MudIcon Icon="@((context.Expired() ? Icons.Material.Filled.CheckCircle : Icons.Material.Filled.Cancel))" Color="@(context.Expired() ? Color.Success : Color.Error)" />
+											<MudIcon Icon="@((context.Expired() ? Icons.Material.Filled.Cancel : Icons.Material.Filled.CheckCircle))" Color="@(context.Expired() ? Color.Error : Color.Success)" />
 										</MudTd>
 									</RowTemplate>
 								</MudTable>
