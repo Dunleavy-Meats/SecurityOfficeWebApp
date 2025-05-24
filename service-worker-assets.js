@@ -20,11 +20,11 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-ku+cUiGIEVkIG5jckzz69nUp+cWCs21Ag2AC\/kEoq+U=",
+      "hash": "sha256-S0zq1n\/SX4bLGddYbmpK9ueW1E3diOjCDPAJjCBHAAo=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-UaFR+k1y1YwHdDyY5yjlQt4VTFdGIBws2v9\/G4lecVw=",
+      "hash": "sha256-bd\/TZA87k4Gchm1M6I9hMevbpVqtt\/j3OpdGsSyKVmI=",
       "url": "js\/firebase.js"
     },
     {
@@ -496,5 +496,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "g\/8By9Z6"
+  "version": "27B+zwee"
 };
