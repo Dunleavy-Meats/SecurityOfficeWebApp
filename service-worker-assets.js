@@ -20,11 +20,11 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-S0zq1n\/SX4bLGddYbmpK9ueW1E3diOjCDPAJjCBHAAo=",
+      "hash": "sha256-ku+cUiGIEVkIG5jckzz69nUp+cWCs21Ag2AC\/kEoq+U=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-bd\/TZA87k4Gchm1M6I9hMevbpVqtt\/j3OpdGsSyKVmI=",
+      "hash": "sha256-UaFR+k1y1YwHdDyY5yjlQt4VTFdGIBws2v9\/G4lecVw=",
       "url": "js\/firebase.js"
     },
     {
@@ -72,11 +72,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-Pvk5m1kKSGMnCgeZTToM9lY8815zZPmobZCkVpZWRo0=",
+      "hash": "sha256-QVuDM41khg1A1VbzcTXYdRJyP09HUT1KygzuY5wIFpc=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-g3FybagUsQyAPzu6pbvN+geCsuiMm7u\/tgcakpHMekY=",
+      "hash": "sha256-LrHn6kgelbGCghcKFfs7rWG4EDnJq2gyvwU4KrlG1cU=",
       "url": "_framework\/BlazorApp.dll"
     },
     {
@@ -228,7 +228,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-GlTzDRqWwKFOVAEGLJsWuMZleVTfnAhIqdk8Y6hKcyE=",
+      "hash": "sha256-+L2DcpbV80DGmf0Ke5QFFlgczOVAKoCGl+ij1eeegP4=",
       "url": "_framework\/Models.dll"
     },
     {
@@ -496,5 +496,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "MDvXUJhw"
+  "version": "g\/8By9Z6"
 };
