@@ -1,5 +1,6 @@
 ﻿
 using Google.Cloud.Firestore;
+using Models.Utils;
 using System.Text.Json.Serialization;
 
 namespace Models
@@ -247,6 +248,12 @@ namespace Models
                 return "N/A";
 
             return AllQuestionerData.First().CreatedOn.Value.ToShortDateString();
+        }
+
+        public bool Expired()
+        {
+            return AllQuestionerData != null && AllQuestionerData.Count > 0 &&
+				   QuestionerData.CreatedOn.Value.AddDays(StaticResources.ExpiryDaysAmount) < DateTime.UtcNow;
         }
     }
 

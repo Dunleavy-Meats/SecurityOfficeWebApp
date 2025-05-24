@@ -7,7 +7,7 @@
 
 <MudCard>
 	<MudCardContent>
-		<MudText Typo="Typo.h4" Align="Align.Start" Class="mb-4">Visitors Questioners</MudText>
+		<MudText Typo="Typo.h4" Align="Align.Start" Class="mb-4">Visitors Questionnaire</MudText>
 	</MudCardContent>
 	<MudTable T="VisitorWithQuestionerData" Items="@AllVisitors" Hover="true" FixedHeader="true" FixedFooter="true" Elevation="15" OnRowClick="RowClickEvent">
 		<HeaderContent>
@@ -15,7 +15,7 @@
 			<MudTh>Visitor Name</MudTh>
 			<MudTh>Company</MudTh>
 			<MudTh>Phone Number</MudTh>
-			<MudTh>Questioner Expiry Date</MudTh>
+			<MudTh>Questionnaire Expiry Date</MudTh>
 			<MudTh>Number of Questioner</MudTh>
 		</HeaderContent>
 		<RowTemplate>
@@ -41,7 +41,7 @@
 						<MudCard Elevation="15">
 							<MudCardHeader>
 								<CardHeaderContent>
-									<MudText Typo="Typo.body1">Questioners for <strong>@context.Visitor.Details.VisitorName</strong></MudText>
+									<MudText Typo="Typo.body1">Questioners for <strong>@context.Visitor.Details.VisitorName</strong> From <strong>@context.Visitor.Details.CompanyName</strong> </MudText>
 								</CardHeaderContent>
 							</MudCardHeader>
 							<MudCardContent Class="pa-0">
@@ -52,11 +52,16 @@
 									</ColGroup>
 									<HeaderContent>
 										<MudTh>Created On</MudTh>
+										<MudTh>View</MudTh>
+										<MudTh>Expired</MudTh>
 									</HeaderContent>
 									<RowTemplate>
 										<MudTd DataLabel="Created on">@questionerData.CreatedOn.Value.ToShortDateString()</MudTd>
 										<MudTd DataLabel="Click To Show/Print">
 											<MudIconButton OnClick="@(() => ShowQuestionerData(context.Visitor, questionerData))" Icon="@Icons.Material.Rounded.Print">Print/View</MudIconButton>
+										</MudTd>
+										<MudTd DataLabel="Expired">
+											<MudIcon Icon="@((context.Expired() ? Icons.Material.Filled.CheckCircle : Icons.Material.Filled.Cancel))" Color="@(context.Expired() ? Color.Success : Color.Error)" />
 										</MudTd>
 									</RowTemplate>
 								</MudTable>
