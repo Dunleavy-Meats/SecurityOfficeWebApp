@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "BlazorApp.dll": "sha256-64Drqi4KPurcWtuXzEuZ6TAHrl2m18+WDPu7TNWQcvg=",
+      "BlazorApp.dll": "sha256-G9XUvshA7Mwbzub4NBP6DLw8CpuMcBqp5qpuuWCvlSM=",
       "Google.Api.CommonProtos.dll": "sha256-H+eSxkzq5oCMYmoiaUiMkP2\/bJ5\/A\/dnvhzPzj8XUp4=",
       "Google.Api.Gax.dll": "sha256-0qMwQ1M8p+sTRA+HgcfSBCnhm0PHKNTig0aRCSkiRxI=",
       "Google.Api.Gax.Grpc.dll": "sha256-vLDIptqZAnnSBQ0s+toGmkg4\/\/Da7KFnvFaTZxvUXEY=",
@@ -46,7 +46,7 @@
       "Microsoft.JSInterop.dll": "sha256-6sI6Ra8xQDyGkY3v086ZnxrZ+oCJLRChstgIgMrcym0=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-1EwKATu4rfTEr5ZWywXlzO+RZVsqOd7lbgg6aK1d4qE=",
       "Models.dll": "sha256-+L2DcpbV80DGmf0Ke5QFFlgczOVAKoCGl+ij1eeegP4=",
-      "MudBlazor.dll": "sha256-t+avyLjvvcGXgZ4mgnGOMaB17Ndmp\/vUM2B7mmDY7rs=",
+      "MudBlazor.dll": "sha256-r8fTC6cUxQTCtPCgNy6t4\/bQPGqL1LnmYDuQz4HoT2c=",
       "netstandard.dll": "sha256-+YnG16twKTlvNHB1ZGhGUZWHReTQyztZlYT1u6ZHmwo=",
       "Newtonsoft.Json.dll": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
       "System.CodeDom.dll": "sha256-TTPimGqE1EYIU+K5jTobqfiqKVD3+hL\/atLhWkvM\/Rg=",
