@@ -38,7 +38,7 @@ else
                 <PropertyColumn Property="x => x.Visitor.Details.Type" Title="Type" />
                 <PropertyColumn Property="@(x => x.Visitor.Details.Approved.HasValue ?  x.Visitor.Details.Approved.ToString() :  NA_Yes_No.NA.ToString())"  Title="Approved" Editable="true" />
                 <PropertyColumn Property="x => x.Visitor.GetLastVisit()" Title="LastVisit"  />
-                <PropertyColumn Property="@(x=> x.QuestionerData != null &&  x.QuestionerData.CreatedOn.HasValue ? x.QuestionerData.CreatedOn.Value.ToShortDateString() : "N/A" )" Title="Answerd Questioner On" />
+                <PropertyColumn Property="@(x=> x.QuestionerData != null &&  x.QuestionerData.CreatedOn.HasValue ? x.QuestionerData.CreatedOn.Value.ToShortDateString() : "N/A" )" Title="Answered Questionnaire On" />
                 <TemplateColumn CellClass="d-flex justify-end">
                     <CellTemplate>
                         <MudStack AlignItems="AlignItems.Center" Row="true">
@@ -48,7 +48,7 @@ else
                             </MudButton> 
                             <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.ListAlt" Color="Color.Tertiary" Size="Size.Small"
                                        OnClick="@(() => ShowQuestionerData(context.Item))" Disabled="@(context.Item.QuestionerData == null)">
-                                <MudText Inline="true" Typo="Typo.caption">Show Questioner </MudText>
+                                <MudText Inline="true" Typo="Typo.caption">Show Questionnaire </MudText>
                             </MudButton>
                         </MudStack>
                     </CellTemplate>
