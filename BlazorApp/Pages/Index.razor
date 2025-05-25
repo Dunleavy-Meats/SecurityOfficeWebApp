@@ -35,8 +35,8 @@
                     <MudTd>@context.Visitor.Details.CompanyName</MudTd>
                     <MudTd>@context.Visitor.Details.MobileNumber</MudTd>
                     <MudTd>@context.Record.VehicleReg</MudTd>
-                    <MudTd>@context.Record.CheckInTime.ToString()</MudTd>
-                    <MudTd Style=@(GetCellStyle(context))>@context.CheckOutText()</MudTd>
+                    <MudTd>@GetFirstCheckInTime(context)</MudTd>
+                    <MudTd Style=@(GetCellStyle(context))>@GetLastCheckOutTime(context)</MudTd>
                     <MudTd>@context.Record.Sessions.Count</MudTd>
                 </RowTemplate>
                 <ChildRowContent>
@@ -53,7 +53,7 @@
                                 <MudCardContent>
                                         <MudGrid>
                                             <MudItem xs="12">
-                                                <MudTable Items="@context.Record.Sessions" Context="SessionContext" Breakpoint="Breakpoint.Sm" Elevation="0">
+                                                <MudTable Items="@GetOrderedSessions(context.Record.Sessions)" Context="SessionContext" Breakpoint="Breakpoint.Sm" Elevation="0">
                                                     <ColGroup>
                                                         <col style="width:650px;" />
                                                         <col style="width:stretch" />
@@ -63,8 +63,10 @@
                                                         <MudTh>CheckOut Time</MudTh>
                                                     </HeaderContent>
                                                     <RowTemplate>
-                                                        <MudTd DataLabel="CheckIn Time">@SessionContext.CheckInTime</MudTd>
-                                                        <MudTd DataLabel="CheckOut Time">@SessionContext.CheckOutTime</MudTd>
+                                                        <MudTd DataLabel="CheckIn Time">@SessionContext.CheckInTime.ToString("dd/MM/yyyy HH:mm")</MudTd>
+                                                        <MudTd DataLabel="CheckOut Time">
+                                                            @(SessionContext.CheckOutTime.HasValue ? SessionContext.CheckOutTime.Value.ToString("dd/MM/yyyy HH:mm") : "-")
+                                                        </MudTd>
                                                     </RowTemplate>
                                                 </MudTable>
                                             </MudItem>
@@ -129,22 +131,7 @@
 
     private List<AttendanceWithVisitor> AllAttendanceRecords = new();
     private List<AttendanceWithVisitor> onSiteRecords = new();
-    private string _searchString = string.Empty;
     private DateTime? _date = DateTime.Today;
-
-    private Func<Visitor, bool> _quickFilter => x =>
-    {
-        if (string.IsNullOrWhiteSpace(_searchString))
-            return true;
-
-        if (x.Details.VisitorName.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
-            return true;
-
-        if (x.Details.CompanyName.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
-            return true;
-
-        return false;
-    };
 
     private void OnRowClicked(TableRowClickEventArgs<AttendanceWithVisitor> clickEvent)
     {
@@ -176,11 +163,74 @@
         if (record.Record.CheckOutTime == null)
         {
             if (record.Record.CheckInTime.Date == DateTime.UtcNow.Date)
-            return "color: #07570b;";
+                return "color: #07570b;";
             else
-            return "color: #610b16;";
+                return "color: #610b16;";
         }
 
-		return string.Empty;
-	}
+        return string.Empty;
+    }
+
+    private string GetFirstCheckInTime(AttendanceWithVisitor record)
+    {
+        DateTime checkInTime;
+
+        // If there are no sessions, use the main record's check-in time
+        if (record.Record.Sessions == null || !record.Record.Sessions.Any())
+            checkInTime = record.Record.CheckInTime;
+        else
+            // Get the earliest check-in time from all sessions
+            checkInTime = record.Record.Sessions
+                .OrderBy(s => s.CheckInTime)
+                .First()
+                .CheckInTime;
+
+        return checkInTime.ToString("dd/MM/yyyy HH:mm");
+    }
+
+    private string GetLastCheckOutTime(AttendanceWithVisitor record)
+    {
+        string result = string.Empty;
+        // If permanently left, but no checkout time set
+        if (record.Record.PermanentlyLeft && !record.Record.CheckOutTime.HasValue)
+            result = "Left permanently";
+
+        // If there are no sessions or no sessions have checkout times
+        if (record.Record.Sessions == null || 
+            !record.Record.Sessions.Any() || 
+            !record.Record.Sessions.Any(s => s.CheckOutTime.HasValue))
+        {
+            result = record.CheckOutText(); // Use your existing checkout text method
+        }
+
+        // Get the latest checkout time from all sessions
+        var lastCheckout = record.Record.Sessions
+            .Where(s => s.CheckOutTime.HasValue)
+            .OrderByDescending(s => s.CheckOutTime)
+            .FirstOrDefault();
+
+        if (lastCheckout != null && lastCheckout.CheckOutTime.HasValue)
+            result = lastCheckout.CheckOutTime.Value.ToString("dd/MM/yyyy HH:mm");
+
+        if (result == string.Empty)
+            return record.CheckOutText(); // Use your existing checkout text method as fallback
+        if (!record.Record.PermanentlyLeft)
+        {
+            result += " (On Site)"; // Append "(On Site)" if not permanently left
+        }
+        return result; // Use your existing checkout text method as fallback
+        
+    }
+
+    private List<VisitorSession> GetOrderedSessions(List<VisitorSession> sessions)
+    {
+        if (sessions == null || !sessions.Any())
+            return new List<VisitorSession>();
+            
+        // Order by check-in time - newest first (you can change to ascending order if preferred)
+        return sessions.OrderByDescending(s => s.CheckInTime).ToList();
+        
+        // If you prefer oldest first, use:
+        // return sessions.OrderBy(s => s.CheckInTime).ToList();
+    }
 }
