@@ -1,0 +1,68 @@
+@inject MudBlazor.ISnackbar Snackbar
+
+<MudDialog>
+    <DialogContent>
+        <MudText>@ContentText</MudText>
+        <MudGrid Spacing="2" Class="mt-3">
+            <MudItem xs="12" sm="6">
+                <MudDatePicker Label="From Date" @bind-Date="FromDate" />
+            </MudItem>
+            <MudItem xs="12" sm="6">
+                <MudDatePicker Label="To Date" @bind-Date="ToDate" DisableToolbar="false" />
+            </MudItem>
+        </MudGrid>
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel" Variant="Variant.Text" Color="Color.Default">Cancel</MudButton>
+        <MudButton OnClick="() => Submit(ActionType.Print)" Variant="Variant.Outlined" Color="Color.Secondary">Print</MudButton>
+        <MudButton OnClick="() => Submit(ActionType.Download)" Variant="Variant.Filled" Color="@Color">Download</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter] MudDialogInstance MudDialog { get; set; }
+    [Parameter] public string ContentText { get; set; } = "Please select a date range:";
+    [Parameter] public Color Color { get; set; } = Color.Primary;
+    
+    public DateTime? FromDate { get; set; } = DateTime.Today.AddMonths(-1);
+    public DateTime? ToDate { get; set; } = DateTime.Today;
+
+    public enum ActionType
+    {
+        Print,
+        Download
+    }
+    
+    public class DateRangeResult
+    {
+        public DateTime FromDate { get; set; }
+        public DateTime ToDate { get; set; }
+        public ActionType Action { get; set; }
+    }
+
+    void Submit(ActionType action)
+    {
+        if(!FromDate.HasValue || !ToDate.HasValue)
+        {
+            Snackbar.Add("Please select both start and end dates", Severity.Warning);
+            return;
+        }
+        
+        if(FromDate > ToDate)
+        {
+            Snackbar.Add("Start date cannot be after end date", Severity.Warning);
+            return;
+        }
+
+        var result = new DateRangeResult
+        {
+            FromDate = FromDate.Value.Date,
+            ToDate = ToDate.Value.Date.AddDays(1).AddSeconds(-1), // End of the selected day
+            Action = action
+        };
+        
+        MudDialog.Close(DialogResult.Ok(result));
+    }
+    
+    void Cancel() => MudDialog.Cancel();
+}

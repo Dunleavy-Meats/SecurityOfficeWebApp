@@ -41,16 +41,54 @@ else
                 <PropertyColumn Property="@(x=> x.QuestionerData != null &&  x.QuestionerData.CreatedOn.HasValue ? x.QuestionerData.CreatedOn.Value.ToShortDateString() : "N/A" )" Title="Answered Questionnaire On" />
                 <TemplateColumn CellClass="d-flex justify-end">
                     <CellTemplate>
-                        <MudStack AlignItems="AlignItems.Center" Row="true">
-                            <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Check" Color="Color.Success"
-                                       OnClick="@(() => ApproveVisitor(context.Item.Visitor))" Disabled="@(!CanApproveVisitor(context.Item.Visitor))">
+                        <MudMenu Icon="@Icons.Material.Filled.MoreVert"
+                                 AriaLabel="Open user menu">
+                            <MudMenuItem Label="Profile" >
+                                <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Check" Color="Color.Success"
+                                           OnClick="@(() => ApproveVisitor(context.Item.Visitor))" Disabled="@(!CanApproveVisitor(context.Item.Visitor))">
                                     Approve
-                            </MudButton> 
-                            <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.ListAlt" Color="Color.Tertiary" Size="Size.Small"
-                                       OnClick="@(() => ShowQuestionerData(context.Item))" Disabled="@(context.Item.QuestionerData == null)">
-                                <MudText Inline="true" Typo="Typo.caption">Show Questionnaire </MudText>
-                            </MudButton>
-                        </MudStack>
+                                </MudButton>
+                            </MudMenuItem>
+                            <MudMenuItem>
+                                <MudButton Variant="Variant.Filled" 
+                                           StartIcon="@Icons.Material.Filled.ListAlt" 
+                                           Color="Color.Tertiary" 
+                                           Size="Size.Small"
+                                           OnClick="@(() => ShowQuestionerData(context.Item))" 
+                                           Disabled="@(context.Item.QuestionerData == null || 
+                                                      (processingVisitors.TryGetValue(context.Item.Visitor.Id, out bool isProcessing) && isProcessing))">
+                                    <MudText Inline="true" Typo="Typo.caption">
+                                        @if (processingVisitors.TryGetValue(context.Item.Visitor.Id, out bool processing) && processing)
+                                        {
+                                            <span>Processing...</span>
+                                        }
+                                        else
+                                        {
+                                            <span>Show Questionnaire</span>
+                                        }
+                                    </MudText>
+                                </MudButton>
+                            </MudMenuItem>
+                            <MudMenuItem>
+                                <MudButton Variant="Variant.Filled" 
+                                           StartIcon="@Icons.Material.Filled.CalendarToday" 
+                                           Color="Color.Info" 
+                                           Size="Size.Small"
+                                           OnClick="@(() => ShowAttendanceRecords(context.Item.Visitor))" 
+                                           Disabled="@(processingAttendance.TryGetValue(context.Item.Visitor.Id, out bool isProcessingAttendance) && isProcessingAttendance)">
+                                    <MudText Inline="true" Typo="Typo.caption">
+                                        @if (processingAttendance.TryGetValue(context.Item.Visitor.Id, out bool processingAtt) && processingAtt)
+                                        {
+                                            <span>Processing...</span>
+                                        }
+                                        else
+                                        {
+                                            <span>Attendance Records</span>
+                                        }
+                                    </MudText>
+                                </MudButton>
+                            </MudMenuItem>
+                        </MudMenu>
                     </CellTemplate>
                 </TemplateColumn>
             </Columns>
@@ -116,15 +154,29 @@ else
         Snackbar.Add("Visitor approved", Severity.Success);
     }
 
+    private Dictionary<string, bool> processingVisitors = new Dictionary<string, bool>();
+    private Dictionary<string, bool> processingAttendance = new Dictionary<string, bool>();
+
     private async Task ShowQuestionerData(VisitorWithQuestionerData visitorWithQuestionerData)
     {
+        // Set processing state for this visitor
+        var visitorId = visitorWithQuestionerData.Visitor.Id;
+
+        // If already processing, don't allow multiple clicks
+        if (processingVisitors.TryGetValue(visitorId, out bool isProcessing) && isProcessing)
+            return;
+
+        // Mark as processing
+        processingVisitors[visitorId] = true;
+        StateHasChanged();
+
         try
         {
             var pdfBytes = await VisitorService.GetPDFForVisitor(visitorWithQuestionerData.Visitor.Id);
             var base64 = Convert.ToBase64String(pdfBytes);
 
             // Show dialog to choose between download and print
-            var options = new DialogOptions { CloseButton = true, MaxWidth = MaxWidth.ExtraSmall };
+            var options = new DialogOptions { CloseButton = true, MaxWidth = MaxWidth.ExtraSmall, BackdropClick = false };
             var parameters = new DialogParameters
             {
                 ["ContentText"] = "Would you like to download or print the questionnaire?",
@@ -136,18 +188,28 @@ else
             var dialog = DialogService.Show<ConfirmationDialog>("PDF Options", parameters, options);
             var result = await dialog.Result;
 
-            if (!result.Canceled)
+            if (result.Canceled)
             {
-                // If confirmed, download the PDF
-                var fileName = $"visitor_questionnaire_{visitorWithQuestionerData.Visitor.Id}.pdf";
-                await JSRuntime.InvokeVoidAsync("downloadPDF", fileName, base64);
-                Snackbar.Add("Questionnaire PDF downloaded successfully", Severity.Success);
+                Snackbar.Add("Operation cancelled", Severity.Info);
+                return;
             }
-            else
+
+            // Cast the data to our enum type
+            if (result.Data is DialogResultType resultType)
             {
-                // If canceled, show print dialog
-                await JSRuntime.InvokeVoidAsync("showPdfPrintDialog", base64);
-                Snackbar.Add("Opening print dialog...", Severity.Info);
+                switch (resultType)
+                {
+                    case DialogResultType.Download:
+                        var fileName = $"visitor_questionnaire_{visitorWithQuestionerData.Visitor.Id}.pdf";
+                        await JSRuntime.InvokeVoidAsync("downloadPDF", fileName, base64);
+                        Snackbar.Add("Questionnaire PDF downloaded successfully", Severity.Success);
+                        break;
+
+                    case DialogResultType.Print:
+                        await JSRuntime.InvokeVoidAsync("showPdfPrintDialog", base64);
+                        Snackbar.Add("Opening print dialog...", Severity.Info);
+                        break;
+                }
             }
         }
         catch (Exception ex)
@@ -155,6 +217,95 @@ else
             Snackbar.Add($"Error handling PDF: {ex.Message}", Severity.Error);
             Console.WriteLine($"PDF Error: {ex}");
         }
+        finally
+        {
+            // Clear processing state when done
+            processingVisitors[visitorId] = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task ShowAttendanceRecords(Visitor visitor)
+    {
+        // Set processing state for this visitor
+        var visitorId = visitor.Id;
+
+        // If already processing, don't allow multiple clicks
+        if (processingAttendance.TryGetValue(visitorId, out bool isProcessing) && isProcessing)
+            return;
+
+        // Mark as processing
+        processingAttendance[visitorId] = true;
+        StateHasChanged();
+
+        try
+        {
+            // Show date range dialog
+            var options = new DialogOptions { CloseButton = true, MaxWidth = MaxWidth.Small };
+            var dialog = DialogService.Show<DateRangeDialog>("Select Date Range", options);
+            var result = await dialog.Result;
+
+            if (result.Canceled)
+            {
+                return;
+            }
+
+            if (result.Data is DateRangeDialog.DateRangeResult dateRange)
+            {
+                try
+                {
+                    // Get PDF bytes from the service
+                    var pdfBytes = await VisitorService.GetAttendanceRecordsPDF(
+                        visitorId, 
+                        dateRange.FromDate, 
+                        dateRange.ToDate, 
+                        dateRange.Action == DateRangeDialog.ActionType.Download);
+
+                    if (pdfBytes == null || pdfBytes.Length == 0)
+                    {
+                        await OpenDialogAsync($"No attendance records found for {visitor.Details.VisitorName} in the selected date range.");
+                        return;
+                    }
+
+                    var base64 = Convert.ToBase64String(pdfBytes);
+
+                    // Process based on action type
+                    switch (dateRange.Action)
+                    {
+                        case DateRangeDialog.ActionType.Download:
+                            var fileName = $"attendance_{visitor.Details.VisitorName}_{dateRange.FromDate:yyyy-MM-dd}_to_{dateRange.ToDate:yyyy-MM-dd}.pdf";
+                            await JSRuntime.InvokeVoidAsync("downloadPDF", fileName, base64);
+                            Snackbar.Add("Attendance records PDF downloaded successfully", Severity.Success);
+                            break;
+
+                        case DateRangeDialog.ActionType.Print:
+                            await JSRuntime.InvokeVoidAsync("showPdfPrintDialog", base64);
+                            Snackbar.Add("Opening print dialog...", Severity.Info);
+                            break;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Snackbar.Add($"Error processing attendance records: {ex.Message}", Severity.Error);
+                }
+            }
+        }
+        finally
+        {
+            // Clear processing state when done
+            processingAttendance[visitorId] = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task OpenDialogAsync(string message)
+    {
+        DialogOptions _backdropClick = new() { BackdropClick = false };
+        await DialogService.ShowMessageBox(
+                        "Warning",
+                        (MarkupString)message,
+                        yesText: "ok!", options: _backdropClick);
+        
     }
 
     private bool CanApproveVisitor(Visitor visitor)

@@ -127,5 +127,21 @@ namespace BlazorApp.Services
                 throw new Exception("Error adding visitor", ex);
             }
         }
+
+        public async Task<byte[]> GetAttendanceRecordsPDF(string visitorId, DateTime fromDate, DateTime toDate, bool forDownload)
+        {
+            await AddAuthHeader();
+            try
+            {
+                var requestUrl = $"api/PDF/GetAttendanceForVisitor/{visitorId}?fromDate={fromDate:yyyy-MM-dd}&toDate={toDate:yyyy-MM-dd}&forDownload={forDownload}";
+                var response = await _httpClient.GetAsync(requestUrl);
+                response.EnsureSuccessStatusCode();
+                return await response.Content.ReadAsByteArrayAsync();
+            }
+            catch (HttpRequestException ex)
+            {
+                throw new Exception("Error getting attendance records PDF for visitor", ex);
+            }
+        }
     }
 }

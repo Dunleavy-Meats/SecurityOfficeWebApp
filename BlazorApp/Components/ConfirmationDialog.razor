@@ -1,22 +1,23 @@
 ﻿@inject MudBlazor.ISnackbar Snackbar
+@using BlazorApp.Types
 
 <MudDialog>
     <DialogContent>
         <MudText>@ContentText</MudText>
     </DialogContent>
     <DialogActions>
-        <MudButton OnClick="Cancel" Variant="Variant.Outlined" Color="Color.Secondary">@CancelButtonText</MudButton>
-        <MudButton OnClick="Submit" Variant="Variant.Filled" Color="@Color">@SubmitButtonText</MudButton>
+        <MudButton OnClick="() => Submit(DialogResultType.Print)" Variant="Variant.Outlined" Color="Color.Secondary">@CancelButtonText</MudButton>
+        <MudButton OnClick="() => Submit(DialogResultType.Download)" Variant="Variant.Filled" Color="@Color">@SubmitButtonText</MudButton>
     </DialogActions>
 </MudDialog>
 
 @code {
     [CascadingParameter] MudDialogInstance MudDialog { get; set; }
     [Parameter] public string ContentText { get; set; }
-    [Parameter] public string SubmitButtonText { get; set; }
-    [Parameter] public string CancelButtonText { get; set; }
+    [Parameter] public string SubmitButtonText { get; set; } = "Download";
+    [Parameter] public string CancelButtonText { get; set; } = "Print";
     [Parameter] public Color Color { get; set; }
 
-    void Submit() => MudDialog.Close(DialogResult.Ok("ok"));
-    void Cancel() => MudDialog.Cancel();
+    void Submit(DialogResultType resultType) => MudDialog.Close(DialogResult.Ok(resultType));
+    void Cancel() => MudDialog.Close(DialogResult.Cancel());
 }
