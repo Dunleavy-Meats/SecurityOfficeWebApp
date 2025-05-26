@@ -9,13 +9,13 @@ namespace Models
         public string? Id { get; set; }
 
         [FirestoreProperty]
-        public string Email { get; set; } = string.Empty;
+        public string email { get; set; } = string.Empty;
 
         [FirestoreProperty]
-        public string Name { get; set; } = string.Empty;
+        public string name { get; set; } = string.Empty;
 
         [FirestoreProperty]
-        public string Role { get; set; } = string.Empty;
+        public string role { get; set; } = string.Empty;
 
         [FirestoreProperty]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

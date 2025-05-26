@@ -38,13 +38,13 @@ else
                 <PropertyColumn Property="x => x.Visitor.Details.Type" Title="Type" />
                 <PropertyColumn Property="@(x => x.Visitor.Details.Approved.HasValue ?  x.Visitor.Details.Approved.ToString() :  NA_Yes_No.NA.ToString())"  Title="Approved" Editable="true" />
                 <PropertyColumn Property="x => x.Visitor.GetLastVisit()" Title="LastVisit"  />
-                <PropertyColumn Property="@(x=> x.QuestionerData != null &&  x.QuestionerData.CreatedOn.HasValue ? x.QuestionerData.CreatedOn.Value.ToShortDateString() : "N/A" )" Title="Answered Questionnaire On" />
-                <TemplateColumn CellClass="d-flex justify-end">
+@*                 <PropertyColumn Property="@(x=> x.QuestionerData != null &&  x.QuestionerData.CreatedOn.HasValue ? x.QuestionerData.CreatedOn.Value.ToShortDateString() : "N/A" )" Title="Answered Questionnaire On" />
+ *@                <TemplateColumn CellClass="d-flex justify-end">
                     <CellTemplate>
                         <MudMenu Icon="@Icons.Material.Filled.MoreVert"
                                  AriaLabel="Open user menu">
                             <MudMenuItem Label="Profile" >
-                                <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Check" Color="Color.Success"
+                                <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Check" Color="Color.Success" Size="Size.Small"
                                            OnClick="@(() => ApproveVisitor(context.Item.Visitor))" Disabled="@(!CanApproveVisitor(context.Item.Visitor))">
                                     Approve
                                 </MudButton>

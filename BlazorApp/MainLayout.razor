@@ -1,5 +1,5 @@
 ﻿@inherits LayoutComponentBase
-@inject AuthenticationStateProvider AuthStateProvider
+@inject FirebaseAuthStateProvider AuthStateProvider
 @inject NavigationManager Navigation
 @inject FirebaseService AuthService
 
@@ -32,6 +32,10 @@
                 @if (!string.IsNullOrEmpty(userName))
                 {
                     <MudText Typo="Typo.body2" Class="mr-4">Logged in as: @userName</MudText>
+                    if(isSuperAdmin)
+					{
+                        <MudChip T="string" Icon="@Icons.Material.Filled.Security" Color="Color.Warning">Super Admin</MudChip>
+					}
                 }
                 
                 <MudIconButton Icon="@Icons.Material.Filled.Logout" OnClick="Logout" Color="Color.Error"/>
@@ -116,7 +120,7 @@ else
                         var userDetails = await AuthService.GetUserDetailsAsync(userId);
                         if (userDetails != null)
                         {
-                            userName = userDetails.Name;
+                            userName = userDetails.name;
                         }
                     }
                 }

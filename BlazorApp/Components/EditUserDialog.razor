@@ -5,14 +5,14 @@
     <DialogContent>
         <MudGrid>
             <MudItem xs="12">
-                <MudTextField @bind-Value="editedUser.Name" Label="Name" Required="true" />
+                <MudTextField @bind-Value="editedUser.name" Label="Name" Required="true" />
             </MudItem>
             <MudItem xs="12">
-                <MudTextField @bind-Value="editedUser.Email" Label="Email" Required="true" 
+                <MudTextField @bind-Value="editedUser.email" Label="Email" Required="true" 
                               InputType="InputType.Email" Disabled="true" />
             </MudItem>
             <MudItem xs="12">
-                <MudSelect T="string" @bind-Value="editedUser.Role" Label="Role" Required="true">
+                <MudSelect T="string" @bind-Value="editedUser.role" Label="Role" Required="true">
                     <MudSelectItem Value="@("admin")">Admin</MudSelectItem>
                     <MudSelectItem Value="@("user")">User</MudSelectItem>
                     <MudSelectItem Value="@("super admin")">Super Admin</MudSelectItem>
@@ -50,9 +50,9 @@
         editedUser = new User
         {
             Id = User.Id,
-            Name = User.Name,
-            Email = User.Email,
-            Role = User.Role,
+            name = User.name,
+            email = User.email,
+            role = User.role,
             CreatedAt = User.CreatedAt
         };
     }
@@ -64,9 +64,9 @@
     
     private bool IsValid()
     {
-        return !string.IsNullOrWhiteSpace(editedUser.Name) && 
-               !string.IsNullOrWhiteSpace(editedUser.Email) && 
-               !string.IsNullOrWhiteSpace(editedUser.Role);
+        return !string.IsNullOrWhiteSpace(editedUser.name) && 
+               !string.IsNullOrWhiteSpace(editedUser.email) && 
+               !string.IsNullOrWhiteSpace(editedUser.role);
     }
     
     private async Task Submit()
@@ -81,7 +81,7 @@
             
             if (response.IsSuccessStatusCode)
             {
-                Snackbar.Add($"User {editedUser.Name} updated successfully", Severity.Success);
+                Snackbar.Add($"User {editedUser.name} updated successfully", Severity.Success);
                 MudDialog.Close(DialogResult.Ok(true));
             }
             else

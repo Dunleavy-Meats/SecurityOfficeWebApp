@@ -73,7 +73,7 @@
             if (response.IsSuccessStatusCode)
             {
                 var createdUser = await response.Content.ReadFromJsonAsync<User>();
-                Snackbar.Add($"User {createdUser?.Name ?? "unknown"} created successfully", Severity.Success);
+                Snackbar.Add($"User {createdUser?.name ?? "unknown"} created successfully", Severity.Success);
                 MudDialog.Close(DialogResult.Ok(true));
             }
             else

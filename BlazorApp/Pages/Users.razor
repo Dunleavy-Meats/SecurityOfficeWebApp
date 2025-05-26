@@ -36,9 +36,9 @@ else
                 <MudTh Style="text-align: right">Actions</MudTh>
             </HeaderContent>
             <RowTemplate>
-                <MudTd DataLabel="Name">@context.Name</MudTd>
-                <MudTd DataLabel="Email">@context.Email</MudTd>
-                <MudTd DataLabel="Role">@context.Role</MudTd>
+                <MudTd DataLabel="Name">@context.name</MudTd>
+                <MudTd DataLabel="Email">@context.email</MudTd>
+                <MudTd DataLabel="Role">@context.role</MudTd>
                 <MudTd DataLabel="Created At">@context.CreatedAt.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</MudTd>
                 <MudTd DataLabel="Actions" Style="text-align: right">
                     <MudMenu Icon="@Icons.Material.Filled.MoreVert">
@@ -152,14 +152,14 @@ else
     {
         var parameters = new DialogParameters();
         parameters.Add("UserId", user.Id);
-        parameters.Add("UserName", user.Name);
+        parameters.Add("UserName", user.name);
         
         var dialog = DialogService.Show<ChangePasswordDialog>("Change Password", parameters);
         var result = await dialog.Result;
         
         if (!result.Canceled)
         {
-            Snackbar.Add($"Password changed for {user.Name}", Severity.Success);
+            Snackbar.Add($"Password changed for {user.name}", Severity.Success);
         }
     }
 
@@ -167,7 +167,7 @@ else
     {
         bool? result = await DialogService.ShowMessageBox(
             "Delete User",
-            $"Are you sure you want to delete {user.Name}? This action cannot be undone.",
+            $"Are you sure you want to delete {user.name}? This action cannot be undone.",
             yesText: "Delete", cancelText: "Cancel", 
             options: new DialogOptions { MaxWidth = MaxWidth.ExtraSmall }
         );
@@ -186,7 +186,7 @@ else
             
             if (response.IsSuccessStatusCode)
             {
-                Snackbar.Add($"User {user.Name} deleted successfully", Severity.Success);
+                Snackbar.Add($"User {user.name} deleted successfully", Severity.Success);
                 await LoadUsers();
             }
             else
