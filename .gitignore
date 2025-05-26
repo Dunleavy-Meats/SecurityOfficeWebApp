@@ -47,3 +47,8 @@ msbuild.wrn
 # Firebase config
 **/appsettings.json
 **/appsettings.Development.json
+
+# Exception for Models DLL
+!libs/
+!libs/*.dll
+!libs/*.pdb

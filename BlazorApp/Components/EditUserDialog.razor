@@ -1,0 +1,102 @@
+@inject HttpClient HttpClient
+@inject ISnackbar Snackbar
+
+<MudDialog>
+    <DialogContent>
+        <MudGrid>
+            <MudItem xs="12">
+                <MudTextField @bind-Value="editedUser.Name" Label="Name" Required="true" />
+            </MudItem>
+            <MudItem xs="12">
+                <MudTextField @bind-Value="editedUser.Email" Label="Email" Required="true" 
+                              InputType="InputType.Email" Disabled="true" />
+            </MudItem>
+            <MudItem xs="12">
+                <MudSelect T="string" @bind-Value="editedUser.Role" Label="Role" Required="true">
+                    <MudSelectItem Value="@("admin")">Admin</MudSelectItem>
+                    <MudSelectItem Value="@("user")">User</MudSelectItem>
+                    <MudSelectItem Value="@("super admin")">Super Admin</MudSelectItem>
+                </MudSelect>
+            </MudItem>
+        </MudGrid>
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Color="Color.Primary" Variant="Variant.Filled" OnClick="Submit" 
+                   Disabled="@(!IsValid() || isSubmitting)">
+            @if (isSubmitting)
+            {
+                <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true" />
+                <MudText Class="ms-2">Updating...</MudText>
+            }
+            else
+            {
+                <MudText>Update User</MudText>
+            }
+        </MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter] MudDialogInstance MudDialog { get; set; } = default!;
+    [Parameter] public User User { get; set; } = new User();
+    
+    private User editedUser = new User();
+    private bool isSubmitting = false;
+    
+    protected override void OnInitialized()
+    {
+        // Create a copy of the user to edit
+        editedUser = new User
+        {
+            Id = User.Id,
+            Name = User.Name,
+            Email = User.Email,
+            Role = User.Role,
+            CreatedAt = User.CreatedAt
+        };
+    }
+    
+    private void Cancel()
+    {
+        MudDialog.Cancel();
+    }
+    
+    private bool IsValid()
+    {
+        return !string.IsNullOrWhiteSpace(editedUser.Name) && 
+               !string.IsNullOrWhiteSpace(editedUser.Email) && 
+               !string.IsNullOrWhiteSpace(editedUser.Role);
+    }
+    
+    private async Task Submit()
+    {
+        if (!IsValid()) return;
+        
+        try
+        {
+            isSubmitting = true;
+            
+            var response = await HttpClient.PutAsJsonAsync($"api/users/{editedUser.Id}", editedUser);
+            
+            if (response.IsSuccessStatusCode)
+            {
+                Snackbar.Add($"User {editedUser.Name} updated successfully", Severity.Success);
+                MudDialog.Close(DialogResult.Ok(true));
+            }
+            else
+            {
+                var error = await response.Content.ReadAsStringAsync();
+                Snackbar.Add($"Failed to update user: {error}", Severity.Error);
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Error: {ex.Message}", Severity.Error);
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
+}

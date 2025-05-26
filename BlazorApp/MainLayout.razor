@@ -28,6 +28,12 @@
                 <MudSpacer />
                 <MudText Typo="Typo.h6">@StaticResources.AppName</MudText>
                 <MudSpacer />
+                
+                @if (!string.IsNullOrEmpty(userName))
+                {
+                    <MudText Typo="Typo.body2" Class="mr-4">Logged in as: @userName</MudText>
+                }
+                
                 <MudIconButton Icon="@Icons.Material.Filled.Logout" OnClick="Logout" Color="Color.Error"/>
             </MudAppBar>
 
@@ -41,6 +47,10 @@
                             <MudNavLink Href="@($"{BasePath}/")" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.ListAlt">Attendance Records</MudNavLink>
                             <MudNavLink Href="@($"{BasePath}/visitors")" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.People">Visitors List</MudNavLink>
                             <MudNavLink Href="@($"{BasePath}/visitors-questionnaire")" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.FormatListBulleted">Questionnaire List</MudNavLink>
+                            @if (isSuperAdmin)
+                            {
+                                <MudNavLink Href="@($"{BasePath}/users")" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Security">User Management</MudNavLink>
+                            }
                         </MudNavMenu>
                     </div>
                     <MudImage Src="logo/dun_logo.png"
@@ -79,11 +89,44 @@ else
     private bool isAuthenticated;
     private bool isInitialized;
     private bool drawerOpen = true;
+    private string userName = string.Empty;
+    private bool isSuperAdmin = false;
 
     protected override async Task OnInitializedAsync()
     {
         var authState = await AuthStateProvider.GetAuthenticationStateAsync();
-        isAuthenticated = authState.User.Identity?.IsAuthenticated ?? false;
+        var user = authState.User;
+        isAuthenticated = user.Identity?.IsAuthenticated ?? false;
+        
+        if (isAuthenticated)
+        {
+            // Check if the user is a super admin
+            isSuperAdmin = user.IsInRole("super admin");
+            
+            // Try to get the user's name from claims
+            userName = user.FindFirst(ClaimTypes.Name)?.Value ?? user.Identity?.Name ?? string.Empty;
+            
+            // If name is still empty, try to fetch the user details
+            if (string.IsNullOrEmpty(userName))
+            {
+                try
+                {
+                    var userId = user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                    if (!string.IsNullOrEmpty(userId))
+                    {
+                        var userDetails = await AuthService.GetUserDetailsAsync(userId);
+                        if (userDetails != null)
+                        {
+                            userName = userDetails.Name;
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error fetching user details: {ex.Message}");
+                }
+            }
+        }
 
         if (!isAuthenticated && !Navigation.Uri.EndsWith("/login"))
         {

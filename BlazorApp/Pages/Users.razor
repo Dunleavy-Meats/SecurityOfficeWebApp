@@ -1,0 +1,202 @@
+@page "/users"
+@inject HttpClient HttpClient
+@inject ISnackbar Snackbar
+@inject IDialogService DialogService
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthStateProvider
+@inject FirebaseService AuthService
+@attribute [Authorize(Roles = "super admin")]
+
+@if (isLoading)
+{
+    <MudProgressLinear Color="Color.Primary" Indeterminate="true" Class="my-7" />
+}
+else
+{
+    <MudCard>
+        <MudCardContent>
+            <MudText Typo="Typo.h4" Class="mb-4">User Management</MudText>
+
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       StartIcon="@Icons.Material.Filled.Add"
+                       OnClick="ShowAddUserDialog"
+                       Class="mb-4">
+                Add New User
+            </MudButton>
+        </MudCardContent>
+
+        <MudTable Items="@users" Dense="true" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@isLoading"
+                  LoadingProgressColor="Color.Primary">
+            <HeaderContent>
+                <MudTh>Name</MudTh>
+                <MudTh>Email</MudTh>
+                <MudTh>Role</MudTh>
+                <MudTh>Created At</MudTh>
+                <MudTh Style="text-align: right">Actions</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Name">@context.Name</MudTd>
+                <MudTd DataLabel="Email">@context.Email</MudTd>
+                <MudTd DataLabel="Role">@context.Role</MudTd>
+                <MudTd DataLabel="Created At">@context.CreatedAt.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</MudTd>
+                <MudTd DataLabel="Actions" Style="text-align: right">
+                    <MudMenu Icon="@Icons.Material.Filled.MoreVert">
+                        @if (currentUserId != context.Id)
+                        {
+                            <MudMenuItem OnClick="@(() => ShowChangePasswordDialog(context))">
+                                <MudText Inline="true">
+                                    <MudIcon Icon="@Icons.Material.Filled.Lock" Class="mr-2" />
+                                    Change Password
+                                </MudText>
+                            </MudMenuItem>
+                            <MudMenuItem OnClick="@(() => ShowEditUserDialog(context))">
+                                <MudText Inline="true">
+                                    <MudIcon Icon="@Icons.Material.Filled.Edit" Class="mr-2" />
+                                    Edit User
+                                </MudText>
+                            </MudMenuItem>
+                            <MudMenuItem OnClick="@(() => ShowDeleteConfirmation(context))">
+                                <MudText Inline="true" Color="Color.Error">
+                                    <MudIcon Icon="@Icons.Material.Filled.Delete" Class="mr-2" />
+                                    Delete User
+                                </MudText>
+                            </MudMenuItem>
+                        }
+                        else
+                        {
+                            <MudMenuItem Disabled="true">
+                                <MudText Inline="true" Color="Color.Default">
+                                    <MudIcon Icon="@Icons.Material.Filled.Person" Class="mr-2" />
+                                    Current User
+                                </MudText>
+                            </MudMenuItem>
+                        }
+                    </MudMenu>
+                </MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+    </MudCard>
+}
+
+@code {
+    private List<User> users = new();
+    private bool isLoading = true;
+    private string currentUserId = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        
+        if (!user.IsInRole("super admin"))
+        {
+            NavigationManager.NavigateTo("");
+            return;
+        }
+
+        currentUserId = user.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? string.Empty;
+        await LoadUsers();
+    }
+
+    private async Task LoadUsers()
+    {
+        try
+        {
+            isLoading = true;
+            var response = await HttpClient.GetFromJsonAsync<List<User>>("api/users");
+            if (response != null)
+            {
+                users = response;
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Failed to load users: {ex.Message}", Severity.Error);
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task ShowAddUserDialog()
+    {
+        var dialog = DialogService.Show<AddUserDialog>("Add New User");
+        var result = await dialog.Result;
+        
+        if (!result.Canceled)
+        {
+            await LoadUsers();
+        }
+    }
+
+    private async Task ShowEditUserDialog(User user)
+    {
+        var parameters = new DialogParameters();
+        parameters.Add("User", user);
+        
+        var dialog = DialogService.Show<EditUserDialog>("Edit User", parameters);
+        var result = await dialog.Result;
+        
+        if (!result.Canceled)
+        {
+            await LoadUsers();
+        }
+    }
+
+    private async Task ShowChangePasswordDialog(User user)
+    {
+        var parameters = new DialogParameters();
+        parameters.Add("UserId", user.Id);
+        parameters.Add("UserName", user.Name);
+        
+        var dialog = DialogService.Show<ChangePasswordDialog>("Change Password", parameters);
+        var result = await dialog.Result;
+        
+        if (!result.Canceled)
+        {
+            Snackbar.Add($"Password changed for {user.Name}", Severity.Success);
+        }
+    }
+
+    private async Task ShowDeleteConfirmation(User user)
+    {
+        bool? result = await DialogService.ShowMessageBox(
+            "Delete User",
+            $"Are you sure you want to delete {user.Name}? This action cannot be undone.",
+            yesText: "Delete", cancelText: "Cancel", 
+            dialogOptions: new DialogOptions { MaxWidth = MaxWidth.ExtraSmall }
+        );
+        
+        if (result == true)
+        {
+            await DeleteUser(user);
+        }
+    }
+
+    private async Task DeleteUser(User user)
+    {
+        try
+        {
+            var response = await HttpClient.DeleteAsync($"api/users/{user.Id}");
+            
+            if (response.IsSuccessStatusCode)
+            {
+                Snackbar.Add($"User {user.Name} deleted successfully", Severity.Success);
+                await LoadUsers();
+            }
+            else
+            {
+                Snackbar.Add("Failed to delete user", Severity.Error);
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Error: {ex.Message}", Severity.Error);
+        }
+    }
+}

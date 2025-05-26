@@ -15,8 +15,11 @@
     <PackageReference Include="MudBlazor" Version="7.16.0" />
   </ItemGroup>
 
+  <!-- Replace the ProjectReference with this Reference -->
   <ItemGroup>
-    <ProjectReference Include="..\Models\Models.csproj" />
+    <Reference Include="Models">
+      <HintPath>libs\Models.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
