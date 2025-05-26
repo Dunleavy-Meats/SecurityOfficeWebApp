@@ -169,7 +169,7 @@ else
             "Delete User",
             $"Are you sure you want to delete {user.Name}? This action cannot be undone.",
             yesText: "Delete", cancelText: "Cancel", 
-            dialogOptions: new DialogOptions { MaxWidth = MaxWidth.ExtraSmall }
+            options: new DialogOptions { MaxWidth = MaxWidth.ExtraSmall }
         );
         
         if (result == true)

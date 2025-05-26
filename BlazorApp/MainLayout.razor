@@ -105,7 +105,6 @@ else
             
             // Try to get the user's name from claims
             userName = user.FindFirst(ClaimTypes.Name)?.Value ?? user.Identity?.Name ?? string.Empty;
-            
             // If name is still empty, try to fetch the user details
             if (string.IsNullOrEmpty(userName))
             {
