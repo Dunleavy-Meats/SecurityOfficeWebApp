@@ -6,6 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
     <ServiceWorkerForce>true</ServiceWorkerForce>
+    <!-- Add custom NuGet feed -->
+    <RestoreSources>https://api.nuget.org/v3/index.json;https://dunleavy-meats.github.io/ProjectModel/</RestoreSources>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,7 +16,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.19" PrivateAssets="all" />
     <PackageReference Include="MudBlazor" Version="7.16.0" />
     
-    <!-- Replace DLL reference with NuGet package -->
+    <!-- Make sure the ID matches exactly -->
     <PackageReference Include="DunleavyMeats.Models" Version="1.0.0" />
   </ItemGroup>
 
