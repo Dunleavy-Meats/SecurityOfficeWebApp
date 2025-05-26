@@ -17,7 +17,10 @@
     <PackageReference Include="MudBlazor" Version="7.16.0" />
     
     <!-- Make sure the ID matches exactly -->
-    <PackageReference Include="DunleavyMeats.Models" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectModel\Models\Models.csproj" />
   </ItemGroup>
 
   <!-- Ensure service worker and other static assets are published -->

@@ -8,10 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pages: write
-      packages: read
     steps:
       - uses: actions/checkout@v3
 
@@ -19,34 +15,7 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '7.0.x'
-      
-      # Create NuGet.config for the build
-      - name: Create NuGet.config
-        run: |
-          cat > NuGet.config << 'EOL'
-          <?xml version="1.0" encoding="utf-8"?>
-          <configuration>
-            <packageSources>
-              <clear />
-              <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />
-              <add key="github-pages" value="https://dunleavy-meats.github.io/ProjectModel/" />
-            </packageSources>
-            <disabledPackageSources>
-              <clear />
-            </disabledPackageSources>
-          </configuration>
-          EOL
-          
-      # Fetch packages directly as backup
-      - name: Setup backup package source
-        run: |
-          mkdir -p ./packages/dunleavymeats.models/1.0.0/
-          curl -L -o ./packages/dunleavymeats.models/1.0.0/dunleavymeats.models.1.0.0.nupkg \
-            https://github.com/Dunleavy-Meats/ProjectModel/raw/gh-pages/DunleavyMeats.Models.1.0.0.nupkg
-          
-          # Add as local source
-          dotnet nuget add source ./packages --name local
-          
+
       # Create Firebase config
       - name: Create Firebase Config
         run: |
@@ -59,58 +28,9 @@ jobs:
             appId: \"${{ secrets.FIREBASE_APP_ID }}\"
           };" > BlazorApp/wwwroot/firebase-config.js
 
-      # Alternative approach: Checkout Models repository and use project reference
-      - name: Checkout Models Repository as fallback
-        if: always()
-        uses: actions/checkout@v3
-        with:
-          repository: dunleavy-meats/ProjectModel
-          path: ProjectModel
-          
-      # Set up fallback to project reference if needed
-      - name: Setup fallback project reference
-        run: |
-          # Try to restore packages first
-          dotnet restore BlazorApp/BlazorApp.csproj --configfile NuGet.config || true
-          
-          # If the restore fails, use project reference instead
-          if [ $? -ne 0 ]; then
-            echo "Package restore failed, switching to project reference"
-            # Create new project file with project reference
-            cat > BlazorApp/BlazorApp.csproj.new << 'EOL'
-          <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
-            <PropertyGroup>
-              <TargetFramework>net7.0</TargetFramework>
-              <Nullable>enable</Nullable>
-              <ImplicitUsings>enable</ImplicitUsings>
-              <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
-              <ServiceWorkerForce>true</ServiceWorkerForce>
-            </PropertyGroup>
-            <ItemGroup>
-              <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="7.0.20" />
-              <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.19" />
-              <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.19" PrivateAssets="all" />
-              <PackageReference Include="MudBlazor" Version="7.16.0" />
-            </ItemGroup>
-            <ItemGroup>
-              <ProjectReference Include="../ProjectModel/Models/Models.csproj" />
-            </ItemGroup>
-            <ItemGroup>
-              <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
-            </ItemGroup>
-            <ItemGroup>
-              <Content Update="wwwroot\**\*">
-                <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-              </Content>
-            </ItemGroup>
-          </Project>
-          EOL
-            mv BlazorApp/BlazorApp.csproj.new BlazorApp/BlazorApp.csproj
-          fi
-        
       - name: Publish .NET Project
         run: dotnet publish BlazorApp/BlazorApp.csproj -c Release -o release --nologo
-      
+
       # Add .nojekyll file
       - name: Add .nojekyll file
         run: touch release/wwwroot/.nojekyll
