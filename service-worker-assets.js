@@ -72,11 +72,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-UB1IbV61dFEpLs+Ik4dzaJgKHfmMi1qod56hozkVCnQ=",
+      "hash": "sha256-C19OErX3v1Ml\/NtDXHsTv6GMmDCGYK8CZlBrTAYSZbA=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-vULt1MeA4cVaoJWbFuUNlOLNiQXfIn3zIBGViGuzyw0=",
+      "hash": "sha256-NgJj\/rqE2nBEtrd7wo47\/LHCFTVAfiboii8UPzU93M8=",
       "url": "_framework\/BlazorApp.dll"
     },
     {
@@ -140,7 +140,7 @@
       "url": "_framework\/Grpc.Net.Common.dll"
     },
     {
-      "hash": "sha256-1\/g\/aJk4iIfaxRA2d1SBX9xO5rF0NJkOrcyNxXf0rUA=",
+      "hash": "sha256-76ZAu2Td9tzOz9m3Gy2+ciV\/mw+g5jGKlP2hVF3\/yeI=",
       "url": "_framework\/Microsoft.AspNetCore.Authorization.dll"
     },
     {
@@ -228,11 +228,11 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-+L2DcpbV80DGmf0Ke5QFFlgczOVAKoCGl+ij1eeegP4=",
+      "hash": "sha256-jaXsemT+McBQZwIaN81\/xf2qZCIdEcAltFoypyZe0uY=",
       "url": "_framework\/Models.dll"
     },
     {
-      "hash": "sha256-r8fTC6cUxQTCtPCgNy6t4\/bQPGqL1LnmYDuQz4HoT2c=",
+      "hash": "sha256-t+n4nXm7RWnZp4DnK9IyCzfbKtdFJAYuKyZgW5Dvjio=",
       "url": "_framework\/MudBlazor.dll"
     },
     {
@@ -344,11 +344,11 @@
       "url": "_framework\/System.Memory.dll"
     },
     {
-      "hash": "sha256-jSht8m0bSbmPr5j8XQIEVxh4tUIE944ws0RJm5DcLDg=",
+      "hash": "sha256-KP9nt8kEXgJ4leLk+vvy9Ip\/lCRzaE7vEl7D2xUWFto=",
       "url": "_framework\/System.Net.Http.dll"
     },
     {
-      "hash": "sha256-y2vq11Uyvxc10dT5+agalTb9zKpKJdNE0dnhq+pSkY8=",
+      "hash": "sha256-WATWCKbQvXxgdwnbnWjj2SzXBIk5UlBZ7rxFwUQK6zo=",
       "url": "_framework\/System.Net.Http.Json.dll"
     },
     {
@@ -432,7 +432,7 @@
       "url": "_framework\/System.Runtime.Serialization.Primitives.dll"
     },
     {
-      "hash": "sha256-a68DyTa0A5ajLbS+iEoZIRMMAn1kCKVOBhNDAhd6Hes=",
+      "hash": "sha256-jS0\/B8yuAVE+2UErxL6xTfxOMN28EmIkaqiDTO\/cP5E=",
       "url": "_framework\/System.Security.Claims.dll"
     },
     {
@@ -496,5 +496,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "SM\/GIINn"
+  "version": "71lRM6oK"
 };
