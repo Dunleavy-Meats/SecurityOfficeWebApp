@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    
+    <!-- NuGet Package Information -->
+    <PackageId>DunleavyMeats.Models</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Dunleavy Meats</Authors>
+    <Company>Dunleavy Meats</Company>
+    <Description>Shared models for Dunleavy security applications</Description>
+    <PackageTags>security;models;dunleavy</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis" Version="1.69.0" />
+    <PackageReference Include="Google.Cloud.Firestore" Version="3.10.0" />
+  </ItemGroup>
+
+</Project>
