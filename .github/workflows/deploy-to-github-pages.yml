@@ -8,6 +8,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # Add these permissions
+    permissions:
+      contents: write
+      pages: write
+      packages: read
     steps:
       - uses: actions/checkout@v3
 
