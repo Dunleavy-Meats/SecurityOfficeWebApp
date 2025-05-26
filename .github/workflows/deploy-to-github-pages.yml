@@ -27,7 +27,7 @@ jobs:
           dotnet nuget add source https://nuget.pkg.github.com/dunleavy-meats/index.json \
             --name github \
             --username dunleavy-meats \
-            --password ${{ secrets.GITHUB_TOKEN }} \
+            --password ${{ secrets.PACKAGES_TOKEN }} \
             --store-password-in-clear-text
 
       # Create Firebase config
