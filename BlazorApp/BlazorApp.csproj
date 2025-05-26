@@ -13,41 +13,18 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.19" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.19" PrivateAssets="all" />
     <PackageReference Include="MudBlazor" Version="7.16.0" />
+    
+    <!-- Replace DLL reference with NuGet package -->
+    <PackageReference Include="DunleavyMeats.Models" Version="1.0.0" />
   </ItemGroup>
 
-  <!-- Reference Models DLL with correct properties for Blazor WASM -->
-  <ItemGroup>
-    <Reference Include="Models">
-      <HintPath>libs\Models.dll</HintPath>
-      <Private>true</Private>
-    </Reference>
-  </ItemGroup>
-
-  <!-- Ensure DLLs are included in output -->
-  <ItemGroup>
-    <Content Include="libs\**\*.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
+  <!-- Ensure service worker and other static assets are published -->
   <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
   </ItemGroup>
-
+  
   <ItemGroup>
     <Content Update="wwwroot\**\*">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Update="wwwroot\logo\**">
-        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Update="wwwroot\favicon.ico">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
   </ItemGroup>

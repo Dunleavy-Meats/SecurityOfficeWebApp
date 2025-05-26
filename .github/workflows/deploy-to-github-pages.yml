@@ -15,6 +15,15 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '7.0.x'
+          
+      # Configure NuGet for GitHub Packages
+      - name: Setup NuGet Auth
+        run: |
+          dotnet nuget add source https://nuget.pkg.github.com/dunleavy-meats/index.json \
+            --name github \
+            --username dunleavy-meats \
+            --password ${{ secrets.GITHUB_TOKEN }} \
+            --store-password-in-clear-text
 
       # Create Firebase config
       - name: Create Firebase Config
