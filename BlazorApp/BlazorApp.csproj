@@ -15,11 +15,19 @@
     <PackageReference Include="MudBlazor" Version="7.16.0" />
   </ItemGroup>
 
-  <!-- Replace the ProjectReference with this Reference -->
+  <!-- Reference Models DLL with correct properties for Blazor WASM -->
   <ItemGroup>
     <Reference Include="Models">
       <HintPath>libs\Models.dll</HintPath>
+      <Private>true</Private>
     </Reference>
+  </ItemGroup>
+
+  <!-- Ensure DLLs are included in output -->
+  <ItemGroup>
+    <Content Include="libs\**\*.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
