@@ -6,8 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
     <ServiceWorkerForce>true</ServiceWorkerForce>
-    <!-- Add custom NuGet feed -->
-    <RestoreSources>https://api.nuget.org/v3/index.json;https://dunleavy-meats.github.io/ProjectModel/</RestoreSources>
   </PropertyGroup>
 
   <ItemGroup>
