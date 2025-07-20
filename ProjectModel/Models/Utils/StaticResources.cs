@@ -6,7 +6,7 @@ namespace Models.Utils
         // Replace this with your actual base64-encoded logo
         public static byte[] LogoBytes => Convert.FromBase64String(_logoBase64);
         public static string AppName => "Dunleavy Security App";
-        public static int ExpiryDaysAmount => 7;
+        public static int ExpiryDaysAmount => 1;
 
         public static readonly string DunleavyMeatsDisclaimer = @"
 In consideration of Dunleavy Meats Ulc. granting me access to its premises, facilities and equipment, I agree to the following:

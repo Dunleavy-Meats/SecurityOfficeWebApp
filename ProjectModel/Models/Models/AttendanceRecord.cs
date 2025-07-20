@@ -352,6 +352,37 @@ namespace Models
 				ShouldBeFalse = false
 			};
 
+
+            Questioner question13 = new Questioner
+            {
+                Question = "Have you removed all jewellery (watches, bracelets, earrings etc.) before entering manufacturing areas, except for a plain wedding band?",
+                ShouldBeFalse = false
+            };
+
+            Questioner question14 = new Questioner
+            {
+                Question = "Are your fingernails clean, short, and free of nail varnish?",
+                ShouldBeFalse = false
+            };
+
+            Questioner question15 = new Questioner
+            {
+                Question = "Can you confirm you are not wearing false eyelashes?",
+                ShouldBeFalse = false
+            };
+
+            Questioner question16 = new Questioner
+            {
+                Question = "Can you confirm you are not wearing excessive perfume, deodorant, or aftershave?",
+                ShouldBeFalse = false
+            };
+
+            Questioner question17 = new Questioner
+            {
+                Question = "Are all cuts on your body covered with metal detectable plasters?",
+                ShouldBeFalse = false
+            };
+
             Questioners.Add(question1);
             Questioners.Add(question2);
             Questioners.Add(question3);
@@ -364,6 +395,11 @@ namespace Models
             Questioners.Add(question10);
             Questioners.Add(question11);
             Questioners.Add(question12);
+            Questioners.Add(question13);
+            Questioners.Add(question14);
+            Questioners.Add(question15);
+            Questioners.Add(question16);
+            Questioners.Add(question17);
         }
     }
 }
