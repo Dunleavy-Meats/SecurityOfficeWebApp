@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "BlazorApp.dll": "sha256-QfUHKvjFYddcaqAVC5jAteqObHKuLVwP9Wug0OKQLXg=",
+      "BlazorApp.dll": "sha256-X5sa9An8WAoBG2I9CCIx6IGURJYy0Sl2Wx5Husphi9s=",
       "Google.Api.CommonProtos.dll": "sha256-H+eSxkzq5oCMYmoiaUiMkP2\/bJ5\/A\/dnvhzPzj8XUp4=",
       "Google.Api.Gax.dll": "sha256-0qMwQ1M8p+sTRA+HgcfSBCnhm0PHKNTig0aRCSkiRxI=",
       "Google.Api.Gax.Grpc.dll": "sha256-vLDIptqZAnnSBQ0s+toGmkg4\/\/Da7KFnvFaTZxvUXEY=",
@@ -45,8 +45,8 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-eXvGx2jcjpTPEJoAHBsW\/VuMPbNyyU+AsuhPmkzSSRY=",
       "Microsoft.JSInterop.dll": "sha256-6sI6Ra8xQDyGkY3v086ZnxrZ+oCJLRChstgIgMrcym0=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-1EwKATu4rfTEr5ZWywXlzO+RZVsqOd7lbgg6aK1d4qE=",
-      "Models.dll": "sha256-Odhuxqxor7KyKIYnaIDtxER\/LRxDN12lyQw3UmqG1A8=",
-      "MudBlazor.dll": "sha256-9vpCE8u7SUBNpsMDynuNVUXwUv7fSIoIS8rs\/Jxpong=",
+      "Models.dll": "sha256-j86kqAtbCK1ciYZsY6O5aZW6zEWl\/B3Nenpgwu2EZOE=",
+      "MudBlazor.dll": "sha256-zY4RFvhvDbroC1QJKGpRJwgGXZrLt05JPPHohe81ihY=",
       "netstandard.dll": "sha256-+YnG16twKTlvNHB1ZGhGUZWHReTQyztZlYT1u6ZHmwo=",
       "Newtonsoft.Json.dll": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
       "System.CodeDom.dll": "sha256-TTPimGqE1EYIU+K5jTobqfiqKVD3+hL\/atLhWkvM\/Rg=",
@@ -55,7 +55,7 @@
       "System.Collections.Immutable.dll": "sha256-6BRXEuR89cPoTxu9\/XXnjYVT1zeK4BuMV4wwsD\/5hq0=",
       "System.Collections.NonGeneric.dll": "sha256-3Joi5rUPb7f0xqb53EWVYz4MUyOY6OUMpCk31KC7eVc=",
       "System.Collections.Specialized.dll": "sha256-g4lrCutTA06+fafIwylS9g3whpDCQoPo274X0IvPaI0=",
-      "System.ComponentModel.Annotations.dll": "sha256-zmKkhH+m4KC\/5z641Vw9tNT0zZ5k+pmSWef8ykRtcY0=",
+      "System.ComponentModel.Annotations.dll": "sha256-Y4Nb4tD0T4sA8MpGNL\/4jFrUlbOBnFGMr\/hGaL0zTEk=",
       "System.ComponentModel.dll": "sha256-HdR0e0e7lDYLmHL6VGn20v+KQ5qR1OMU+56qt4QBo\/M=",
       "System.ComponentModel.Primitives.dll": "sha256-VH3Kf8D0uPGIfYEyDVHToZBnwOW1G\/jgo175CAcN3BI=",
       "System.ComponentModel.TypeConverter.dll": "sha256-7iumKv+W\/r8GMwM5EXNMJYcYaBIjQFoboW4oH92FD5w=",
