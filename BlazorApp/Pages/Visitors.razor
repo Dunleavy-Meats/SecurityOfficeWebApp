@@ -325,7 +325,7 @@ else
         if(visitor.Details.Type == VisitorType.Haulage)
             return ("N/A");
 
-        return visitor.Details.Approved.HasValue ? visitor.Details.Approved.ToString() : "N/A";
+        return visitor.Details.Approved.HasValue ? visitor.Details.Approved.Value.ToString() : "N/A";
     }
 
     private async Task ShowAddDialog()

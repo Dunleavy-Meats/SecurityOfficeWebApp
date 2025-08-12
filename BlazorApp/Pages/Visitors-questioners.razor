@@ -42,7 +42,7 @@
 			@if (context.ShowDetails && context.AllQuestionerData?.Count > 0)
 			{
 				<MudTr>
-					<td colspan="4">
+					<td colspan="6">
 						<MudCard Elevation="15">
 							<MudCardHeader>
 								<CardHeaderContent>
@@ -58,15 +58,11 @@
 									<HeaderContent>
 										<MudTh>Created On</MudTh>
 										<MudTh>View</MudTh>
-										<MudTh>Is Valid?</MudTh>
 									</HeaderContent>
 									<RowTemplate>
 										<MudTd DataLabel="Created on">@questionerData.CreatedOn.Value.ToShortDateString()</MudTd>
 										<MudTd DataLabel="Click To Show/Print">
 											<MudIconButton OnClick="@(() => ShowQuestionerData(context.Visitor, questionerData))" Icon="@Icons.Material.Rounded.Print">Print/View</MudIconButton>
-										</MudTd>
-										<MudTd DataLabel="Expired">
-											<MudIcon Icon="@((context.Expired() ? Icons.Material.Filled.Cancel : Icons.Material.Filled.CheckCircle))" Color="@(context.Expired() ? Color.Error : Color.Success)" />
 										</MudTd>
 									</RowTemplate>
 								</MudTable>

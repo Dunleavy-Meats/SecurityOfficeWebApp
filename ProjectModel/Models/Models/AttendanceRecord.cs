@@ -113,13 +113,13 @@ namespace Models
     {
 
         [FirestoreProperty]
-        public string VisitorName { get; set; }
+        public string VisitorName { get; set; } = string.Empty;
 
         [FirestoreProperty]
-        public string CompanyName { get; set; }
+        public string? CompanyName { get; set; }
 
         [FirestoreProperty]
-        public string MobileNumber { get; set; }
+        public string? MobileNumber { get; set; }
 
         [FirestoreProperty]
         public VisitorType Type { get; set; }
@@ -142,7 +142,8 @@ namespace Models
     {
         Visitor,
         Contractor,
-        Haulage
+        Haulage,
+        OfficeVisitor,
     }
 
     [JsonConverter(typeof(YesNoNullEnumConverter))]
@@ -260,7 +261,7 @@ namespace Models
             if (AllQuestionerData == null || AllQuestionerData.Count == 0)
                 return "N/A";
 
-            return AllQuestionerData.First().CreatedOn.Value.ToShortDateString();
+            return AllQuestionerData.First()?.CreatedOn.Value.ToShortDateString();
         }
 
         public bool Expired()
@@ -356,6 +357,7 @@ namespace Models
             {
                 Id = "OWx7WBEfWKmWrIDs8nw5",
                 Question = "Have you removed all jewellery (watches, bracelets, earrings etc.) before entering manufacturing areas?",
+                ShouldBeFalse = false,
                 Category = "Food safety",
             };
 
@@ -378,12 +380,12 @@ namespace Models
             };
 
 
-            Questioner question13 = new Questioner
+/*            Questioner question13 = new Questioner
             {
                 Question = "Have you removed all jewellery (watches, bracelets, earrings etc.) before entering manufacturing areas, except for a plain wedding band?",
                 ShouldBeFalse = false,
                 Category = "Food safety",
-            };
+            };*/
 
             Questioner question14 = new Questioner
             {
@@ -445,7 +447,7 @@ namespace Models
             Questioners.Add(question10);
             Questioners.Add(question11);
             Questioners.Add(question12);
-            Questioners.Add(question13);
+            //Questioners.Add(question13);
             Questioners.Add(question14);
             Questioners.Add(question15);
             Questioners.Add(question16);
