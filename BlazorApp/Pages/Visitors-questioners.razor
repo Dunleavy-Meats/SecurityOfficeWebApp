@@ -100,9 +100,14 @@
 
 	private async Task ShowQuestionerData(Visitor visitor, QuestionerData questionerData)
 	{
-	   var visitorWithQuestionerData = new VisitorWithQuestionerData(visitor, questionerData);
+		var visitorWithQuestionerData = new VisitorWithQuestionerData(visitor, questionerData);
 		try
 		{
+			if (string.IsNullOrEmpty(visitorWithQuestionerData.Visitor.Id))
+			{
+				Snackbar.Add("Visitor Id is invalid",Severity.Error);
+				return;
+			}
 			var pdfBytes = await VisitorService.GetPDFForVisitor(visitorWithQuestionerData.Visitor.Id);
 			var base64 = Convert.ToBase64String(pdfBytes);
 
@@ -119,7 +124,7 @@
 			var dialog = DialogService.Show<ConfirmationDialog>("PDF Options", parameters, options);
 			var result = await dialog.Result;
 
-			if (!result.Canceled)
+			if (result != null && !result.Canceled)
 			{
 				// If confirmed, download the PDF
 				var fileName = $"visitor_questionnaire_{visitorWithQuestionerData.Visitor.Id}.pdf";
@@ -147,7 +152,7 @@
 			return true;
 		if (element.Visitor.Details.VisitorName.Contains(searchString, StringComparison.OrdinalIgnoreCase))
 			return true;
-		if (element.Visitor.Details.CompanyName.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+		if (!string.IsNullOrEmpty(element.Visitor.Details.CompanyName) && element.Visitor.Details.CompanyName.Contains(searchString, StringComparison.OrdinalIgnoreCase))
 			return true;
 		if ($"{element.Visitor.Details.MobileNumber} {element.Visitor.Details.Type}".Contains(searchString, StringComparison.OrdinalIgnoreCase))
 			return true;

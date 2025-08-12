@@ -204,7 +204,7 @@
         }
 
         // Get the latest checkout time from all sessions
-        var lastCheckout = record.Record.Sessions
+        var lastCheckout = (record.Record.Sessions ?? Enumerable.Empty<VisitorSession>())
             .Where(s => s.CheckOutTime.HasValue)
             .OrderByDescending(s => s.CheckOutTime)
             .FirstOrDefault();
@@ -219,7 +219,6 @@
             result += " (On Site)"; // Append "(On Site)" if not permanently left
         }
         return result; // Use your existing checkout text method as fallback
-        
     }
 
     private List<VisitorSession> GetOrderedSessions(List<VisitorSession> sessions)

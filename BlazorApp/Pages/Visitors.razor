@@ -38,8 +38,7 @@ else
                 <PropertyColumn Property="x => x.Visitor.Details.Type" Title="Type" />
                 <PropertyColumn Property="@(x => x.Visitor.Details.Approved.HasValue ?  x.Visitor.Details.Approved.ToString() :  NA_Yes_No.NA.ToString())"  Title="Approved" Editable="true" />
                 <PropertyColumn Property="x => x.Visitor.GetLastVisit()" Title="LastVisit"  />
-@*                 <PropertyColumn Property="@(x=> x.QuestionerData != null &&  x.QuestionerData.CreatedOn.HasValue ? x.QuestionerData.CreatedOn.Value.ToShortDateString() : "N/A" )" Title="Answered Questionnaire On" />
- *@                <TemplateColumn CellClass="d-flex justify-end">
+                <TemplateColumn CellClass="d-flex justify-end">
                     <CellTemplate>
                         <MudMenu Icon="@Icons.Material.Filled.MoreVert"
                                  AriaLabel="Open user menu">
@@ -144,12 +143,12 @@ else
 
         var dialog = DialogService.Show<ConfirmationDialog>("Contractor Training", parameters, options);
         var result = await dialog.Result;
-        if (result.Canceled)
+        if (result == null || result.Canceled)
         {
             return;
         }
         visitor.Details.Approved = NA_Yes_No.Yes;
-        await VisitorService.ApproveVisitor(visitor.Id);
+        await VisitorService.ApproveVisitor(visitor.Id!);
         AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
         Snackbar.Add("Visitor approved", Severity.Success);
     }
@@ -160,6 +159,11 @@ else
     private async Task ShowQuestionerData(VisitorWithQuestionerData visitorWithQuestionerData)
     {
         // Set processing state for this visitor
+        if (visitorWithQuestionerData == null || visitorWithQuestionerData.Visitor == null || string.IsNullOrEmpty(visitorWithQuestionerData.Visitor.Id))
+        {
+            Snackbar.Add("Invalid visitor data", Severity.Error);
+            return;
+		}
         var visitorId = visitorWithQuestionerData.Visitor.Id;
 
         // If already processing, don't allow multiple clicks
@@ -343,7 +347,7 @@ else
         var dialog = DialogService.Show<AddVisitorDialog>("Add New Visitor", parameters, options);
         var result = await dialog.Result;
 
-        if (!result.Canceled)
+        if (result !=null && !result.Canceled)
         {
             AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
             StateHasChanged();

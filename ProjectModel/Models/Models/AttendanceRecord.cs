@@ -39,12 +39,12 @@ namespace Models
         public string? Id { get; set; }
 
         [FirestoreProperty]
-        public string VisitorID { get; set; }
+        public string VisitorID { get; set; } = string.Empty;
 
         [FirestoreProperty]
         public DateTime CheckInTime { get; set; }
 
-        // The time when the visitor permenently checks out (nullable if not yet checked out)
+        // The time when the visitor permanently checks out (nullable if not yet checked out)
         [FirestoreProperty]
         public DateTime? CheckOutTime { get; set; }
 
@@ -85,7 +85,7 @@ namespace Models
     {
         // Firestore document ID will be stored here once retrieved
         [FirestoreDocumentId]
-        public string? Id { get; set; }
+        public string Id { get; set; } = string.Empty;
 
         [FirestoreProperty]
         public VisitorDetails Details { get; set; } = new VisitorDetails();
@@ -261,7 +261,8 @@ namespace Models
             if (AllQuestionerData == null || AllQuestionerData.Count == 0)
                 return "N/A";
 
-            return AllQuestionerData.First()?.CreatedOn.Value.ToShortDateString();
+            var createdOn = AllQuestionerData[0].CreatedOn;
+            return createdOn != null ? createdOn.Value.ToShortDateString() : "N/A";
         }
 
         public bool Expired()
