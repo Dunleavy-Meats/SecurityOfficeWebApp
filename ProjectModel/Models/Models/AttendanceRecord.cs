@@ -1,6 +1,7 @@
 ﻿
 using Google.Cloud.Firestore;
 using Models.Utils;
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
 namespace Models
@@ -158,6 +159,15 @@ namespace Models
         public DateTime Date { get; set; }
     }
 
+    public class CheckoutWithCustomTimeRequest
+    {
+        [Required]
+        public DateTime CheckoutTime { get; set; }
+
+        [Required]
+        public bool IsPermanent { get; set; }
+    }
+
     [FirestoreData]
     public class  QuestionerData
     {
@@ -215,7 +225,10 @@ namespace Models
 		public bool ShouldBeFalse { get; set; } = true;
         
         [FirestoreProperty]
-		public bool CanBeTrueOrFalse { get; set; } = false;
+		public bool CanBeTrueOrFalse { get; set; } = false;  
+        
+        [FirestoreProperty]
+		public string Category { get; set; } = string.Empty;
     }
 
     public class VisitorWithQuestionerData
@@ -267,56 +280,64 @@ namespace Models
             Questioner question1 = new Questioner
             {
                 Id = "aK4RVKdurz9Ls464Zndb",
-                Question = "Have you now, or the last seven days suffered from diarrhoea and/ or vomiting?"
+                Question = "Have you now, or the last seven days suffered from diarrhoea and/ or vomiting?",
+                Category = "Health",
             };
 
             //At Present are you suffering from: Skin trouble affecting hands, arms or face ?
             Questioner question2 = new Questioner
             {
                 Id = "MISvRNoVL0zaLhPaQ6by",
-                Question = "At Present are you suffering from: Skin trouble affecting hands, arms or face ?"
+                Question = "At Present are you suffering from: Skin trouble affecting hands, arms or face ?",
+                Category = "Health",
             };
 
             //At Present are you suffering from: Boils, styes or septic fingers?
             Questioner question3 = new Questioner
             {
                 Id = "UZf8bJbv2lMZ68fqd3zJ",
-                Question = "At Present are you suffering from: Boils, styes or septic fingers?"
+                Question = "At Present are you suffering from: Boils, styes or septic fingers?",
+                Category = "Health",
             };
 
             //At Present are you suffering from: Discharge from eye, ear, gums or mouth?
             Questioner question4 = new Questioner
             {
                 Id = "UsWwADhRMp1HHMi9VdIQ",
-                Question = "At Present are you suffering from: Discharge from eye, ear, gums or mouth?"
+                Question = "At Present are you suffering from: Discharge from eye, ear, gums or mouth?",
+                Category = "Health",
             };
 
             //Do you suffer from: Recurring skin or ear trouble? 
             Questioner question5 = new Questioner
             {
                 Id = "bjRP0OWUn1c74KFvOk9B",
-                Question = "Do you suffer from: Recurring skin or ear trouble?"
+                Question = "Do you suffer from: Recurring skin or ear trouble?",
+                Category = "Health",
             };
 
             //Do you suffer from: Recurring bowel disorder? 
             Questioner question6 = new Questioner
             {
                 Id = "52XaUsJmpvc0LZjRAE8F",
-                Question = "Do you suffer from: Recurring bowel disorder?"
+                Question = "Do you suffer from: Recurring bowel disorder?",
+                Category = "Health",
             };
 
             //Have you ever had or are you known to be a carrier of typhoid or paratyphoid?	
             Questioner question7 = new Questioner
             {
                 Id = "jGmDiD8xO1K9wIED4BDi",
-                Question = "Have you ever had or are you known to be a carrier of typhoid or paratyphoid?"
+                Question = "Have you ever had or are you known to be a carrier of typhoid or paratyphoid?",
+                Category = "Health",
             };
 
             //In the last 21 days have you be in contact with anyone, at home or abroad, who may have been being suffering from typhoid or paratyphoid?  
             Questioner question8 = new Questioner
             {
                 Id = "PcXRvtGVxSE24FQ0Ymog",
-                Question = "In the last 21 days have you be in contact with anyone, at home or abroad, who may have been being suffering from typhoid or paratyphoid?"
+                Question = "In the last 21 days have you be in contact with anyone, at home or abroad, who may have been being suffering from typhoid or paratyphoid?",
+                Category = "Health",
             };
 
             //Have you been abroad in the last month ?
@@ -324,6 +345,7 @@ namespace Models
             {
                 Id = "bbKZQB4Yd90xFT072yMP",
                 Question = "Have you been abroad in the last month?",
+                Category = "Travel",
                 IsRequiredExtraAnswer = true,
                 ExtraQuestion = "If yes, what country?",
 				CanBeTrueOrFalse = true
@@ -333,7 +355,8 @@ namespace Models
             Questioner question10 = new Questioner
             {
                 Id = "OWx7WBEfWKmWrIDs8nw5",
-                Question = "Have you removed all jewellery (watches, bracelets, earrings etc.) before entering manufacturing areas?"
+                Question = "Have you removed all jewellery (watches, bracelets, earrings etc.) before entering manufacturing areas?",
+                Category = "Food safety",
             };
 
             //Please be aware that this is a nut free site. Tick to confirm you understand?
@@ -341,47 +364,74 @@ namespace Models
             {
                 Id = "o7EBp8niMcLnPtWHtivY",
                 Question = "Please be aware that this is a nut free site. Tick to confirm you understand",
-				ShouldBeFalse = false
-			};
+				ShouldBeFalse = false,
+                Category = "Food safety",
+            };
             
             //Please be aware that this is a nut free site. Tick to confirm you understand?
             Questioner question12 = new Questioner
             {
                 Id = "1Aqd1dY1P8wIHUhfJE9n",
                 Question = "Use of cameras or electronic devices on the premises is strictly forbidden. Do you understand and agree to comply with this policy?",
-				ShouldBeFalse = false
-			};
+				ShouldBeFalse = false,
+                Category = "Site Security",
+            };
 
 
             Questioner question13 = new Questioner
             {
                 Question = "Have you removed all jewellery (watches, bracelets, earrings etc.) before entering manufacturing areas, except for a plain wedding band?",
-                ShouldBeFalse = false
+                ShouldBeFalse = false,
+                Category = "Food safety",
             };
 
             Questioner question14 = new Questioner
             {
                 Question = "Are your fingernails clean, short, and free of nail varnish?",
-                ShouldBeFalse = false
+                ShouldBeFalse = false,
+                Category = "Food safety",
             };
 
             Questioner question15 = new Questioner
             {
                 Question = "Can you confirm you are not wearing false eyelashes?",
-                ShouldBeFalse = false
+                ShouldBeFalse = false,
+                Category = "Food safety",
             };
 
             Questioner question16 = new Questioner
             {
                 Question = "Can you confirm you are not wearing excessive perfume, deodorant, or aftershave?",
-                ShouldBeFalse = false
+                ShouldBeFalse = false,
+                Category = "Food safety",
             };
 
             Questioner question17 = new Questioner
             {
                 Question = "Are all cuts on your body covered with metal detectable plasters?",
-                ShouldBeFalse = false
+                ShouldBeFalse = false,
+                Category = "Food safety",
             };
+
+
+            Questioner question18 = new Questioner
+            {
+                Question = "Are you suffering from fever, chills, cough, and shortness of breath, fatigue, aches , pains or High Temperature?",
+                ShouldBeFalse = true,
+                Category = "Covid 19",
+            };
+
+            Questioner question19 = new Questioner
+            {
+                Question = "Are you a household contact or a close contact of anyone who has had covid-19 symptoms?",
+                ShouldBeFalse = true,
+                Category = "Covid 19",
+            };
+
+
+
+            //1. Are you suffering from fever, chills, cough, and shortness of breath, fatigue, aches , pains or High Temperature?
+            //3. Are you a household contact or a close contact of anyone who has had covid-19 symptoms?
 
             Questioners.Add(question1);
             Questioners.Add(question2);
@@ -400,6 +450,8 @@ namespace Models
             Questioners.Add(question15);
             Questioners.Add(question16);
             Questioners.Add(question17);
+            Questioners.Add(question18);
+            Questioners.Add(question19);
         }
     }
 }
