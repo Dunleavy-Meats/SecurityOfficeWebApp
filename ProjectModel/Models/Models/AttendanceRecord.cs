@@ -152,6 +152,9 @@ namespace Models
         
         [Display(Name = "Office Visitor")]
         OfficeVisitor,
+        
+        [Display(Name = "Vehicle")]
+        Vehicle,
     }
 
     public static class VisitorTypeExtensions
