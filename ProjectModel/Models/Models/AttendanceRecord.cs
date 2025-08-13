@@ -3,6 +3,7 @@ using Google.Cloud.Firestore;
 using Models.Utils;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
+using System.Reflection;
 
 namespace Models
 {
@@ -140,10 +141,30 @@ namespace Models
 
     public enum VisitorType
     {
+        [Display(Name = "Visitor")]
         Visitor,
+        
+        [Display(Name = "Contractor")]
         Contractor,
+        
+        [Display(Name = "Haulage")]
         Haulage,
+        
+        [Display(Name = "Office Visitor")]
         OfficeVisitor,
+    }
+
+    public static class VisitorTypeExtensions
+    {
+        public static string ToDisplayString(this VisitorType visitorType)
+        {
+            var displayAttribute = visitorType.GetType()
+                .GetField(visitorType.ToString())
+                ?.GetCustomAttributes(typeof(DisplayAttribute), false)
+                .FirstOrDefault() as DisplayAttribute;
+
+            return displayAttribute?.Name ?? visitorType.ToString();
+        }
     }
 
     [JsonConverter(typeof(YesNoNullEnumConverter))]

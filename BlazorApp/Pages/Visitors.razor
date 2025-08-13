@@ -35,7 +35,7 @@ else
                 <PropertyColumn Property="x => x.Visitor.Details.VisitorName" Title="Visitor Name"/>
                 <PropertyColumn Property="x => x.Visitor.Details.CompanyName" Title="Company"/>
                 <PropertyColumn Property="x => x.Visitor.Details.MobileNumber"  />
-                <PropertyColumn Property="x => x.Visitor.Details.Type" Title="Type" />
+                <PropertyColumn Property="x => x.Visitor.Details.Type.ToDisplayString()" Title="Type" />
                 <PropertyColumn Property="@(x => x.Visitor.Details.Approved.HasValue ?  x.Visitor.Details.Approved.ToString() :  NA_Yes_No.NA.ToString())"  Title="Approved" Editable="true" />
                 <PropertyColumn Property="x => x.Visitor.GetLastVisit()" Title="LastVisit"  />
                 <TemplateColumn CellClass="d-flex justify-end">
