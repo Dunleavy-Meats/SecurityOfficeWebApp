@@ -34,8 +34,13 @@ else
             <Columns>
                 <PropertyColumn Property="x => x.Visitor.Details.VisitorName" Title="Visitor Name"/>
                 <PropertyColumn Property="x => x.Visitor.Details.CompanyName" Title="Company"/>
-                <PropertyColumn Property="x => x.Visitor.Details.MobileNumber"  />
-                <PropertyColumn Property="x => x.Visitor.Details.Type.ToDisplayString()" Title="Type" />
+                <PropertyColumn Property="x => x.Visitor.Details.MobileNumber"/>
+                <PropertyColumn Property="x => x.Visitor.Details.Type" Title="Type">
+                    <CellTemplate>
+                        @context.Item.Visitor.Details.Type.ToDisplayString()
+                    </CellTemplate>
+                </PropertyColumn>
+
                 <PropertyColumn Property="@(x => x.Visitor.Details.Approved.HasValue ?  x.Visitor.Details.Approved.ToString() :  NA_Yes_No.NA.ToString())"  Title="Approved" Editable="true" />
                 <PropertyColumn Property="x => x.Visitor.GetLastVisit()" Title="LastVisit"  />
                 <TemplateColumn CellClass="d-flex justify-end">
@@ -98,7 +103,7 @@ else
 @code {
     private bool isLoading = true;
     private List<VisitorWithQuestionerData> AllVisitors = new();
-    private string _searchString;
+    private string _searchString = string.Empty;
 
 
     private Func<VisitorWithQuestionerData, bool> _quickFilter => x =>
@@ -109,8 +114,14 @@ else
         if (x.Visitor.Details.VisitorName.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
             return true;
 
-        if (x.Visitor.Details.CompanyName.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
-            return true;
+        if (!string.IsNullOrEmpty(x.Visitor.Details.CompanyName))
+        {
+            if (x.Visitor.Details.CompanyName.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+                return true;
+        }
+
+        if(x.Visitor.Details.Type.ToDisplayString().Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+			return true;
 
         return false;
     };
@@ -192,14 +203,14 @@ else
             var dialog = DialogService.Show<ConfirmationDialog>("PDF Options", parameters, options);
             var result = await dialog.Result;
 
-            if (result.Canceled)
+            if (result != null && result.Canceled)
             {
                 Snackbar.Add("Operation cancelled", Severity.Info);
                 return;
             }
 
             // Cast the data to our enum type
-            if (result.Data is DialogResultType resultType)
+            if (result != null && result.Data is DialogResultType resultType)
             {
                 switch (resultType)
                 {
@@ -249,12 +260,12 @@ else
             var dialog = DialogService.Show<DateRangeDialog>("Select Date Range", options);
             var result = await dialog.Result;
 
-            if (result.Canceled)
+            if (result != null && result.Canceled)
             {
                 return;
             }
 
-            if (result.Data is DateRangeDialog.DateRangeResult dateRange)
+            if (result != null && result.Data is DateRangeDialog.DateRangeResult dateRange)
             {
                 try
                 {
@@ -320,6 +331,12 @@ else
         if(visitor.Details.Type == VisitorType.Haulage)
             return false;
 
+        if(visitor.Details.Type == VisitorType.Vehicle)
+            return false;
+
+        if(visitor.Details.Type == VisitorType.Visitor)
+            return false;
+
         return visitor.Details.Approved.HasValue && visitor.Details.Approved.Value == NA_Yes_No.No;
     }
 
@@ -352,22 +369,6 @@ else
             AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
             StateHasChanged();
         }
-    }
-
-
-    void StartedEditingItem(Visitor visitor)
-    {
-        Snackbar.Add("Editing started", Severity.Info);
-    }
-
-    void CanceledEditingItem(Visitor visitor)
-    {
-       Snackbar.Add("Editing canceled", Severity.Warning);
-    }
-
-    void CommittedItemChanges(Visitor visitor)
-    {
-        Snackbar.Add("Editing Committed", Severity.Success);
     }
 
     private async Task RefreshData()
