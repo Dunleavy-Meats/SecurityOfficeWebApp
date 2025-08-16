@@ -5,133 +5,118 @@
 @inject ISnackbar Snackbar
 @inject IDialogService DialogService
 
-<MudGrid Justify="Justify.Center">
-    <MudItem xs="12">
-        <MudCard>
-            <MudCardContent>
-                <MudText Typo="Typo.h4" Class="mb-4">Attendance Records For @(_date?.Date.ToShortDateString())</MudText>
-                <MudDatePicker Label="Select the date to list Records for" ShowWeekNumbers="true" Date="_date" DateChanged="DateChanged"/>
-            </MudCardContent>
-            <MudTable T="AttendanceWithVisitor" Items="AllAttendanceRecords" OnRowClick="OnRowClicked" Elevation="6" Hover="true" Breakpoint="Breakpoint.Xs">
+<MudCard>
+    <MudCardContent>
+        <MudText Typo="Typo.h4" Class="mb-4">Attendance Records</MudText>
+    </MudCardContent>
+    <MudDataGrid Elevation="5" T="AttendanceWithVisitor" Items="AllAttendanceRecords" SortMode="SortMode.Multiple" QuickFilter="@_quickFilter" Filterable="true" FixedHeader="true">
+        <ToolBarContent>
+            <MudText Class="pa-3" Typo="Typo.h6">Attendance Records </MudText>
+            <MudDatePicker Class="pa-3" Label="Select the date to list Records for" ShowWeekNumbers="true" Date="_date" DateChanged="DateChanged" />
+                    <MudTextField Class="pa-3" @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
+                                  AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium"/>
+        </ToolBarContent>
+        <Columns>
+            <HierarchyColumn T="AttendanceWithVisitor" InitiallyExpandedFunc="@(x => x.Expanded)"/>
+            <PropertyColumn Property="x => x.Visitor.Details.VisitorName" Title="Visitor Name" />
+            <PropertyColumn Property="x => x.Visitor.Details.CompanyName" Title="Company" />
+            <PropertyColumn Property="x => x.Visitor.Details.MobileNumber" />
+            <PropertyColumn Property="x => x.Record.VehicleReg" Title="Vehicle Reg" />
+            <PropertyColumn Property="x => x.Visitor.Details.Type" Title="Type">
+                <CellTemplate>
+                    @context.Item.Visitor.Details.Type.ToDisplayString()
+                </CellTemplate>
+            </PropertyColumn>
+            <PropertyColumn Property="x => x.Record.CheckInTime" Title="CheckIn Time" />
+            <PropertyColumn CellStyleFunc=@(x => GetCellStyle(x)) Property="x => GetLastCheckOutTime(x)" Title="CheckOut Time"/>
+            <PropertyColumn Property="x => x.Record.Sessions.Count" Title="Sessions Count"/>
+            
+        </Columns>
+        <ChildRowContent>
+                    <MudCard Elevation="0">
+                        <MudCardHeader>
+                            <CardHeaderContent>
+                                <MudText Typo="Typo.body1">Sessions Details for <strong>@context.Item.Visitor.Details.VisitorName</strong></MudText>
+                            </CardHeaderContent>
+                        </MudCardHeader>
+                        <MudCardContent>
+                            <MudGrid>
+                                <MudItem xs="12">
+                                    <MudTable Items="@GetOrderedSessions(context.Item.Record.Sessions)" Context="SessionContext" Breakpoint="Breakpoint.Sm" Elevation="0">
+                                        <ColGroup>
+                                            <col style="width:650px;" />
+                                            <col style="width:stretch" />
+                                        </ColGroup>
+                                        <HeaderContent>
+                                            <MudTh>CheckIn Time</MudTh>
+                                            <MudTh>CheckOut Time</MudTh>
+                                        </HeaderContent>
+                                        <RowTemplate>
+                                            <MudTd DataLabel="CheckIn Time">@SessionContext.CheckInTime.ToString("dd/MM/yyyy HH:mm")</MudTd>
+                                            <MudTd DataLabel="CheckOut Time">
+                                                @(SessionContext.CheckOutTime.HasValue? SessionContext.CheckOutTime.Value.ToString("dd/MM/yyyy HH:mm") : "-")
+                                            </MudTd>
+                                        </RowTemplate>
+                                    </MudTable>
+                                </MudItem>
+                                @if (!string.IsNullOrEmpty(context.Item.Record.SignatureImageData))
+                                {
+                                    <MudItem xs="12" Class="mt-4">
+                                        <MudPaper Class="pa-4" Elevation="0">
+                                            <MudText Typo="Typo.subtitle1" Class="mb-2">Signature:</MudText>
+                                            <MudImage Src="@($"data:image/png;base64,{context.Item.Record.SignatureImageData}")"
+                                                      Alt="Visitor Signature"
+                                                      Width="200"
+                                                      Height="100"
+                                                      ObjectFit="ObjectFit.Contain"
+                                                      Class="rounded-lg" />
+                                        </MudPaper>
+                                    </MudItem>
+                                }
+                            </MudGrid>
+                        </MudCardContent>
+                    </MudCard>
+        </ChildRowContent>
+    </MudDataGrid>
+</MudCard>
 
-                <ColGroup>
-                    <col style="width:300px;" />
-                    <col style="width:300px;" />
-                    <col style="width:150px;" />
-                    <col style="width:150px;" />
-                    <col style="width:100px;" />
-                </ColGroup>
-                <HeaderContent>
-                    <MudTh>Visitor</MudTh>
-                    <MudTh>Company Name</MudTh>
-                    <MudTh>Mobile Number</MudTh>
-                    <MudTh>Vehicle Reg</MudTh>
-                    <MudTh>CheckIn Time</MudTh>
-                    <MudTh>CheckOut Time</MudTh>
-                    <MudTh>Sessions Count</MudTh>
-                </HeaderContent>
-                <RowTemplate>
-                    <MudTd>@context.Visitor.Details.VisitorName</MudTd>
-                    <MudTd>@context.Visitor.Details.CompanyName</MudTd>
-                    <MudTd>@context.Visitor.Details.MobileNumber</MudTd>
-                    <MudTd>@context.Record.VehicleReg</MudTd>
-                    <MudTd>@GetFirstCheckInTime(context)</MudTd>
-                    <MudTd Style=@(GetCellStyle(context))>@GetLastCheckOutTime(context)</MudTd>
-                    <MudTd>@context.Record.Sessions.Count</MudTd>
-                </RowTemplate>
-                <ChildRowContent>
-                @if (context.Expanded)
-                {
-                    <MudTr>
-                        <td colspan="5">
-                            <MudCard Elevation="0">
-                                <MudCardHeader>
-                                    <CardHeaderContent>
-                                            <MudText Typo="Typo.body1">Sessions Details for <strong>@context.Visitor.Details.VisitorName</strong></MudText>
-                                    </CardHeaderContent>
-                                </MudCardHeader>
-                                <MudCardContent>
-                                        <MudGrid>
-                                            <MudItem xs="12">
-                                                <MudTable Items="@GetOrderedSessions(context.Record.Sessions)" Context="SessionContext" Breakpoint="Breakpoint.Sm" Elevation="0">
-                                                    <ColGroup>
-                                                        <col style="width:650px;" />
-                                                        <col style="width:stretch" />
-                                                    </ColGroup>
-                                                    <HeaderContent>
-                                                        <MudTh>CheckIn Time</MudTh>
-                                                        <MudTh>CheckOut Time</MudTh>
-                                                    </HeaderContent>
-                                                    <RowTemplate>
-                                                        <MudTd DataLabel="CheckIn Time">@SessionContext.CheckInTime.ToString("dd/MM/yyyy HH:mm")</MudTd>
-                                                        <MudTd DataLabel="CheckOut Time">
-                                                            @(SessionContext.CheckOutTime.HasValue ? SessionContext.CheckOutTime.Value.ToString("dd/MM/yyyy HH:mm") : "-")
-                                                        </MudTd>
-                                                    </RowTemplate>
-                                                </MudTable>
-                                            </MudItem>
-                                            @if (!string.IsNullOrEmpty(context.Record.SignatureImageData))
-                                            {
-                                                <MudItem xs="12" Class="mt-4">
-                                                    <MudPaper Class="pa-4" Elevation="0">
-                                                        <MudText Typo="Typo.subtitle1" Class="mb-2">Signature:</MudText>
-                                                        <MudImage Src="@($"data:image/png;base64,{context.Record.SignatureImageData}")"
-                                                                  Alt="Visitor Signature"
-                                                                  Width="200"
-                                                                  Height="100"
-                                                                  ObjectFit="ObjectFit.Contain"
-                                                                  Class="rounded-lg" />
-                                                    </MudPaper>
-                                                </MudItem>
-                                            }
-                                        </MudGrid>
-                                </MudCardContent>
-                            </MudCard>
-                        </td>
-                    </MudTr>
-                }
-                </ChildRowContent>
-            </MudTable>
-        </MudCard>
-    </MudItem>
-    <MudItem xs="12">
-        
-    </MudItem>
-    <MudItem xs="12">
-        <MudCard Elevation="12">
-            <MudExpansionPanel Expanded="true">
-                <ChildContent>
-                    <MudText Typo="Typo.h5">@($"Currently on site ({onSiteRecords.Count})")</MudText>
-                    <MudDivider DividerType="DividerType.FullWidth" />
-                    <MudTable T="AttendanceWithVisitor" Items="onSiteRecords" Elevation="5">
-                        <HeaderContent>
-						    <MudTh>Visitor</MudTh>
-						    <MudTh>Company Name</MudTh>
-						    <MudTh>Mobile Number</MudTh>
-						    <MudTh>CheckIn Time</MudTh>
-						    <MudTh>CheckOut Time</MudTh>
-						    <MudTh>Sessions Count</MudTh>
-					    </HeaderContent>
-						    <RowTemplate>
-						        <MudTd>@context.Visitor.Details.VisitorName</MudTd>
-                                <MudTd>@context.Visitor.Details.CompanyName</MudTd>
-                                <MudTd>@context.Visitor.Details.MobileNumber</MudTd>
-                                <MudTd>@context.Record.CheckInTime.ToString()</MudTd>
-                                <MudTd Style=@(GetCellStyle(context))>@context.CheckOutText()</MudTd>
-                                <MudTd>@context.Record.Sessions.Count</MudTd>
-						    </RowTemplate>
-                    </MudTable>
-                    </ChildContent>
-            </MudExpansionPanel>
-        </MudCard>
-    </MudItem>
-</MudGrid>
+@if (onSiteRecords.Count > 0){
+
+    <MudDivider DividerType="DividerType.FullWidth" Class="my-12"/>
+
+    <MudCard Elevation="12">
+        <MudExpansionPanel Expanded="true" Text="@($"Currently on site ({onSiteRecords.Count})")">
+            <ChildContent>
+                <MudDivider DividerType="DividerType.FullWidth" />
+                <MudTable T="AttendanceWithVisitor" Items="onSiteRecords" Elevation="5">
+                    <HeaderContent>
+					    <MudTh>Visitor</MudTh>
+					    <MudTh>Company Name</MudTh>
+					    <MudTh>Mobile Number</MudTh>
+					    <MudTh>CheckIn Time</MudTh>
+					    <MudTh>CheckOut Time</MudTh>
+					    <MudTh>Sessions Count</MudTh>
+				    </HeaderContent>
+					    <RowTemplate>
+						    <MudTd>@context.Visitor.Details.VisitorName</MudTd>
+                            <MudTd>@context.Visitor.Details.CompanyName</MudTd>
+                            <MudTd>@context.Visitor.Details.MobileNumber</MudTd>
+                            <MudTd>@context.Record.CheckInTime.ToString()</MudTd>
+                            <MudTd Style=@(GetCellStyle(context))>@context.CheckOutText()</MudTd>
+                            <MudTd>@context.Record.Sessions.Count</MudTd>
+					    </RowTemplate>
+                </MudTable>
+                </ChildContent>
+        </MudExpansionPanel>
+    </MudCard>
+}
 
 @code {
 
     private List<AttendanceWithVisitor> AllAttendanceRecords = new();
     private List<AttendanceWithVisitor> onSiteRecords = new();
     private DateTime? _date = DateTime.Today;
+	private string _searchString = string.Empty;
 
     private void OnRowClicked(TableRowClickEventArgs<AttendanceWithVisitor> clickEvent)
     {
@@ -150,6 +135,26 @@
         _date = date;
         await updatedData();
     }
+
+    private Func<AttendanceWithVisitor, bool> _quickFilter => x =>
+    {
+        if (string.IsNullOrWhiteSpace(_searchString))
+            return true;
+
+        if (x.Visitor.Details.VisitorName.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        if (!string.IsNullOrEmpty(x.Visitor.Details.CompanyName))
+        {
+            if (x.Visitor.Details.CompanyName.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+                return true;
+        }
+
+        if (x.Visitor.Details.Type.ToDisplayString().Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        return false;
+    };
 
     private async Task updatedData()
     {
