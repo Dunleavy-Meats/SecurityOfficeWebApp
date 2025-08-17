@@ -127,7 +127,7 @@
 			if (result != null && !result.Canceled)
 			{
 				// If confirmed, download the PDF
-				var fileName = $"visitor_questionnaire_{visitorWithQuestionerData.Visitor.Id}.pdf";
+				var fileName = $"visitor_questionnaire_{visitorWithQuestionerData.Visitor.Details.VisitorName}_{DateTime.Now.ToString("dd_mm_yy ")}.pdf";
 				await JSRuntime.InvokeVoidAsync("downloadPDF", fileName, base64);
 				Snackbar.Add("Questionnaire PDF downloaded successfully", Severity.Success);
 			}
