@@ -66,6 +66,9 @@ namespace Models
 
         [FirestoreProperty]
         public string? SignatureImageData { get; set; }
+
+        [FirestoreProperty]
+        public string? UserSignatureImageData { get; set; }
     }
 
     [FirestoreData]
