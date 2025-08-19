@@ -216,6 +216,9 @@ namespace Models
         public string? SignatureImageData { get; set; }
 
         [FirestoreProperty]
+        public string? UserSignatureImageData { get; set; }
+
+        [FirestoreProperty]
         public bool AcceptedTerms { get; set; } = false;
 
     }
