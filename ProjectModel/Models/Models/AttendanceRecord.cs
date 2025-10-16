@@ -26,9 +26,9 @@ namespace Models
         {
             if (Record.CheckOutTime.HasValue)
             {
-                return Record.CheckInTime.ToString("dd/MM/yyyy HH:mm");
+                return Record.CheckInTime.ToLocalTime().ToString("dd/MM/yyyy HH:mm");
             }
-            return Record.CheckInTime.Date == DateTime.UtcNow.Date ? "On Site" : "Never checked out";
+            return Record.CheckInTime.Date.ToLocalTime() == DateTime.UtcNow.Date ? "On Site" : "Never checked out";
         }
     }
 
@@ -106,7 +106,7 @@ namespace Models
             if (LastVisit == null)
                 return "No previous visits";
 
-            var lastVisitDate = LastVisit.Value;
+            var lastVisitDate = LastVisit.Value.ToLocalTime();
             return lastVisitDate.ToString("dd/MM/yyyy HH:mm");
         }
     }
@@ -292,7 +292,7 @@ namespace Models
                 return "N/A";
 
             var createdOn = AllQuestionerData[0].CreatedOn;
-            return createdOn != null ? createdOn.Value.ToShortDateString() : "N/A";
+            return createdOn != null ? createdOn.Value.ToLocalTime().ToShortDateString() : "N/A";
         }
 
         public bool Expired()

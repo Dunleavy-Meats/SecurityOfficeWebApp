@@ -27,7 +27,7 @@
                     @context.Item.Visitor.Details.Type.ToDisplayString()
                 </CellTemplate>
             </PropertyColumn>
-            <PropertyColumn Property="x => x.Record.CheckInTime" Title="CheckIn Time" />
+            <PropertyColumn Property="x => x.Record.CheckInTime.ToLocalTime()" Title="CheckIn Time" />
             <PropertyColumn CellStyleFunc=@(x => GetCellStyle(x)) Property="x => GetLastCheckOutTime(x)" Title="CheckOut Time"/>
             <PropertyColumn Property="x => x.Record.Sessions.Count" Title="Sessions Count"/>
             
@@ -52,9 +52,9 @@
                                             <MudTh>CheckOut Time</MudTh>
                                         </HeaderContent>
                                         <RowTemplate>
-                                            <MudTd DataLabel="CheckIn Time">@SessionContext.CheckInTime.ToString("dd/MM/yyyy HH:mm")</MudTd>
+                                            <MudTd DataLabel="CheckIn Time">@SessionContext.CheckInTime.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</MudTd>
                                             <MudTd DataLabel="CheckOut Time">
-                                                @(SessionContext.CheckOutTime.HasValue? SessionContext.CheckOutTime.Value.ToString("dd/MM/yyyy HH:mm") : "-")
+                                                @(SessionContext.CheckOutTime.HasValue? SessionContext.CheckOutTime.Value.ToLocalTime().ToString("dd/MM/yyyy HH:mm") : "-")
                                             </MudTd>
                                         </RowTemplate>
                                     </MudTable>
@@ -115,7 +115,7 @@
 						    <MudTd>@context.Visitor.Details.VisitorName</MudTd>
                             <MudTd>@context.Visitor.Details.CompanyName</MudTd>
                             <MudTd>@context.Visitor.Details.MobileNumber</MudTd>
-                            <MudTd>@context.Record.CheckInTime.ToString()</MudTd>
+                            <MudTd>@context.Record.CheckInTime.ToLocalTime().ToString()</MudTd>
                             <MudTd Style=@(GetCellStyle(context))>@context.CheckOutText()</MudTd>
                             <MudTd>@context.Record.Sessions.Count</MudTd>
 					    </RowTemplate>
@@ -130,7 +130,7 @@
     private List<AttendanceWithVisitor> AllAttendanceRecords = new();
     private List<AttendanceWithVisitor> onSiteRecords = new();
     private DateTime? _date = DateTime.Today;
-	private string _searchString = string.Empty;
+    private string _searchString = string.Empty;
 
     private void OnRowClicked(TableRowClickEventArgs<AttendanceWithVisitor> clickEvent)
     {
@@ -204,7 +204,7 @@
                 .First()
                 .CheckInTime;
 
-        return checkInTime.ToString("dd/MM/yyyy HH:mm");
+        return checkInTime.ToLocalTime().ToString("dd/MM/yyyy HH:mm");
     }
 
     private string GetLastCheckOutTime(AttendanceWithVisitor record)
@@ -229,7 +229,7 @@
             .FirstOrDefault();
 
         if (lastCheckout != null && lastCheckout.CheckOutTime.HasValue)
-            result = lastCheckout.CheckOutTime.Value.ToString("dd/MM/yyyy HH:mm");
+            result = lastCheckout.CheckOutTime.Value.ToLocalTime().ToString("dd/MM/yyyy HH:mm");
 
         if (result == string.Empty)
             return record.CheckOutText(); // Use your existing checkout text method as fallback
