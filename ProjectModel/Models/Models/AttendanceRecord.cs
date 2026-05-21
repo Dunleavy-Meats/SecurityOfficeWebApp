@@ -100,6 +100,9 @@ namespace Models
         [FirestoreProperty]
         public DateTime? LastVisit { get; set; }
 
+        [FirestoreProperty]
+        public DateTime? UpdatedAt { get; set; }
+
         public string GetLastVisit()
         {
 

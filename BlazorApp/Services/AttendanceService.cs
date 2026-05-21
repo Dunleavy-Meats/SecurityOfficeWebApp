@@ -31,15 +31,12 @@ namespace BlazorApp.Services
 
             try
             {
-                var request = new DateOnlyRequest
-                {
-                    Date = date.Date // Ensures time is 00:00:00
-                };
-                var response = await _httpClient.PostAsJsonAsync("/api/Attendance/by-date", request);
+                var attendanceEnvelope = await _httpClient.GetFromJsonAsync<ApiPagedResponse<AttendanceRecord>>(
+                    $"/api/attendance-records?date={date:yyyy-MM-dd}&page=1&pageSize=200");
+                var visitorsEnvelope = await _httpClient.GetFromJsonAsync<ApiPagedResponse<Visitor>>("api/visitors?page=1&pageSize=200");
 
-                response.EnsureSuccessStatusCode();
-                List<AttendanceRecord> attendanceRecords = await response.Content.ReadFromJsonAsync<List<AttendanceRecord>>();
-                List<Visitor> visitors = await _httpClient.GetFromJsonAsync<List<Visitor>>("api/Visitors/getvisitors");
+                var attendanceRecords = attendanceEnvelope?.Items;
+                var visitors = visitorsEnvelope?.Items;
 
                 if(attendanceRecords == null || visitors == null)
                 {
@@ -57,7 +54,7 @@ namespace BlazorApp.Services
                 }
 
                 // Get the current timestamp for this entity type
-                var timestampResponse = await _httpClient.GetAsync($"api/DataSync/lastmodified/{ENTITY_TYPE}");
+                var timestampResponse = await _httpClient.GetAsync($"api/sync/{ENTITY_TYPE}/last-modified");
                 if (timestampResponse.IsSuccessStatusCode)
                 {
                     var timestamp = await timestampResponse.Content.ReadFromJsonAsync<DateTime>();

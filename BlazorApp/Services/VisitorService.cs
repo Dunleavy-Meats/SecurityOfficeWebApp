@@ -27,8 +27,9 @@ namespace BlazorApp.Services
             await AddAuthHeader();
             try
             {
-                var visitors = await _httpClient.GetFromJsonAsync<List<Visitor>>("api/Visitors/getvisitors") ?? new();
-                var answers = await _httpClient.GetFromJsonAsync<List<QuestionerData>>("api/Visitors/GetAllAnswer") ?? new();
+                var visitorsEnvelope = await _httpClient.GetFromJsonAsync<ApiPagedResponse<Visitor>>("api/visitors?page=1&pageSize=200");
+                var answers = await _httpClient.GetFromJsonAsync<List<QuestionerData>>("api/questionnaires") ?? new();
+                var visitors = visitorsEnvelope?.Items ?? new();
                 
                 var result = visitors.Select(visitor => new VisitorWithQuestionerData(
                     visitor, 
@@ -36,7 +37,7 @@ namespace BlazorApp.Services
                 )).ToList();
 
                 // Get the current timestamp from server for this entity type
-                var response = await _httpClient.GetAsync($"api/DataSync/lastmodified/{ENTITY_TYPE}");
+                var response = await _httpClient.GetAsync($"api/sync/{ENTITY_TYPE}/last-modified");
                 if (response.IsSuccessStatusCode)
                 {
                     var timestamp = await response.Content.ReadFromJsonAsync<DateTime>();
@@ -58,7 +59,8 @@ namespace BlazorApp.Services
             await AddAuthHeader();
             try
             {
-                return await _httpClient.GetFromJsonAsync<List<Visitor>>("api/Visitors/getvisitors") ?? new List<Visitor>();
+                var response = await _httpClient.GetFromJsonAsync<ApiPagedResponse<Visitor>>("api/visitors?page=1&pageSize=200");
+                return response?.Items ?? new List<Visitor>();
             }
             catch (HttpRequestException)
             {
@@ -72,7 +74,7 @@ namespace BlazorApp.Services
             await AddAuthHeader();
             try
             {
-                return await _httpClient.GetFromJsonAsync<List<Questioner>>("api/Visitors/getQuestions") ?? new List<Questioner>();
+                return await _httpClient.GetFromJsonAsync<List<Questioner>>("api/question-catalog") ?? new List<Questioner>();
             }
             catch (HttpRequestException)
             {
@@ -86,7 +88,8 @@ namespace BlazorApp.Services
             await AddAuthHeader();
             try
             {
-                 await _httpClient.GetAsync($"api/Visitors/ApproveVisitor/{visitorId}");
+                 var body = new { approved = NA_Yes_No.Yes };
+                 await _httpClient.PatchAsJsonAsync($"api/visitors/{visitorId}/approval", body);
             }
             catch (HttpRequestException ex)
             {
@@ -100,7 +103,7 @@ namespace BlazorApp.Services
             await AddAuthHeader();
             try
             {
-                var response = await _httpClient.GetAsync($"api/PDF/GetAnswerForVisitor/{visitorId}");
+                var response = await _httpClient.GetAsync($"api/visitors/{visitorId}/documents/questionnaire-pdf");
                 response.EnsureSuccessStatusCode();
                 return await response.Content.ReadAsByteArrayAsync();
             }
@@ -116,7 +119,7 @@ namespace BlazorApp.Services
             try
             {
                 var response = await _httpClient.PostAsJsonAsync(
-                    "api/Visitors/addFrequentVisitor", 
+                    "api/visitors", 
                     visitor);
                 
                 response.EnsureSuccessStatusCode();
@@ -133,7 +136,7 @@ namespace BlazorApp.Services
             await AddAuthHeader();
             try
             {
-                var requestUrl = $"api/PDF/GetAttendanceForVisitor/{visitorId}?fromDate={fromDate:yyyy-MM-dd}&toDate={toDate:yyyy-MM-dd}&forDownload={forDownload}";
+                var requestUrl = $"api/visitors/{visitorId}/documents/attendance-pdf?fromDate={fromDate:yyyy-MM-dd}&toDate={toDate:yyyy-MM-dd}";
                 var response = await _httpClient.GetAsync(requestUrl);
                 response.EnsureSuccessStatusCode();
                 return await response.Content.ReadAsByteArrayAsync();

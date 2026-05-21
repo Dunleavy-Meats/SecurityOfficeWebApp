@@ -107,10 +107,10 @@ else
         try
         {
             isLoading = true;
-            var response = await HttpClient.GetFromJsonAsync<List<User>>("api/users");
-            if (response != null)
+            var response = await HttpClient.GetFromJsonAsync<ApiPagedResponse<User>>("api/users?page=1&pageSize=200");
+            if (response?.Items != null)
             {
-                users = response;
+                users = response.Items;
             }
         }
         catch (Exception ex)

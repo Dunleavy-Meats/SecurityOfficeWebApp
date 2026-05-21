@@ -3,6 +3,14 @@ using System.Net.Http.Json;
 
 namespace BlazorApp.Services
 {
+    public class ApiPagedResponse<T>
+    {
+        public List<T> Items { get; set; } = new();
+        public int Page { get; set; }
+        public int PageSize { get; set; }
+        public int Count { get; set; }
+    }
+
     public abstract class BaseApiService
     {
         protected readonly HttpClient _httpClient;
@@ -37,7 +45,7 @@ namespace BlazorApp.Services
             await AddAuthHeader();
             try
             {
-                var response = await _httpClient.GetAsync($"api/DataSync/lastmodified/{entityType}");
+                var response = await _httpClient.GetAsync($"api/sync/{entityType}/last-modified");
                 if (!response.IsSuccessStatusCode) return true;
 
                 var lastModified = await response.Content.ReadFromJsonAsync<DateTime>();
