@@ -97,6 +97,10 @@ else
                 </TemplateColumn>
             </Columns>
         </MudDataGrid>
+        <MudStack Row="true" Class="pa-4" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween">
+            <MudText Typo="Typo.body2">Page @currentPage</MudText>
+            <MudPagination Count="@totalPages" Selected="@currentPage" SelectedChanged="OnPageChanged" />
+        </MudStack>
     </MudCard>
 }
 
@@ -104,6 +108,9 @@ else
     private bool isLoading = true;
     private List<VisitorWithQuestionerData> AllVisitors = new();
     private string _searchString = string.Empty;
+    private int currentPage = 1;
+    private int pageSize = 50;
+    private int totalPages = 1;
 
 
     private Func<VisitorWithQuestionerData, bool> _quickFilter => x =>
@@ -131,7 +138,7 @@ else
         try
         {
             isLoading = true;
-            AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
+            await LoadPage(currentPage);
         }
         finally
         {
@@ -160,7 +167,7 @@ else
         }
         visitor.Details.Approved = NA_Yes_No.Yes;
         await VisitorService.ApproveVisitor(visitor.Id!);
-        AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
+        await LoadPage(currentPage);
         Snackbar.Add("Visitor approved", Severity.Success);
     }
 
@@ -366,7 +373,7 @@ else
 
         if (result !=null && !result.Canceled)
         {
-            AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
+            await LoadPage(currentPage);
             StateHasChanged();
         }
     }
@@ -376,12 +383,25 @@ else
         try
         {
             isLoading = true;
-            AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync(forceRefresh: true);
+            await LoadPage(currentPage, forceRefresh: true);
             Snackbar.Add("Data refreshed", Severity.Success);
         }
         finally
         {
             isLoading = false;
         }
+    }
+
+    private async Task OnPageChanged(int page)
+    {
+        currentPage = Math.Max(1, page);
+        await LoadPage(currentPage);
+    }
+
+    private async Task LoadPage(int page, bool forceRefresh = false)
+    {
+        currentPage = Math.Max(1, page);
+        AllVisitors = await VisitorService.GetVisitorWithQuestionerDataPageAsync(currentPage, pageSize, forceRefresh);
+        totalPages = AllVisitors.Count < pageSize ? currentPage : Math.Max(totalPages, currentPage + 1);
     }
 }

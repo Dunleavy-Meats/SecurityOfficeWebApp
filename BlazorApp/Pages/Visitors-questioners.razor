@@ -78,15 +78,36 @@
 	</MudTable>
 </MudCard>
 
+<MudStack Row="true" Class="pa-4" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween">
+	<MudText Typo="Typo.body2">Page @currentPage</MudText>
+	<MudPagination Count="@totalPages" Selected="@currentPage" SelectedChanged="OnPageChanged" />
+</MudStack>
+
 @code {
 
 	private List<VisitorWithQuestionerData> AllVisitors = new();
 	private string searchString1 = "";
+	private int currentPage = 1;
+	private int pageSize = 50;
+	private int totalPages = 1;
 
 	protected override async Task OnInitializedAsync()
 	{
-		AllVisitors = await VisitorService.GetVisitorWithQuestionerDataAsync();
-		AllVisitors = AllVisitors.Where(x => x.AllQuestionerData?.Count > 0).ToList();
+		await LoadPage(currentPage);
+	}
+
+	private async Task OnPageChanged(int page)
+	{
+		currentPage = Math.Max(1, page);
+		await LoadPage(currentPage);
+	}
+
+	private async Task LoadPage(int page)
+	{
+		currentPage = Math.Max(1, page);
+		var pageData = await VisitorService.GetVisitorWithQuestionerDataPageAsync(currentPage, pageSize);
+		AllVisitors = pageData.Where(x => x.AllQuestionerData?.Count > 0).ToList();
+		totalPages = pageData.Count < pageSize ? currentPage : Math.Max(totalPages, currentPage + 1);
 	}
 
 	private void RowClickEvent(TableRowClickEventArgs<VisitorWithQuestionerData> clickEvent)

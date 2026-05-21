@@ -18,8 +18,15 @@ namespace BlazorApp.Services
 
         public async Task<List<VisitorWithQuestionerData>> GetVisitorWithQuestionerDataAsync(bool forceRefresh = false)
         {
+            return await GetVisitorWithQuestionerDataPageAsync(1, 50, forceRefresh);
+        }
+
+        public async Task<List<VisitorWithQuestionerData>> GetVisitorWithQuestionerDataPageAsync(int page, int pageSize, bool forceRefresh = false)
+        {
+            var cacheKey = $"{VISITORS_CACHE_KEY}_p{Math.Max(1, page)}_s{Math.Clamp(pageSize, 1, 200)}";
+
             if (!forceRefresh && !await HasDataChanged(ENTITY_TYPE) && 
-                _cacheService.TryGetValue<List<VisitorWithQuestionerData>>(VISITORS_CACHE_KEY, out var cachedData))
+                _cacheService.TryGetValue<List<VisitorWithQuestionerData>>(cacheKey, out var cachedData))
             {
                 return cachedData;
             }
@@ -27,9 +34,22 @@ namespace BlazorApp.Services
             await AddAuthHeader();
             try
             {
-                var visitorsEnvelope = await _httpClient.GetFromJsonAsync<ApiPagedResponse<Visitor>>("api/visitors?page=1&pageSize=200");
-                var answers = await _httpClient.GetFromJsonAsync<List<QuestionerData>>("api/questionnaires") ?? new();
+                var normalizedPage = Math.Max(1, page);
+                var normalizedPageSize = Math.Clamp(pageSize, 1, 200);
+                var visitorsEnvelope = await _httpClient.GetFromJsonAsync<ApiPagedResponse<Visitor>>($"api/visitors?page={normalizedPage}&pageSize={normalizedPageSize}");
                 var visitors = visitorsEnvelope?.Items ?? new();
+
+                var visitorIds = visitors
+                    .Select(v => v.Id)
+                    .Where(id => !string.IsNullOrWhiteSpace(id))
+                    .ToList();
+
+                var answers = new List<QuestionerData>();
+                if (visitorIds.Count > 0)
+                {
+                    var encodedIds = string.Join(",", visitorIds.Select(Uri.EscapeDataString));
+                    answers = await _httpClient.GetFromJsonAsync<List<QuestionerData>>($"api/questionnaires/summary/by-visitors?visitorIds={encodedIds}") ?? new();
+                }
                 
                 var result = visitors.Select(visitor => new VisitorWithQuestionerData(
                     visitor, 
@@ -44,7 +64,7 @@ namespace BlazorApp.Services
                     _cacheService.SetLastModified(ENTITY_TYPE, timestamp);
                 }
 
-                _cacheService.Set(VISITORS_CACHE_KEY, result);
+                _cacheService.Set(cacheKey, result);
                 return result;
             }
             catch (HttpRequestException)
