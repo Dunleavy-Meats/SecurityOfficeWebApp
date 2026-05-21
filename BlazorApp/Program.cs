@@ -25,8 +25,8 @@ builder.Services.AddScoped(sp =>
 {
     var client = new HttpClient
     {
-        //BaseAddress = new Uri("https://securityapi-osz0.onrender.com/")
-        BaseAddress = new Uri("https://localhost:7033/")
+        BaseAddress = new Uri("https://securityapi-osz0.onrender.com/")
+        // BaseAddress = new Uri("https://localhost:7033/")
     };
     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
     return client;
