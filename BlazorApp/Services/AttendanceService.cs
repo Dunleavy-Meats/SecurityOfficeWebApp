@@ -33,23 +33,44 @@ namespace BlazorApp.Services
             {
                 var attendanceEnvelope = await _httpClient.GetFromJsonAsync<ApiPagedResponse<AttendanceRecord>>(
                     $"/api/attendance-records?date={date:yyyy-MM-dd}&page=1&pageSize=200");
-                var visitorsEnvelope = await _httpClient.GetFromJsonAsync<ApiPagedResponse<Visitor>>("api/visitors?page=1&pageSize=200");
 
                 var attendanceRecords = attendanceEnvelope?.Items;
-                var visitors = visitorsEnvelope?.Items;
 
-                if(attendanceRecords == null || visitors == null)
+                if (attendanceRecords == null)
                 {
-                    throw new Exception();
+                    throw new Exception("Null attendance response from API.");
                 }
+
+                // Fetch only the visitors referenced by these records — avoids page-size gaps
+                var visitorIds = attendanceRecords
+                    .Select(r => r.VisitorID)
+                    .Where(id => !string.IsNullOrEmpty(id))
+                    .Distinct()
+                    .ToList();
+
+                List<Visitor> visitors = new();
+                if (visitorIds.Count > 0)
+                {
+                    var idsParam = string.Join(",", visitorIds);
+                    visitors = await _httpClient.GetFromJsonAsync<List<Visitor>>(
+                        $"api/visitors/by-ids?visitorIds={Uri.EscapeDataString(idsParam)}") ?? new();
+                }
+
+                var visitorMap = visitors.ToDictionary(v => v.Id);
 
                 List<AttendanceWithVisitor> attendanceWithVisitors = new List<AttendanceWithVisitor>();
                 foreach (var item in attendanceRecords)
                 {
+                    if (!visitorMap.TryGetValue(item.VisitorID, out var visitor))
+                    {
+                        Console.WriteLine($"[AttendanceService] Warning: no visitor found for VisitorID={item.VisitorID}");
+                        continue; // skip orphaned records rather than producing a null Visitor
+                    }
+
                     attendanceWithVisitors.Add(new AttendanceWithVisitor
                     {
                         Record = item,
-                        Visitor = visitors.FirstOrDefault(v => v.Id == item.VisitorID)
+                        Visitor = visitor
                     });
                 }
 
