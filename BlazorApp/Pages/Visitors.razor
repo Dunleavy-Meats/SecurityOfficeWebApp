@@ -394,8 +394,16 @@ else
 
     private async Task OnPageChanged(int page)
     {
-        currentPage = Math.Max(1, page);
-        await LoadPage(currentPage);
+        try
+        {
+            isLoading = true;
+            currentPage = Math.Max(1, page);
+            await LoadPage(currentPage);
+        }
+        finally
+        {
+            isLoading = false;
+        }
     }
 
     private async Task LoadPage(int page, bool forceRefresh = false)

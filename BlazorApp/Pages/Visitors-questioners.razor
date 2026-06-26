@@ -5,7 +5,13 @@
 @inject IJSRuntime JSRuntime
 @inject IDialogService DialogService
 
-<MudCard>
+@if (isLoading)
+{
+    <MudProgressLinear Color="Color.Primary" Indeterminate="true" Class="my-7" />
+}
+else
+{
+    <MudCard>
 	<MudCardContent>
 		<MudText Typo="Typo.h4" Align="Align.Start" Class="mb-4">Visitors Questionnaire</MudText>
 	</MudCardContent>
@@ -72,19 +78,17 @@
 				</MudTr>
 			}
 		</ChildRowContent>
-		<PagerContent>
-			<MudTablePager />
-		</PagerContent>
 	</MudTable>
-</MudCard>
-
-<MudStack Row="true" Class="pa-4" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween">
-	<MudText Typo="Typo.body2">Page @currentPage</MudText>
-	<MudPagination Count="@totalPages" Selected="@currentPage" SelectedChanged="OnPageChanged" />
-</MudStack>
+	<MudStack Row="true" Class="pa-4" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween">
+		<MudText Typo="Typo.body2">Page @currentPage of @totalPages</MudText>
+		<MudPagination Count="@totalPages" Selected="@currentPage" SelectedChanged="OnPageChanged" />
+	</MudStack>
+    </MudCard>
+}
 
 @code {
 
+	private bool isLoading = true;
 	private List<VisitorWithQuestionerData> AllVisitors = new();
 	private string searchString1 = "";
 	private int currentPage = 1;
@@ -93,13 +97,29 @@
 
 	protected override async Task OnInitializedAsync()
 	{
-		await LoadPage(currentPage);
+		try
+		{
+			isLoading = true;
+			await LoadPage(currentPage);
+		}
+		finally
+		{
+			isLoading = false;
+		}
 	}
 
 	private async Task OnPageChanged(int page)
 	{
-		currentPage = Math.Max(1, page);
-		await LoadPage(currentPage);
+		try
+		{
+			isLoading = true;
+			currentPage = Math.Max(1, page);
+			await LoadPage(currentPage);
+		}
+		finally
+		{
+			isLoading = false;
+		}
 	}
 
 	private async Task LoadPage(int page)
