@@ -42,7 +42,7 @@ else
                 </PropertyColumn>
 
                 <PropertyColumn Property="@(x => x.Visitor.Details.Approved.HasValue ?  x.Visitor.Details.Approved.ToString() :  NA_Yes_No.NA.ToString())"  Title="Approved" Editable="true" />
-                <PropertyColumn Property="x => x.Visitor.GetLastVisit()" Title="LastVisit"  />
+                <PropertyColumn Property="x => Utils.GetLastVisit(x.Visitor)" Title="LastVisit" />
                 <TemplateColumn CellClass="d-flex justify-end">
                     <CellTemplate>
                         <MudMenu Icon="@Icons.Material.Filled.MoreVert"

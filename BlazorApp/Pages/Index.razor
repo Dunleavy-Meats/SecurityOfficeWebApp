@@ -52,9 +52,9 @@
                                             <MudTh>CheckOut Time</MudTh>
                                         </HeaderContent>
                                         <RowTemplate>
-                                            <MudTd DataLabel="CheckIn Time">@SessionContext.CheckInTime.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</MudTd>
+                                            <MudTd DataLabel="CheckIn Time">@Utils.GetFormatedTimeAndDate(SessionContext.CheckInTime)</MudTd>
                                             <MudTd DataLabel="CheckOut Time">
-                                                @(SessionContext.CheckOutTime.HasValue? SessionContext.CheckOutTime.Value.ToLocalTime().ToString("dd/MM/yyyy HH:mm") : "-")
+                                                @(SessionContext.CheckOutTime.HasValue? Utils.GetFormatedTimeAndDate(SessionContext.CheckOutTime.Value) : "-")
                                             </MudTd>
                                         </RowTemplate>
                                     </MudTable>
@@ -204,7 +204,7 @@
                 .First()
                 .CheckInTime;
 
-        return checkInTime.ToLocalTime().ToString("dd/MM/yyyy HH:mm");
+        return Utils.GetFormatedTimeAndDate(checkInTime);
     }
 
     private string GetLastCheckOutTime(AttendanceWithVisitor record)
@@ -229,7 +229,7 @@
             .FirstOrDefault();
 
         if (lastCheckout != null && lastCheckout.CheckOutTime.HasValue)
-            result = lastCheckout.CheckOutTime.Value.ToLocalTime().ToString("dd/MM/yyyy HH:mm");
+            result = Utils.GetFormatedTimeAndDate(lastCheckout.CheckOutTime.Value);
 
         if (result == string.Empty)
             return record.CheckOutText(); // Use your existing checkout text method as fallback
