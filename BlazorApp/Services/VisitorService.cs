@@ -118,12 +118,15 @@ namespace BlazorApp.Services
             }
         }
         
-        public async Task<byte[]> GetPDFForVisitor(string visitorId)
+        public async Task<byte[]> GetPDFForVisitor(string visitorId, string? questionerId = null)
         {
             await AddAuthHeader();
             try
             {
-                var response = await _httpClient.GetAsync($"api/visitors/{visitorId}/documents/questionnaire-pdf");
+                var url = $"api/visitors/{visitorId}/documents/questionnaire-pdf";
+                if (!string.IsNullOrEmpty(questionerId))
+                    url += $"?questionerId={Uri.EscapeDataString(questionerId)}";
+                var response = await _httpClient.GetAsync(url);
                 response.EnsureSuccessStatusCode();
                 return await response.Content.ReadAsByteArrayAsync();
             }

@@ -26,7 +26,7 @@ else
 			<MudTh>Visitor Name</MudTh>
 			<MudTh>Company</MudTh>
 			<MudTh>Phone Number</MudTh>
-			<MudTh>Questionnaire Expiry Date</MudTh>
+			<MudTh>Issue Date</MudTh>
 			<MudTh>Number of Questionnaire</MudTh>
 		</HeaderContent>
 		<RowTemplate>
@@ -37,7 +37,7 @@ else
 			@if (context.Visitor.Details.QuestionerExpiryDate.HasValue)
 			{
 				<MudTd DataLabel="QuestionerExpiryDate">
-					@context.Visitor.Details.QuestionerExpiryDate.Value.ToShortDateString()
+						@context.Visitor.Details.QuestionerExpiryDate.Value.ToString("dd:MM:yyyy:hh:G")
 				</MudTd>
 				<MudTd DataLabel="Number Of Questionnaire">
 					@context.AllQuestionerData?.Count
@@ -66,7 +66,7 @@ else
 										<MudTh>View</MudTh>
 									</HeaderContent>
 									<RowTemplate>
-										<MudTd DataLabel="Created on">@questionerData.CreatedOn.Value.ToLocalTime().ToShortDateString()</MudTd>
+										<MudTd DataLabel="Created on">@questionerData.CreatedOn.Value.ToLocalTime().ToString("dd:MM:yyyy:hh:G"))</MudTd>
 										<MudTd DataLabel="Click To Show/Print">
 											<MudIconButton OnClick="@(() => ShowQuestionerData(context.Visitor, questionerData))" Icon="@Icons.Material.Rounded.Print">Print/View</MudIconButton>
 										</MudTd>
@@ -149,7 +149,7 @@ else
 				Snackbar.Add("Visitor Id is invalid",Severity.Error);
 				return;
 			}
-			var pdfBytes = await VisitorService.GetPDFForVisitor(visitorWithQuestionerData.Visitor.Id);
+			var pdfBytes = await VisitorService.GetPDFForVisitor(visitorWithQuestionerData.Visitor.Id, questionerData.Id);
 			var base64 = Convert.ToBase64String(pdfBytes);
 
 			// Show dialog to choose between download and print
