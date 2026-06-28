@@ -12,7 +12,7 @@
     <MudDataGrid Elevation="5" T="AttendanceWithVisitor" Items="AllAttendanceRecords" SortMode="SortMode.Multiple" QuickFilter="@_quickFilter" Filterable="true" FixedHeader="true">
         <ToolBarContent>
             <MudText Class="pa-3" Typo="Typo.h6">Attendance Records </MudText>
-            <MudDatePicker Class="pa-3" Label="Select the date to list Records for" ShowWeekNumbers="true" Date="_date" DateChanged="DateChanged" />
+            <MudDatePicker Class="pa-3" Label="Select the date to list Records for" ShowWeekNumbers="true" Date="_date" DateFormat="dd/MM/yyyy" DateChanged="DateChanged" />
                     <MudTextField Class="pa-3" @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
                                   AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium"/>
         </ToolBarContent>

@@ -5,10 +5,10 @@
         <MudText>@ContentText</MudText>
         <MudGrid Spacing="2" Class="mt-3">
             <MudItem xs="12" sm="6">
-                <MudDatePicker Label="From Date" @bind-Date="FromDate" />
+                <MudDatePicker Label="From Date" DateFormat="dd/MM/yyyy" @bind-Date="FromDate" />
             </MudItem>
             <MudItem xs="12" sm="6">
-                <MudDatePicker Label="To Date" @bind-Date="ToDate" DisableToolbar="false" />
+                <MudDatePicker Label="To Date" @bind-Date="ToDate" DateFormat="dd/MM/yyyy" DisableToolbar="false" />
             </MudItem>
         </MudGrid>
     </DialogContent>
