@@ -28,6 +28,10 @@ else
             <ToolBarContent>
                 <MudText Typo="Typo.h6">All known visitors</MudText>
                 <MudSpacer />
+                <MudStack Row="true" Class="pa-4" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween">
+                    <MudText Typo="Typo.body2">Page @currentPage</MudText>
+                    <MudPagination Count="@totalPages" Selected="@currentPage" SelectedChanged="OnPageChanged" />
+                </MudStack>
                 <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
                               AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
             </ToolBarContent>
@@ -110,7 +114,7 @@ else
     private string _searchString = string.Empty;
     private int currentPage = 1;
     private int pageSize = 50;
-    private int totalPages = 1;
+    private int totalPages = 2;
 
 
     private Func<VisitorWithQuestionerData, bool> _quickFilter => x =>
@@ -335,13 +339,7 @@ else
         if(visitor == null)
             return false;
 
-        if(visitor.Details.Type == VisitorType.Haulage)
-            return false;
-
-        if(visitor.Details.Type == VisitorType.Vehicle)
-            return false;
-
-        if(visitor.Details.Type == VisitorType.Visitor)
+        if(visitor.Details.Type != VisitorType.Contractor)
             return false;
 
         return visitor.Details.Approved.HasValue && visitor.Details.Approved.Value == NA_Yes_No.No;
@@ -350,7 +348,7 @@ else
     private string GetIsApprovedText(Visitor visitor)
     {
 
-        if(visitor.Details.Type == VisitorType.Haulage)
+        if(visitor.Details.Type != VisitorType.Contractor)
             return ("N/A");
 
         return visitor.Details.Approved.HasValue ? visitor.Details.Approved.Value.ToString() : "N/A";
