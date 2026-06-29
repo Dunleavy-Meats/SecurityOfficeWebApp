@@ -27,7 +27,7 @@
                     @context.Item.Visitor.Details.Type.ToDisplayString()
                 </CellTemplate>
             </PropertyColumn>
-            <PropertyColumn Property="x => x.Record.CheckInTime.ToLocalTime()" Title="CheckIn Time" />
+            <PropertyColumn Property="x => Utils.GetFormatedTimeAndDate(x.Record.CheckInTime)" Title="CheckIn Time" />
             <PropertyColumn CellStyleFunc=@(x => GetCellStyle(x)) Property="x => GetLastCheckOutTime(x)" Title="CheckOut Time"/>
             <PropertyColumn Property="x => x.Record.Sessions.Count" Title="Sessions Count"/>
             
@@ -115,7 +115,7 @@
 						    <MudTd>@context.Visitor.Details.VisitorName</MudTd>
                             <MudTd>@context.Visitor.Details.CompanyName</MudTd>
                             <MudTd>@context.Visitor.Details.MobileNumber</MudTd>
-                            <MudTd>@context.Record.CheckInTime.ToLocalTime().ToString()</MudTd>
+                            <MudTd>@Utils.GetFormatedTimeAndDate(context.Record.CheckInTime)</MudTd>
                             <MudTd Style=@(GetCellStyle(context))>@context.CheckOutText()</MudTd>
                             <MudTd>@context.Record.Sessions.Count</MudTd>
 					    </RowTemplate>
