@@ -39,7 +39,7 @@ else
                 <MudTd DataLabel="Name">@context.name</MudTd>
                 <MudTd DataLabel="Email">@context.email</MudTd>
                 <MudTd DataLabel="Role">@context.role</MudTd>
-                <MudTd DataLabel="Created At">@context.CreatedAt.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</MudTd>
+                <MudTd DataLabel="Created At">@Utils.GetFormatedTimeAndDate(context.CreatedAt)</MudTd>
                 <MudTd DataLabel="Actions" Style="text-align: right">
                     <MudMenu Icon="@Icons.Material.Filled.MoreVert">
                         @if (currentUserId != context.Id)

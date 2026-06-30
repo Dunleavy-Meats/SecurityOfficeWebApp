@@ -41,7 +41,7 @@ else
 			@if (context.Visitor.Details.QuestionerExpiryDate.HasValue)
 			{
 				<MudTd DataLabel="QuestionerExpiryDate">
-						@Utils.GetFormatedTimeAndDate(context.AllQuestionerData!.First().CreatedOn!.Value.ToLocalTime())
+						@Utils.GetFormatedTimeAndDate(context.AllQuestionerData!.First().CreatedOn!.Value)
 				</MudTd>
 				<MudTd DataLabel="Number Of Questionnaire">
 					@context.AllQuestionerData?.Count
@@ -70,7 +70,7 @@ else
 										<MudTh>View</MudTh>
 									</HeaderContent>
 									<RowTemplate>
-											<MudTd DataLabel="Created on">@Utils.GetFormatedTimeAndDate(questionerData.CreatedOn.Value.ToLocalTime())</MudTd>
+											<MudTd DataLabel="Created on">@Utils.GetFormatedTimeAndDate(questionerData.CreatedOn.Value)</MudTd>
 										<MudTd DataLabel="Click To Show/Print">
 											<MudIconButton OnClick="@(() => ShowQuestionerData(context.Visitor, questionerData))" Icon="@Icons.Material.Rounded.Print">Print/View</MudIconButton>
 										</MudTd>
