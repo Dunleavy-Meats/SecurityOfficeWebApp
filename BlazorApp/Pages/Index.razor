@@ -116,7 +116,7 @@
                             <MudTd>@context.Visitor.Details.CompanyName</MudTd>
                             <MudTd>@context.Visitor.Details.MobileNumber</MudTd>
                             <MudTd>@Utils.GetFormatedTimeAndDate(context.Record.CheckInTime)</MudTd>
-                            <MudTd Style=@(GetCellStyle(context))>@context.CheckOutText()</MudTd>
+                            <MudTd Style=@(GetCellStyle(context))>@Utils.CheckOutText(context.Record)</MudTd>
                             <MudTd>@context.Record.Sessions.Count</MudTd>
 					    </RowTemplate>
                 </MudTable>

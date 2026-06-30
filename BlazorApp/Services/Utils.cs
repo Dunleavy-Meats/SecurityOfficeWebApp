@@ -18,5 +18,14 @@ namespace BlazorApp.Services
             var lastVisitDate = visitor.LastVisit.Value.ToLocalTime();
             return GetFormatedTimeAndDate(lastVisitDate);
         }
+
+        public static string CheckOutText(AttendanceRecord record)
+        {
+            if (record.CheckOutTime.HasValue)
+            {
+                return GetFormatedTimeAndDate(record.CheckOutTime.Value);
+            }
+            return record.CheckInTime.Date == DateTime.UtcNow.Date ? "On Site" : "Never checked out";
+        }
     }
 }
