@@ -72,11 +72,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-AvIMD84dD7L+tBn9D5VRYEE9xKTXaD6z+4Mz+77OPfw=",
+      "hash": "sha256-ciS1siSL6uVxnopGUuBmlPORoAX2OiEjNJ89pURVElU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-+80m2FdI7o7LWzUThwyFUzmpw67ZOgswmq\/YzMR5Nts=",
+      "hash": "sha256-beubmk96dTsds\/Z5KPYekik7TV\/8T2I+bnt83YvE29w=",
       "url": "_framework\/BlazorApp.dll"
     },
     {
@@ -228,7 +228,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-uq1z8x9H1XV5EKVMd\/IeWhXcBSyc+0na8cAucNCa9Z4=",
+      "hash": "sha256-Q2z845xQxsy64UfQhwULfQAyxi7OBZ\/+1aSmQgjEUZs=",
       "url": "_framework\/Models.dll"
     },
     {
@@ -376,7 +376,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-08LtKixqOcyqIySnew8fcILfaO2HkfNTfA4f9hibGFs=",
+      "hash": "sha256-t6AgqyOFWdodo4YRdc\/bZVIs9lZmXQtU6UL1izC61tE=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -404,7 +404,7 @@
       "url": "_framework\/System.Reflection.Primitives.dll"
     },
     {
-      "hash": "sha256-T4dXxMGmrswiIhNZTS3HRRfL0ueMeje+DCbih96BBVA=",
+      "hash": "sha256-ZSopdU\/3n2PGUQeMY6A\/hOzheQviXTSqeX7rDT5XE5M=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -496,5 +496,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "zY1OOFlB"
+  "version": "6o5ncKFZ"
 };
