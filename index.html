@@ -38,6 +38,37 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+    <script>
+        // increment this string (e.g., "1.0.1", "1.0.2") every time you deploy a code update
+        const DEPLOYED_VERSION = "1.0.1";
+
+        if (localStorage.getItem("app_version_cache") !== DEPLOYED_VERSION) {
+            localStorage.setItem("app_version_cache", DEPLOYED_VERSION);
+
+            // 1. Unregister any hidden service workers that might be stuck
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                    for (let registration of registrations) {
+                        registration.unregister();
+                    }
+                });
+            }
+
+            // 2. Wipe out the browser cache storage where Blazor stores its assemblies (.dll files)
+            if ('caches' in window) {
+                caches.keys().then(function (cacheNames) {
+                    return Promise.all(
+                        cacheNames.map(function (cacheName) {
+                            return caches.delete(cacheName);
+                        })
+                    );
+                }).then(() => {
+                    // 3. Force reload the app completely from the server
+                    window.location.reload(true);
+                });
+            }
+        }
+    </script>
 
     <script src="_framework/blazor.webassembly.js"></script>
     <script>
