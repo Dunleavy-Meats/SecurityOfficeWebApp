@@ -6,7 +6,7 @@ namespace BlazorApp.Services
     {
         public static string GetFormatedTimeAndDate(DateTime date)
         {
-            return date.ToString(@"dd\/MM\/yyyy HH:mm tt");
+            return date.ToLocalTime().ToString(@"dd\/MM\/yyyy HH:mm tt");
         }
 
         public static string GetLastVisit(Visitor visitor)
